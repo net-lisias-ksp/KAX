@@ -1,5 +1,0 @@
-C:\Users\Tony\KSP_DEV\GameData\000_USITools\KAX.dll
-C:\Users\Tony\KSP_DEV\GameData\000_USITools\KAX.pdb
-C:\Users\Tony\Documents\C#\KAX UPGRADES\KAXupgrade\obj\Debug\KAX.csprojResolveAssemblyReference.cache
-C:\Users\Tony\Documents\C#\KAX UPGRADES\KAXupgrade\obj\Debug\KAX.dll
-C:\Users\Tony\Documents\C#\KAX UPGRADES\KAXupgrade\obj\Debug\KAX.pdb
