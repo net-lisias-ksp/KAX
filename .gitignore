@@ -1,2 +1,4 @@
 Source/obj
 Source/.vs
+GameData/**/KAX.version
+Source/**/Version.cs
