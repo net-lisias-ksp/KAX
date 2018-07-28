@@ -1,8 +1,6 @@
 # KAX Unofficial :: Changes
 
-* 2015-0517: 2.5.1 (Keptin) for KSP 1.0.2
-	+ Balance work on Turbo, Radial, and Sport engines
-	+ Engines will now draw fuel evenly from all tanks
-	+ Updated packaged Firespitter.dll to 7.0.5613.30088
-	+ Moved Radial and Sport engines to Aviation tech tree
-	+ Reduced price on Radial and Sport engines 
+* 2015-0619: 2.5.2 (Keptin) for KSP 1.0.4
+	+ Heli Rotor now has torque
+	+ Minor fixes for Rotor and Tail Rotor
+	+ Updated Firespitter.dll 
