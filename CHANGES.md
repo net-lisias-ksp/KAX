@@ -1,6 +1,5 @@
 # KAX Unofficial :: Changes
 
-* 2017-1024: 2.7.0 (smce) for KSP 1.3.1
-	+ Features custom parts category
-	+ Even more stockalike textures
-	+ New vintage propeller engines 
+* 2017-1026: 2.7.1 (smce) for KSP 1.3.1
+	+ Restores placeholder IVA issue 1 in medium cockpit, until correct IVA completed
+	+ Increased node sizes on 2 meter parts 

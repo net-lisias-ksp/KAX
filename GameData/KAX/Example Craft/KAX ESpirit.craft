@@ -1,8 +1,9 @@
 ship = KAX ESpirit
-version = 1.0.5
+version = 1.1.0
 description = 
 type = SPH
 size = 15.13609,2.929935,9.490118
+upgraded = 1.1 Wheel Module Overhaul // Upgrades obsolete ModuleWheel, ModuleLandingGear, ModuleLandingLeg data into the new ModuleWheelBase and WheelSubmodules scheme.
 PART
 {
 	part = probeStackSmall_4294141032
@@ -1364,6 +1365,11 @@ PART
 			}
 		}
 	}
+	MODULE
+	{
+		name = ModuleWheelBrakes
+		brakeTweak = 100
+	}
 }
 PART
 {
@@ -1460,6 +1466,11 @@ PART
 				actionGroup = Brakes
 			}
 		}
+	}
+	MODULE
+	{
+		name = ModuleWheelBrakes
+		brakeTweak = 100
 	}
 }
 PART
@@ -2647,6 +2658,23 @@ PART
 				actionGroup = None
 			}
 		}
+	}
+	MODULE
+	{
+		name = ModuleWheelSteering
+		steeringEnabled = True
+		steeringInvert = False
+	}
+	MODULE
+	{
+		name = ModuleWheelMotorSteering
+		steeringEnabled = True
+		steeringInvert = False
+	}
+	MODULE
+	{
+		name = ModuleWheelBrakes
+		brakeTweak = 100
 	}
 }
 PART
