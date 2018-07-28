@@ -1,5 +1,7 @@
 # KAX Unofficial :: Change Log
 
+* 2018-0728: 2.7.2.1 (Lisias) for KSP 1.4.x
+	+ Sync'ed with the last changes from upstream
 * 2018-0614: 2.7.1.1 (Lisias) for KSP 1.4.x
 	+ Added KSP-AVC Support
 	+ Created Archive with historical versions
