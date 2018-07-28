@@ -1,4 +1,4 @@
-KAX v2.6.3 for KSP 1.1.2
+KAX v2.6.4 for KSP 1.2.2
 
 Extract the KAX folder, Firespitter folder, and ModuleManager.dll into your Gamedata folder.  
 Be sure to properly extract the Firespitter/Resources folder or you will have FScoolant errors.  
