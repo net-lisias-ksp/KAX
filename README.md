@@ -1,4 +1,4 @@
-# KAX Unofficial (History)
+# KAX Unofficial
 
 ## In a Hurry
 
@@ -6,7 +6,8 @@ Kerbal Aircraft Expansion Continued - **Unofficial** fork by Lisias
 
 * [Latest Release](https://github.com/net-lisias-kspu/KAX/releases)
 * [Source](https://github.com/net-lisias-kspu/KAX)
-* [Binaries](./Archive)
+* [Binaries](https://github.com/net-lisias-kspu/KAX/tree/Archive)
+* [History](https://github.com/net-lisias-kspu/KAX/tree/History)
 * Dependencies:
 	+ [Firespitter](https://github.com/net-lisias-kspu/Firespitter)
 
