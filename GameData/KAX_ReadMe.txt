@@ -1,4 +1,4 @@
-KAX v2.5 for KSP 1.0.2
+KAX v2.5.1 for KSP 1.0
 
 Extract the KAX folder, Firespitter folder, and ModuleManager.dll into your Gamedata folder.  
 Be sure to properly extract the Firespitter/Resources folder or you will have FScoolant errors.  
@@ -10,8 +10,7 @@ See the official thread for details: http://forum.kerbalspaceprogram.com/threads
 
 
 KAX wouldn't be possible without Firespitter!
-Big thanks to Snjo and the Firespitter mod & plugin: http://forum.kerbalspaceprogram.com/threads/24551
-
+Big thanks to Snjo, Roverdude, and the Firespitter team: http://forum.kerbalspaceprogram.com/threads/24551
 
 
 

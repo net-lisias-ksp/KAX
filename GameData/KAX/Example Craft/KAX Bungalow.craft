@@ -2,14 +2,14 @@ ship = KAX Bungalow
 version = 1.0.2
 description = 
 type = SPH
-size = 10.85456,3.681093,8.782797
+size = 9.778002,3.681093,8.972595
 PART
 {
 	part = Mark2Cockpit_4294746906
 	partName = Part
-	pos = 0.2395905,14.4508,-1.029843
+	pos = 0.1594467,8.977793,-1.515539
 	attPos = 0,0,0
-	attPos0 = 0.2395905,14.4508,-1.029843
+	attPos0 = 0.1594467,8.977793,-1.515539
 	rot = 0.7071068,0,0,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = 0.7071068,0,0,0.7071068
@@ -25,11 +25,11 @@ PART
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
 	link = fuelTankSmallFlat_4291032212
-	link = airlinerTailFin_4291004978
-	link = airlinerTailFin_4291004286
 	link = GearFixed_4290980898
 	link = GearFixed_4290979380
 	link = airplaneTailB_4291021216
+	link = sweptWing_4294688858
+	link = sweptWing_4294688402
 	attN = top,fuelTankSmallFlat_4291032212
 	attN = bottom,airplaneTailB_4291021216
 	EVENTS
@@ -318,7 +318,7 @@ PART
 {
 	part = fuelTankSmallFlat_4291032212
 	partName = Part
-	pos = 0.2395905,14.4508,0.2201796
+	pos = 0.1594467,8.977793,-0.2655143
 	attPos = 0,0,0
 	attPos0 = 0,1.25,-1.490116E-07
 	rot = 0.7071068,0,0,0.7071068
@@ -370,173 +370,9 @@ PART
 }
 PART
 {
-	part = airlinerTailFin_4291004978
-	partName = Part
-	pos = -0.7454667,14.2508,-2.029846
-	attPos = -0.06780732,0.01607692,-0.07745266
-	attPos0 = -0.91725,-1.016078,0.2774526
-	rot = 0.711104,0.1270041,-0.1761382,0.6687126
-	attRot = 0.6366199,0.3304253,-0.09002697,0.6909629
-	attRot0 = 0.01886396,-0.08508987,-0.2156161,0.972581
-	mir = 1,1,1
-	symMethod = Mirror
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	link = basicFin_4276918600
-	sym = airlinerTailFin_4291004286
-	srfN = srfAttach,Mark2Cockpit_4294746906
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleControlSurface
-		isEnabled = True
-		ignorePitch = True
-		ignoreYaw = True
-		ignoreRoll = False
-		deploy = False
-		deployInvert = False
-		ignorePitch_UIFlight
-		{
-			controlEnabled = True
-		}
-		ignoreYaw_UIFlight
-		{
-			controlEnabled = True
-		}
-		ignoreRoll_UIFlight
-		{
-			controlEnabled = True
-		}
-		deploy_UIFlight
-		{
-			controlEnabled = True
-		}
-		deployInvert_UIFlight
-		{
-			controlEnabled = True
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionToggle
-			{
-				actionGroup = None
-			}
-			ActionExtend
-			{
-				actionGroup = None
-			}
-			ActionRetract
-			{
-				actionGroup = None
-			}
-		}
-	}
-}
-PART
-{
-	part = airlinerTailFin_4291004286
-	partName = Part
-	pos = 1.224648,14.2508,-2.029847
-	attPos = 0.06780732,0.01607668,-0.07745266
-	attPos0 = 0.91725,-1.016078,0.2774526
-	rot = -0.1761382,0.6687125,0.7111041,0.1270041
-	attRot = 0.6366199,0.3304253,-0.09002697,0.6909629
-	attRot0 = -0.2156161,0.972581,0.018864,-0.08508991
-	mir = 1,1,1
-	symMethod = Mirror
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	link = basicFin_4276918506
-	sym = airlinerTailFin_4291004978
-	srfN = srfAttach,Mark2Cockpit_4294746906
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleControlSurface
-		isEnabled = True
-		ignorePitch = True
-		ignoreYaw = True
-		ignoreRoll = False
-		deploy = False
-		deployInvert = False
-		ignorePitch_UIFlight
-		{
-			controlEnabled = True
-		}
-		ignoreYaw_UIFlight
-		{
-			controlEnabled = True
-		}
-		ignoreRoll_UIFlight
-		{
-			controlEnabled = True
-		}
-		deploy_UIFlight
-		{
-			controlEnabled = True
-		}
-		deployInvert_UIFlight
-		{
-			controlEnabled = True
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionToggle
-			{
-				actionGroup = None
-			}
-			ActionExtend
-			{
-				actionGroup = None
-			}
-			ActionRetract
-			{
-				actionGroup = None
-			}
-		}
-	}
-}
-PART
-{
 	part = GearFixed_4290980898
 	partName = Part
-	pos = -0.1164543,13.95308,-0.7794603
+	pos = -0.1965981,8.480073,-1.265157
 	attPos = 0,0,0
 	attPos0 = -0.3560448,0.2503827,0.4977217
 	rot = 0.003928129,0.003928284,1.326967E-07,0.9999847
@@ -618,7 +454,7 @@ PART
 {
 	part = GearFixed_4290979380
 	partName = Part
-	pos = 0.5956353,13.95308,-0.7794603
+	pos = 0.5154915,8.480073,-1.265157
 	attPos = 0,0,0
 	attPos0 = 0.3560448,0.2503826,0.4977217
 	rot = 1.325321E-07,0.9999847,0.003928129,0.003928239
@@ -700,7 +536,7 @@ PART
 {
 	part = KAXsportprop_4280322638
 	partName = Part
-	pos = 0.2395905,14.4508,0.9076816
+	pos = 0.1594467,8.977793,0.42199
 	attPos = 0,0,0
 	attPos0 = 0,0.6875005,-8.195643E-08
 	rot = 0.7071068,0,0,0.7071068
@@ -729,7 +565,7 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleEngines
+		name = ModuleEnginesFX
 		isEnabled = True
 		staged = False
 		flameout = False
@@ -781,6 +617,44 @@ PART
 				actionGroup = None
 			}
 			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceIntake
+		isEnabled = True
+		intakeEnabled = True
+		EVENTS
+		{
+			Deactivate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Close Intake
+				guiName = Close Intake
+				category = Close Intake
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Activate
+			{
+				active = False
+				guiActive = True
+				guiIcon = Open Intake
+				guiName = Open Intake
+				category = Open Intake
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
 			{
 				actionGroup = None
 			}
@@ -888,43 +762,15 @@ PART
 		{
 		}
 	}
-	MODULE
+	RESOURCE
 	{
-		name = ModuleResourceIntake
-		isEnabled = True
-		intakeEnabled = True
-		EVENTS
-		{
-			Deactivate
-			{
-				active = True
-				guiActive = True
-				guiIcon = Close Intake
-				guiName = Close Intake
-				category = Close Intake
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Activate
-			{
-				active = False
-				guiActive = True
-				guiIcon = Open Intake
-				guiName = Open Intake
-				category = Open Intake
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
+		name = IntakeAir
+		amount = 0.5
+		maxAmount = 1
+		flowState = True
+		isTweakable = False
+		hideFlow = False
+		flowMode = Both
 	}
 	RESOURCE
 	{
@@ -936,22 +782,12 @@ PART
 		hideFlow = True
 		flowMode = Both
 	}
-	RESOURCE
-	{
-		name = IntakeAir
-		amount = 0.5
-		maxAmount = 1
-		flowState = True
-		isTweakable = False
-		hideFlow = False
-		flowMode = Both
-	}
 }
 PART
 {
 	part = airplaneTailB_4291021216
 	partName = Part
-	pos = 0.2395905,14.4508,-1.967344
+	pos = 0.1594467,8.977793,-2.453041
 	attPos = 0,0,0
 	attPos0 = 0,-0.9375002,1.117587E-07
 	rot = 0.7071068,0,0,0.7071068
@@ -987,11 +823,11 @@ PART
 {
 	part = R8winglet_4291000684
 	partName = Part
-	pos = -0.4732645,14.86434,-5.567243
+	pos = -0.5533138,9.394373,-6.052768
 	attPos = 0.04408073,0.04110956,0.07960132
 	attPos0 = -0.7571309,-3.641111,-0.4796005
-	rot = -0.7152613,-0.1193826,0.1323415,-0.6757477
-	attRot = 0.6890851,0.2478124,-0.01018444,0.6809164
+	rot = -0.7211273,-0.1182239,0.1333776,-0.6694842
+	attRot = 0.6949972,0.2477142,-0.01234529,0.674881
 	attRot0 = 0.01019456,0.002259124,0.1782172,-0.9839358
 	mir = 1,1,1
 	symMethod = Mirror
@@ -1068,11 +904,11 @@ PART
 {
 	part = R8winglet_4291000630
 	partName = Part
-	pos = 0.9524455,14.86434,-5.567244
+	pos = 0.8722072,9.394373,-6.052769
 	attPos = -0.04410595,0.0409677,0.0749912
 	attPos0 = 0.7571309,-3.641111,-0.4796005
-	rot = -0.1323414,0.6757478,0.7152613,0.1193826
-	attRot = 0.6890851,0.2478124,-0.01018444,0.6809164
+	rot = -0.1333776,0.6694841,0.7211273,0.1182239
+	attRot = 0.6949972,0.2477142,-0.01234529,0.674881
 	attRot0 = -0.1782172,0.9839358,-0.01019448,-0.002259156
 	mir = 1,1,1
 	symMethod = Mirror
@@ -1149,7 +985,7 @@ PART
 {
 	part = R8winglet_4291000066
 	partName = Part
-	pos = 0.2395905,15.4508,-5.767475
+	pos = 0.1594467,9.977793,-6.253181
 	attPos = -3.129244E-07,0.01962519,0.1861219
 	attPos0 = 3.129244E-07,-3.819627,-1.186122
 	rot = -0.541675,0.4545198,0.541675,-0.4545198
@@ -1229,7 +1065,7 @@ PART
 {
 	part = GearFree_4290978858
 	partName = Part
-	pos = 0.2395905,14.66926,-5.530715
+	pos = 0.1594467,9.196253,-6.016422
 	attPos = 0,-1.00949,-0.259057
 	attPos0 = 0,-2.553877,0.04059346
 	rot = 0.1085311,-2.288232E-09,-2.095912E-08,0.9940931
@@ -1373,14 +1209,14 @@ PART
 }
 PART
 {
-	part = basicFin_4276918600
+	part = sweptWing_4294688858
 	partName = Part
-	pos = -4.636425,14.61152,-1.663314
-	attPos = -0.001285553,-0.001717925,-0.02330843
-	attPos0 = -3.696619,-1.311973,-0.03807529
-	rot = 0.4823967,-0.5171234,-0.5167061,0.4825888
-	attRot = 0.1810363,0.1707541,0.7207391,-0.6469965
-	attRot0 = -0.1149937,0.6933975,-0.1895028,-0.6856129
+	pos = 0.08358863,8.739773,-1.636457
+	attPos = 0.485365,-0.1469846,1.490116E-08
+	attPos0 = -0.561223,0.02606693,0.2380219
+	rot = -0.241845,-0.6644629,-0.6830128,0.1830126
+	attRot = -0.05221703,-0.1656112,0.2961375,0.9392279
+	attRot0 = -0.3004196,-0.9528092,-0.01311677,-0.0416008
 	mir = 1,1,1
 	symMethod = Mirror
 	istg = 0
@@ -1392,8 +1228,12 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = basicFin_4276918506
-	srfN = srfAttach,airlinerTailFin_4291004978
+	link = StandardCtrlSrf_4294674406
+	link = StandardCtrlSrf_4294673382
+	link = StandardCtrlSrf_4294668860
+	link = basicFin_4294666828
+	sym = sweptWing_4294688402
+	srfN = srfAttach,Mark2Cockpit_4294746906
 	EVENTS
 	{
 	}
@@ -1417,14 +1257,14 @@ PART
 }
 PART
 {
-	part = basicFin_4276918506
+	part = sweptWing_4294688402
 	partName = Part
-	pos = 5.115615,14.61152,-1.663314
-	attPos = -0.001284838,-0.001718044,0.02330846
-	attPos0 = -3.69662,-1.311972,0.03807516
-	rot = -0.5167063,0.4825887,0.4823966,-0.5171233
-	attRot = 0.1810363,0.1707541,0.7207391,-0.6469965
-	attRot0 = -0.1149936,0.6933976,0.1895029,0.6856129
+	pos = 0.2353048,8.739773,-1.636457
+	attPos = -0.485365,-0.1469845,1.490116E-08
+	attPos0 = 0.561223,0.02606681,0.2380219
+	rot = -0.683013,0.1830124,-0.2418451,-0.6644629
+	attRot = -0.05221703,-0.1656112,0.2961375,0.9392279
+	attRot0 = -0.01311694,-0.04160093,-0.3004196,-0.9528092
 	mir = 1,1,1
 	symMethod = Mirror
 	istg = 0
@@ -1436,8 +1276,586 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = basicFin_4276918600
-	srfN = srfAttach,airlinerTailFin_4291004286
+	link = StandardCtrlSrf_4294674316
+	link = StandardCtrlSrf_4294673292
+	link = StandardCtrlSrf_4294668766
+	link = basicFin_4294666318
+	sym = sweptWing_4294688858
+	srfN = srfAttach,Mark2Cockpit_4294746906
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = StandardCtrlSrf_4294674406
+	partName = Part
+	pos = -1.220361,8.874203,-1.98266
+	attPos = 0,0,0
+	attPos0 = 0.8750919,-1.035382,0.02027178
+	rot = 0.07935993,0.7026392,0.7068825,-0.01781878
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 1.457565E-07,-2.728634E-07,0.2343959,-0.9721412
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = StandardCtrlSrf_4294674316
+	srfN = srfAttach,sweptWing_4294688858
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleControlSurface
+		isEnabled = True
+		ignorePitch = True
+		ignoreYaw = True
+		ignoreRoll = False
+		deploy = False
+		deployInvert = False
+		ignorePitch_UIFlight
+		{
+			controlEnabled = True
+		}
+		ignoreYaw_UIFlight
+		{
+			controlEnabled = True
+		}
+		ignoreRoll_UIFlight
+		{
+			controlEnabled = True
+		}
+		deploy_UIFlight
+		{
+			controlEnabled = True
+		}
+		deployInvert_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionExtend
+			{
+				actionGroup = None
+			}
+			ActionRetract
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = StandardCtrlSrf_4294674316
+	partName = Part
+	pos = 1.539254,8.874203,-1.982661
+	attPos = 0,0,0
+	attPos0 = 0.8750919,-1.035382,-0.02027122
+	rot = -0.7068827,0.01781878,-0.07936001,-0.7026389
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 1.051694E-07,-3.801432E-07,-0.2343959,0.9721412
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = StandardCtrlSrf_4294674406
+	srfN = srfAttach,sweptWing_4294688402
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleControlSurface
+		isEnabled = True
+		ignorePitch = True
+		ignoreYaw = True
+		ignoreRoll = False
+		deploy = False
+		deployInvert = False
+		ignorePitch_UIFlight
+		{
+			controlEnabled = True
+		}
+		ignoreYaw_UIFlight
+		{
+			controlEnabled = True
+		}
+		ignoreRoll_UIFlight
+		{
+			controlEnabled = True
+		}
+		deploy_UIFlight
+		{
+			controlEnabled = True
+		}
+		deployInvert_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionExtend
+			{
+				actionGroup = None
+			}
+			ActionRetract
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = StandardCtrlSrf_4294673382
+	partName = Part
+	pos = -2.993757,9.028493,-1.736031
+	attPos = 0,0,0
+	attPos0 = 2.474722,-1.854378,0.019414
+	rot = 0.07935993,0.7026392,0.7068825,-0.01781878
+	attRot = 0,0,-0.7071068,0.7071068
+	attRot0 = 1.443929E-07,-2.779523E-07,0.2343959,-0.9721412
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = StandardCtrlSrf_4294673292
+	srfN = srfAttach,sweptWing_4294688858
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleControlSurface
+		isEnabled = True
+		ignorePitch = True
+		ignoreYaw = True
+		ignoreRoll = False
+		deploy = False
+		deployInvert = False
+		ignorePitch_UIFlight
+		{
+			controlEnabled = True
+		}
+		ignoreYaw_UIFlight
+		{
+			controlEnabled = True
+		}
+		ignoreRoll_UIFlight
+		{
+			controlEnabled = True
+		}
+		deploy_UIFlight
+		{
+			controlEnabled = True
+		}
+		deployInvert_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionExtend
+			{
+				actionGroup = None
+			}
+			ActionRetract
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = StandardCtrlSrf_4294673292
+	partName = Part
+	pos = 3.312653,9.028493,-1.736032
+	attPos = 0,0,0
+	attPos0 = 2.474722,-1.854378,-0.01941285
+	rot = -0.7068827,0.01781878,-0.07936001,-0.7026389
+	attRot = 0,0,-0.7071068,0.7071068
+	attRot0 = 5.968398E-08,-3.845694E-07,-0.2343959,0.9721413
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = StandardCtrlSrf_4294673382
+	srfN = srfAttach,sweptWing_4294688402
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleControlSurface
+		isEnabled = True
+		ignorePitch = True
+		ignoreYaw = True
+		ignoreRoll = False
+		deploy = False
+		deployInvert = False
+		ignorePitch_UIFlight
+		{
+			controlEnabled = True
+		}
+		ignoreYaw_UIFlight
+		{
+			controlEnabled = True
+		}
+		ignoreRoll_UIFlight
+		{
+			controlEnabled = True
+		}
+		deploy_UIFlight
+		{
+			controlEnabled = True
+		}
+		deployInvert_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionExtend
+			{
+				actionGroup = None
+			}
+			ActionRetract
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = StandardCtrlSrf_4294668860
+	partName = Part
+	pos = -3.511388,9.066183,-1.666531
+	attPos = -0.3558457,0.1795216,-0.004372275
+	attPos0 = 3.295526,-2.274622,0.01621459
+	rot = 0.07935993,0.7026392,0.7068825,-0.01781878
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 1.457565E-07,-2.728634E-07,0.2343959,-0.9721412
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = StandardCtrlSrf_4294668766
+	srfN = srfAttach,sweptWing_4294688858
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleControlSurface
+		isEnabled = True
+		ignorePitch = True
+		ignoreYaw = True
+		ignoreRoll = False
+		deploy = False
+		deployInvert = False
+		ignorePitch_UIFlight
+		{
+			controlEnabled = True
+		}
+		ignoreYaw_UIFlight
+		{
+			controlEnabled = True
+		}
+		ignoreRoll_UIFlight
+		{
+			controlEnabled = True
+		}
+		deploy_UIFlight
+		{
+			controlEnabled = True
+		}
+		deployInvert_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionExtend
+			{
+				actionGroup = None
+			}
+			ActionRetract
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = StandardCtrlSrf_4294668766
+	partName = Part
+	pos = 3.830281,9.066183,-1.666533
+	attPos = -0.3558455,0.1795218,0.004372189
+	attPos0 = 3.295526,-2.274622,-0.01621314
+	rot = -0.7068827,0.01781878,-0.07936001,-0.7026389
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 1.051694E-07,-3.801432E-07,-0.2343959,0.9721412
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = StandardCtrlSrf_4294668860
+	srfN = srfAttach,sweptWing_4294688402
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleControlSurface
+		isEnabled = True
+		ignorePitch = True
+		ignoreYaw = True
+		ignoreRoll = False
+		deploy = False
+		deployInvert = False
+		ignorePitch_UIFlight
+		{
+			controlEnabled = True
+		}
+		ignoreYaw_UIFlight
+		{
+			controlEnabled = True
+		}
+		ignoreRoll_UIFlight
+		{
+			controlEnabled = True
+		}
+		deploy_UIFlight
+		{
+			controlEnabled = True
+		}
+		deployInvert_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionExtend
+			{
+				actionGroup = None
+			}
+			ActionRetract
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = basicFin_4294666828
+	partName = Part
+	pos = -4.325188,9.214473,-1.906154
+	attPos = -0.2181292,-0.3090739,-0.01604734
+	attPos0 = 3.695043,-2.454728,0.1046853
+	rot = -0.478037,0.5210363,0.5191931,-0.4800423
+	attRot = 0.3007058,0,0,0.9537169
+	attRot0 = -0.2144724,-0.6756837,0.2107916,-0.6730677
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = basicFin_4294666318
+	srfN = srfAttach,sweptWing_4294688858
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = basicFin_4294666318
+	partName = Part
+	pos = 4.644082,9.214473,-1.906159
+	attPos = -0.2181287,-0.3090737,0.01604749
+	attPos0 = 3.695043,-2.454729,-0.1046837
+	rot = -0.5191934,0.4800423,0.478037,-0.5210361
+	attRot = 0.3007058,0,0,0.9537169
+	attRot0 = -0.2144725,-0.6756838,-0.2107915,0.6730677
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = basicFin_4294666828
+	srfN = srfAttach,sweptWing_4294688402
 	EVENTS
 	{
 	}
