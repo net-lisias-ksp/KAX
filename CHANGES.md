@@ -1,5 +1,7 @@
 # KAX Unofficial :: Changes
 
-* 2015-1120: 2.6.1 (Keptin) for KSP 1.0.5
-	+ Reduced volume SFX of Main Rotor & Tail Rotor
-	+ Added stagepriorityflow to Main Rotor for proper fuel flow
+* 2016-0520: 2.6.2 (Keptin) for KSP 1.1.2
+	+ Updated Firespitter.dll for KSP 1.1.2 compatibility
+	+ Removed Heavy Gear
+	+ Known Issues:
+		- Audio FX only emits from right speaker due to running on legacy audio config
