@@ -1,9 +1,6 @@
-KAX R2.2.2
-0.24 HOTFIX
+KAX R2.3 for KSP 0.25.0
 
-Note: This is a 0.24 compatibility hotfix, some features may be missing or buggy.
-
-Extract included folders into your Gamedata folder.  If you already have an existing plugin that KAX requires, use the lastest version.
+Extract KAX and Firespitter folders into your Gamedata folder.  If you already have Firespitter, use the lastest version of the Firespitter.dll.
 
 See the official thread for details: http://forum.kerbalspaceprogram.com/threads/76668
 
@@ -16,3 +13,17 @@ Big thanks to Snjo and the Firespitter mod & plugin: http://forum.kerbalspacepro
 
 
 
+===========================LICENSE===========================
+
+KAX models, textures, and sounds are created by Keptin, who retains all copyrights.
+Snjo retains all rights for the Firespitter plugin, see Firespitter license for details.
+
+You may:
+Modify KAX in anyway for your personal use
+Distribute video, screenshots or other media portraying unmodified or modified versions of KAX
+All other rights are reserved
+
+Specifically, you may not:
+Distribute modified or unmodified versions of KAX, in part or whole, without permission
+Use models, textures, sounds or other assets from KAX without permission
+Use KAX for any commercial purpose
