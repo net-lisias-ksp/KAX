@@ -1,9 +1,11 @@
 # KAX Unofficial :: Change Log
 
-* 2018-0728: 2.7.2 (smce) for KSP 1.4.x
+* 2018-0728: 2.7.2.1 (Lisias) for KSP 1.4
+	+ Sync'ed with the last changes from upstream
+* 2018-0728: 2.7.2 (smce) for KSP 1.4
 	+ Kerbal Aircraft Expansion KSP 1.4.x v2.7.2 compatibility update only
 	+ Minor change to icon size for editor category
-* 2018-0728: 2.7.1.1 (Lisias) for KSP 1.4.x
+* 2018-0614: 2.7.1.1 (Lisias) for KSP 1.4
 	+ Added KSP-AVC Support
 	+ Created Archive with historical versions
 	+ Commited historical releases into GIT
