@@ -1,6 +1,4 @@
-KAX v2.6.2 for KSP 1.1.2
-
-Known Issues: Part sound only comes out of right speakers; audio config not yet transitioned to new module format
+KAX v2.6.3 for KSP 1.1.2
 
 Extract the KAX folder, Firespitter folder, and ModuleManager.dll into your Gamedata folder.  
 Be sure to properly extract the Firespitter/Resources folder or you will have FScoolant errors.  
