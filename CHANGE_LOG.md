@@ -1,5 +1,9 @@
 # KAX Unofficial :: Change Log
 
+* 2017-1024: 2.7.0 (smce) for KSP 1.3.1
+	+ Features custom parts category
+	+ Even more stockalike textures
+	+ New vintage propeller engines 
 * 2016-1220: 2.6.4 (Keptin) for KSP 1.2.2
 	+ Compatibility Patch for KSP 1.2.2 
 * 2016-0520: 2.6.3 (Keptin) for KSP 1.1.2
