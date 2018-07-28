@@ -1,10 +1,10 @@
 ship = KAX XH-7 LIFTR
-version = 0.23.5
+version = 0.25.0
 description = 
 type = SPH
 PART
 {
-	part = Mark2Cockpit_4290401560
+	part = Mark2Cockpit_4294150754
 	partName = Part
 	pos = -0.2957873,7.567282,-1.467146
 	rot = 0.7071068,0,0,0.7071068
@@ -15,13 +15,14 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = spotLight1_4290401454
-	link = telescopicLadder_4290401420
-	link = trussPiece1x_4290401202
-	link = batteryBank_4290401050
-	link = batteryBank_4290400998
-	attN = top,batteryBank_4290401050
-	attN = bottom,batteryBank_4290400998
+	modCost = 0
+	link = spotLight1_4294150648
+	link = telescopicLadder_4294150614
+	link = trussPiece1x_4294150396
+	link = batteryBank_4294150244
+	link = batteryBank_4294150192
+	attN = top,batteryBank_4294150244
+	attN = bottom,batteryBank_4294150192
 	EVENTS
 	{
 	}
@@ -302,7 +303,7 @@ PART
 }
 PART
 {
-	part = spotLight1_4290401454
+	part = spotLight1_4294150648
 	partName = Part
 	pos = -0.2957872,6.735175,-1.038002
 	rot = -0.6427878,-5.61943E-08,6.696975E-08,0.7660444
@@ -313,7 +314,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,Mark2Cockpit_4290401560
+	modCost = 0
+	srfN = srfAttach,Mark2Cockpit_4294150754
 	EVENTS
 	{
 	}
@@ -395,7 +397,7 @@ PART
 }
 PART
 {
-	part = telescopicLadder_4290401420
+	part = telescopicLadder_4294150614
 	partName = Part
 	pos = 0.3232873,7.491644,-1.504286
 	rot = -1.490116E-08,1,8.42937E-08,4.214686E-08
@@ -406,7 +408,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,Mark2Cockpit_4290401560
+	modCost = 0
+	srfN = srfAttach,Mark2Cockpit_4294150754
 	EVENTS
 	{
 	}
@@ -464,7 +467,7 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4290401202
+	part = trussPiece1x_4294150396
 	partName = Part
 	pos = -0.2957872,6.388875,-1.81183
 	rot = -1,-8.742278E-08,0,0
@@ -475,8 +478,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = KAXheavyGear_4290401182
-	srfN = srfAttach,Mark2Cockpit_4290401560
+	modCost = 0
+	link = KAXheavyGear_4294150376
+	srfN = srfAttach,Mark2Cockpit_4294150754
 	EVENTS
 	{
 	}
@@ -486,7 +490,7 @@ PART
 }
 PART
 {
-	part = KAXheavyGear_4290401182
+	part = KAXheavyGear_4294150376
 	partName = Part
 	pos = -0.2957871,5.897954,-1.599198
 	rot = 0,0,-8.742278E-08,-1
@@ -497,7 +501,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,trussPiece1x_4290401202
+	modCost = 0
+	srfN = srfAttach,trussPiece1x_4294150396
 	EVENTS
 	{
 	}
@@ -777,9 +782,9 @@ PART
 }
 PART
 {
-	part = batteryBank_4290401050
+	part = batteryBank_4294150244
 	partName = Part
-	pos = -0.2957873,7.567282,-0.4187895
+	pos = -0.2957873,7.567282,-0.4187893
 	rot = 0.7071068,0,0,0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -788,9 +793,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = adapterSmallMiniTall_4290401024
-	attN = top,adapterSmallMiniTall_4290401024
-	attN = bottom,Mark2Cockpit_4290401560
+	modCost = 0
+	link = adapterSmallMiniTall_4294150218
+	attN = top,adapterSmallMiniTall_4294150218
+	attN = bottom,Mark2Cockpit_4294150754
 	EVENTS
 	{
 	}
@@ -810,9 +816,9 @@ PART
 }
 PART
 {
-	part = adapterSmallMiniTall_4290401024
+	part = adapterSmallMiniTall_4294150218
 	partName = Part
-	pos = -0.2957873,7.567282,0.06706727
+	pos = -0.2957873,7.567282,0.06706774
 	rot = 0.7071068,0,0,0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -821,7 +827,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	attN = bottom,batteryBank_4290401050
+	modCost = 0
+	attN = bottom,batteryBank_4294150244
 	EVENTS
 	{
 	}
@@ -831,7 +838,7 @@ PART
 }
 PART
 {
-	part = batteryBank_4290400998
+	part = batteryBank_4294150192
 	partName = Part
 	pos = -0.2957873,7.567282,-2.546752
 	rot = 0.7071068,0,0,0.7071068
@@ -842,9 +849,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = Mk1FuselageStructural_4290400972
-	attN = top,Mark2Cockpit_4290401560
-	attN = bottom,Mk1FuselageStructural_4290400972
+	modCost = 0
+	link = Mk1FuselageStructural_4294150166
+	attN = top,Mark2Cockpit_4294150754
+	attN = bottom,Mk1FuselageStructural_4294150166
 	EVENTS
 	{
 	}
@@ -864,8 +872,8 @@ PART
 }
 PART
 {
-	part = Mk1FuselageStructural_4290400972
-	partName = Strut
+	part = Mk1FuselageStructural_4294150166
+	partName = Part
 	pos = -0.2957873,7.567282,-3.595109
 	rot = 0.7071068,0,0,0.7071068
 	attRot = 0,0,0,1
@@ -875,11 +883,12 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = MK1Fuselage_4290400944
-	link = stackPoint1_4290400108
-	link = airScoop_4290399928
-	attN = top,batteryBank_4290400998
-	attN = bottom,MK1Fuselage_4290400944
+	modCost = 0
+	link = MK1Fuselage_4294150134
+	link = stackPoint1_4294149292
+	link = airScoop_4294149112
+	attN = top,batteryBank_4294150192
+	attN = bottom,MK1Fuselage_4294150134
 	EVENTS
 	{
 	}
@@ -889,9 +898,9 @@ PART
 }
 PART
 {
-	part = MK1Fuselage_4290400944
+	part = MK1Fuselage_4294150134
 	partName = Part
-	pos = -0.2957873,7.567282,-5.476483
+	pos = -0.2957873,7.567282,-5.476484
 	rot = 0.7071068,0,0,0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -900,15 +909,15 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = sasModule_4290400914
-	link = trussPiece1x_4290400886
-	link = trussPiece1x_4290400714
-	link = strutConnector_4290400332
-	link = strutConnector_4290400276
-	link = strutConnector_4290400220
-	link = strutConnector_4290400164
-	attN = top,Mk1FuselageStructural_4290400972
-	attN = bottom,sasModule_4290400914
+	modCost = 0
+	link = trussPiece1x_4294150072
+	link = trussPiece1x_4294149900
+	link = strutConnector_4294149516
+	link = strutConnector_4294149460
+	link = strutConnector_4294149404
+	link = strutConnector_4294149348
+	attN = top,Mk1FuselageStructural_4294150166
+	attN = bottom,advSasModule_4294139626
 	EVENTS
 	{
 	}
@@ -928,78 +937,9 @@ PART
 }
 PART
 {
-	part = sasModule_4290400914
+	part = trussPiece1x_4294150072
 	partName = Part
-	pos = -0.2957873,7.567282,-6.602456
-	rot = 0.7071068,0,0,0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 0
-	attN = bottom,airplaneTail_4290400542
-	attN = top,MK1Fuselage_4290400944
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleReactionWheel
-		isEnabled = True
-		stateString = Active
-		WheelState = Active
-		EVENTS
-		{
-			OnToggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle Torque
-				guiName = Toggle Torque
-				category = Toggle Torque
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			Activate
-			{
-				actionGroup = None
-			}
-			Deactivate
-			{
-				actionGroup = None
-			}
-			Toggle
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleSAS
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = trussPiece1x_4290400886
-	partName = Part
-	pos = -1.37691,7.265992,-6.061659
+	pos = -1.37691,7.265992,-6.06166
 	rot = -0.7071068,0.7071069,0,0
 	attRot = -1.025592E-17,-1.542682E-08,-0.2588191,0.9659259
 	mir = 1,1,1
@@ -1008,9 +948,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = trussPiece1x_4290400866
-	sym = trussPiece1x_4290400714
-	srfN = srfAttach,MK1Fuselage_4290400944
+	modCost = 0
+	link = trussPiece1x_4294150052
+	sym = trussPiece1x_4294149900
+	srfN = srfAttach,MK1Fuselage_4294150134
 	EVENTS
 	{
 	}
@@ -1020,9 +961,9 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4290400866
+	part = trussPiece1x_4294150052
 	partName = Part
-	pos = -1.814915,6.382149,-6.057262
+	pos = -1.814915,6.382149,-6.057263
 	rot = 0.7071068,-2.528811E-07,0.7071069,3.371748E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1031,9 +972,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = KAXheavyGear_4290400846
-	sym = trussPiece1x_4290400694
-	srfN = srfAttach,trussPiece1x_4290400886
+	modCost = 0
+	link = KAXheavyGear_4294150032
+	sym = trussPiece1x_4294149880
+	srfN = srfAttach,trussPiece1x_4294150072
 	EVENTS
 	{
 	}
@@ -1043,9 +985,9 @@ PART
 }
 PART
 {
-	part = KAXheavyGear_4290400846
+	part = KAXheavyGear_4294150032
 	partName = Part
-	pos = -1.980638,5.892148,-6.27976
+	pos = -1.980638,5.892148,-6.279761
 	rot = -1.685874E-07,5.232201E-07,4.389263E-07,-1
 	attRot = -1.776357E-15,3.247939E-15,-4.385658E-23,-0.9999999
 	mir = 1,1,1
@@ -1054,8 +996,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = KAXheavyGear_4290400674
-	srfN = srfAttach,trussPiece1x_4290400866
+	modCost = 0
+	sym = KAXheavyGear_4294149860
+	srfN = srfAttach,trussPiece1x_4294150052
 	EVENTS
 	{
 	}
@@ -1335,9 +1278,9 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4290400714
+	part = trussPiece1x_4294149900
 	partName = Part
-	pos = 0.7853351,7.265992,-6.061659
+	pos = 0.7853351,7.265992,-6.06166
 	rot = 0.7071069,0.7071068,0,0
 	attRot = 1.025592E-17,1.542682E-08,0.2588191,0.9659259
 	mir = 1,1,1
@@ -1346,10 +1289,11 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = trussPiece1x_4290400694
-	link = airplaneTail_4290400542
-	sym = trussPiece1x_4290400886
-	srfN = srfAttach,MK1Fuselage_4290400944
+	modCost = 0
+	link = trussPiece1x_4294149880
+	link = advSasModule_4294139626
+	sym = trussPiece1x_4294150072
+	srfN = srfAttach,MK1Fuselage_4294150134
 	EVENTS
 	{
 	}
@@ -1359,9 +1303,9 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4290400694
+	part = trussPiece1x_4294149880
 	partName = Part
-	pos = 1.22334,6.382149,-6.057262
+	pos = 1.22334,6.382149,-6.057263
 	rot = -0.7071069,-1.685874E-07,0.7071069,-3.371748E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1370,9 +1314,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = KAXheavyGear_4290400674
-	sym = trussPiece1x_4290400866
-	srfN = srfAttach,trussPiece1x_4290400714
+	modCost = 0
+	link = KAXheavyGear_4294149860
+	sym = trussPiece1x_4294150052
+	srfN = srfAttach,trussPiece1x_4294149900
 	EVENTS
 	{
 	}
@@ -1382,9 +1327,9 @@ PART
 }
 PART
 {
-	part = KAXheavyGear_4290400674
+	part = KAXheavyGear_4294149860
 	partName = Part
-	pos = 1.389063,5.892148,-6.27976
+	pos = 1.389063,5.892148,-6.279761
 	rot = 2.107343E-07,5.057624E-07,4.883045E-07,1
 	attRot = 1.776357E-15,-3.247939E-15,4.385658E-23,-0.9999999
 	mir = 1,1,1
@@ -1393,8 +1338,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = KAXheavyGear_4290400846
-	srfN = srfAttach,trussPiece1x_4290400694
+	modCost = 0
+	sym = KAXheavyGear_4294150032
+	srfN = srfAttach,trussPiece1x_4294149880
 	EVENTS
 	{
 	}
@@ -1674,357 +1620,9 @@ PART
 }
 PART
 {
-	part = airplaneTail_4290400542
-	partName = Strut
-	pos = -0.29579,7.567282,-6.78468
-	rot = 0.7071069,0,0,0.7071069
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 0
-	link = longAntenna_4290400514
-	link = tailfin_4290400452
-	attN = top,trussPiece1x_4290400714
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-}
-PART
-{
-	part = longAntenna_4290400514
-	partName = Part
-	pos = -0.2984278,7.564863,-11.25956
-	rot = 0.7071069,0,0,-0.7071069
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	srfN = srfAttach,airplaneTail_4290400542
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		status = Locked
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = Extend
-				category = Toggle
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleDataTransmitter
-		isEnabled = True
-		EVENTS
-		{
-			StartTransmission
-			{
-				active = True
-				guiActive = True
-				guiIcon = Transmit Data
-				guiName = Transmit Data
-				category = Transmit Data
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			StopTransmission
-			{
-				active = False
-				guiActive = True
-				guiIcon = Stop Transmitting
-				guiName = Stop Transmitting
-				category = Stop Transmitting
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = tailfin_4290400452
-	partName = Winglet
-	pos = -0.3172915,7.790136,-10.31053
-	rot = 0.4724449,0.5261141,0.4724448,0.5261142
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	link = KAXkueyTailRotor_4290400424
-	srfN = srfAttach,airplaneTail_4290400542
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-}
-PART
-{
-	part = KAXkueyTailRotor_4290400424
-	partName = Part
-	pos = -0.3581913,9.009571,-11.17417
-	rot = 0.7060884,-0.7060875,0.03794922,0.03795016
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	srfN = srfAttach,tailfin_4290400452
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleEngines
-		isEnabled = True
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		thrustPercentage_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 100
-			stepIncrement = 0.5
-		}
-		EVENTS
-		{
-			Activate
-			{
-				active = True
-				guiActive = True
-				guiIcon = Activate Engine
-				guiName = Activate Engine
-				category = Activate Engine
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Shutdown
-			{
-				active = False
-				guiActive = True
-				guiIcon = Shutdown Engine
-				guiName = Shutdown Engine
-				category = Shutdown Engine
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			OnAction
-			{
-				actionGroup = None
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-			}
-			ActivateAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleResourceIntake
-		isEnabled = True
-		intakeEnabled = True
-		EVENTS
-		{
-			Deactivate
-			{
-				active = True
-				guiActive = False
-				guiIcon = Close Intake
-				guiName = Close Intake
-				category = Close Intake
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Activate
-			{
-				active = False
-				guiActive = False
-				guiIcon = Open Intake
-				guiName = Open Intake
-				category = Open Intake
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = FSplanePropellerSpinner
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FSengineSounds
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FStailRotorThrust
-		isEnabled = True
-		maxThrust = 1
-		altInputModeEnabled = False
-		invertInput = False
-		EVENTS
-		{
-			toggleAltInputMode
-			{
-				active = True
-				guiActive = True
-				guiIcon = QE or AD to rotate
-				guiName = QE or AD to rotate
-				category = QE or AD to rotate
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			toggleInvertInput
-			{
-				active = True
-				guiActive = True
-				guiIcon = Invert Left/Right
-				guiName = Invert Left/Right
-				category = Invert Left/Right
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			increaseThrust
-			{
-				active = True
-				guiActive = True
-				guiIcon = Increase Thrust
-				guiName = Increase Thrust
-				category = Increase Thrust
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			reduceThrust
-			{
-				active = True
-				guiActive = True
-				guiIcon = Reduce Thrust
-				guiName = Reduce Thrust
-				category = Reduce Thrust
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FSengineMenuCleaner
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = FSCoolant
-		amount = 2
-		maxAmount = 2
-		flowState = True
-		isTweakable = False
-		hideFlow = False
-		flowMode = Both
-	}
-}
-PART
-{
-	part = strutConnector_4290400332
+	part = strutConnector_4294149516
 	partName = StrutConnector
-	pos = -0.724175,7.99567,-6.057322
+	pos = -0.724175,7.99567,-6.057323
 	rot = -0.6532816,0.270598,0.2705983,-0.6532815
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -2033,9 +1631,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: trussPiece1x_11; pos: -0.4574842,-0.005269264,1.030394; dir: -0.4057871,-0.004671599,0.9139571
-	sym = strutConnector_4290400276
-	srfN = srfAttach,MK1Fuselage_4290400944
+	modCost = 0
+	cData = tgt: trussPiece1x_10; pos: -0.4574842,-0.005269264,1.030394; dir: -0.4057871,-0.004671599,0.9139571
+	sym = strutConnector_4294149460
+	srfN = srfAttach,MK1Fuselage_4294150134
 	EVENTS
 	{
 	}
@@ -2045,9 +1644,9 @@ PART
 }
 PART
 {
-	part = strutConnector_4290400276
+	part = strutConnector_4294149460
 	partName = StrutConnector
-	pos = 0.1326004,7.99567,-6.057322
+	pos = 0.1326004,7.99567,-6.057323
 	rot = -0.2705984,0.6532813,0.6532816,-0.270598
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -2056,9 +1655,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: trussPiece1x_14; pos: -0.4574834,-0.00526914,-1.030393; dir: -0.4057868,-0.004671587,-0.913957
-	sym = strutConnector_4290400332
-	srfN = srfAttach,MK1Fuselage_4290400944
+	modCost = 0
+	cData = tgt: trussPiece1x_13; pos: -0.4574834,-0.00526914,-1.030393; dir: -0.4057868,-0.004671587,-0.913957
+	sym = strutConnector_4294149516
+	srfN = srfAttach,MK1Fuselage_4294150134
 	EVENTS
 	{
 	}
@@ -2068,9 +1668,9 @@ PART
 }
 PART
 {
-	part = strutConnector_4290400220
+	part = strutConnector_4294149404
 	partName = StrutConnector
-	pos = -0.7713004,7.18989,-5.601285
+	pos = -0.7713004,7.18989,-5.601286
 	rot = 0.683013,0.1830119,0.1830122,0.6830128
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -2079,9 +1679,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: KAXheavyGear_13; pos: -1.588941,0.07997651,0.5752048; dir: -0.9392355,0.04727588,0.3400076
-	sym = strutConnector_4290400164
-	srfN = srfAttach,MK1Fuselage_4290400944
+	modCost = 0
+	cData = tgt: KAXheavyGear_12; pos: -1.588941,0.07997651,0.5752048; dir: -0.9392355,0.04727588,0.3400076
+	sym = strutConnector_4294149348
+	srfN = srfAttach,MK1Fuselage_4294150134
 	EVENTS
 	{
 	}
@@ -2091,9 +1692,9 @@ PART
 }
 PART
 {
-	part = strutConnector_4290400164
+	part = strutConnector_4294149348
 	partName = StrutConnector
-	pos = 0.1797258,7.18989,-5.601285
+	pos = 0.1797258,7.18989,-5.601286
 	rot = 0.1830122,0.6830128,0.6830131,0.1830119
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -2102,9 +1703,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: KAXheavyGear_16; pos: -1.588941,0.0799766,-0.5752043; dir: -0.9392353,0.04727584,-0.3400076
-	sym = strutConnector_4290400220
-	srfN = srfAttach,MK1Fuselage_4290400944
+	modCost = 0
+	cData = tgt: KAXheavyGear_15; pos: -1.588941,0.0799766,-0.5752043; dir: -0.9392353,0.04727584,-0.3400076
+	sym = strutConnector_4294149404
+	srfN = srfAttach,MK1Fuselage_4294150134
 	EVENTS
 	{
 	}
@@ -2114,9 +1716,9 @@ PART
 }
 PART
 {
-	part = stackPoint1_4290400108
+	part = stackPoint1_4294149292
 	partName = Part
-	pos = -0.2957873,8.248144,-4.421835
+	pos = -0.2957873,8.248144,-4.421836
 	rot = -4.371139E-08,1,0,0
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -2125,9 +1727,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = adapterSmallMiniTall_4290400076
-	srfN = srfAttach,Mk1FuselageStructural_4290400972
-	attN = top,adapterSmallMiniTall_4290400076
+	modCost = 0
+	link = adapterSmallMiniTall_4294149260
+	srfN = srfAttach,Mk1FuselageStructural_4294150166
+	attN = top,adapterSmallMiniTall_4294149260
 	EVENTS
 	{
 	}
@@ -2137,10 +1740,10 @@ PART
 }
 PART
 {
-	part = adapterSmallMiniTall_4290400076
+	part = adapterSmallMiniTall_4294149260
 	partName = Part
-	pos = -0.2957873,8.670028,-4.421837
-	rot = 0,0,3.893464E-13,-1
+	pos = -0.2957873,8.670028,-4.421838
+	rot = 0,0,3.928991E-13,-1
 	attRot = 0.7071067,0,0,-0.7071067
 	mir = 1,1,1
 	istg = 0
@@ -2148,8 +1751,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = KAXkueyEngine_4290400050
-	attN = bottom,stackPoint1_4290400108
+	modCost = 0
+	link = KAXkueyEngine_4294149234
+	attN = bottom,stackPoint1_4294149292
 	EVENTS
 	{
 	}
@@ -2159,10 +1763,10 @@ PART
 }
 PART
 {
-	part = KAXkueyEngine_4290400050
+	part = KAXkueyEngine_4294149234
 	partName = Part
-	pos = -0.2957873,8.97135,-4.420103
-	rot = 1.906664E-09,-0.04361938,0.9990484,-4.36698E-08
+	pos = -0.2957873,8.97135,-4.420104
+	rot = 1.906663E-09,-0.04361938,0.9990485,-4.36698E-08
 	attRot = -0.04361939,0,0,0.9990482
 	mir = 1,1,1
 	istg = 0
@@ -2170,7 +1774,8 @@ PART
 	sidx = 0
 	sqor = 0
 	attm = 1
-	srfN = ,adapterSmallMiniTall_4290400076
+	modCost = 0
+	srfN = ,adapterSmallMiniTall_4294149260
 	EVENTS
 	{
 	}
@@ -2383,9 +1988,9 @@ PART
 }
 PART
 {
-	part = airScoop_4290399928
+	part = airScoop_4294149112
 	partName = Part
-	pos = -0.2957873,8.505354,-3.721223
+	pos = -0.2957873,8.505354,-3.721224
 	rot = 0,0,1,-4.371139E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -2394,7 +1999,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,Mk1FuselageStructural_4290400972
+	modCost = 0
+	srfN = srfAttach,Mk1FuselageStructural_4294150166
 	EVENTS
 	{
 	}
@@ -2444,6 +2050,488 @@ PART
 		name = IntakeAir
 		amount = 0.5
 		maxAmount = 1
+		flowState = True
+		isTweakable = False
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = advSasModule_4294139626
+	partName = Part
+	pos = -0.2957874,7.567282,-6.613011
+	rot = 0.7071069,0,0,0.7071069
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	modCost = 0
+	link = airplaneTail_4294149728
+	attN = top,trussPiece1x_4294149900
+	attN = bottom,airplaneTail_4294149728
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		stateString = 
+		WheelState = Active
+		EVENTS
+		{
+			OnToggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle Torque
+				guiName = Toggle Torque
+				category = Toggle Torque
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleSAS
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = airplaneTail_4294149728
+	partName = Part
+	pos = -0.2957875,7.567283,-6.812039
+	rot = 0.7071069,0,0,0.7071069
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	modCost = 0
+	link = longAntenna_4294149700
+	link = tailfin_4294149638
+	attN = top,advSasModule_4294139626
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = longAntenna_4294149700
+	partName = Part
+	pos = -0.2984242,7.564865,-11.28692
+	rot = 0.7071069,0,0,-0.7071069
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	srfN = srfAttach,airplaneTail_4294149728
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		status = Locked
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		EVENTS
+		{
+			Toggle
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Toggle
+				guiName = Extend
+				category = Toggle
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleDataTransmitter
+		isEnabled = True
+		EVENTS
+		{
+			StartTransmission
+			{
+				active = True
+				guiActive = True
+				guiIcon = Transmit Data
+				guiName = Transmit Data
+				category = Transmit Data
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			StopTransmission
+			{
+				active = False
+				guiActive = True
+				guiIcon = Stop Transmitting
+				guiName = Stop Transmitting
+				category = Stop Transmitting
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = tailfin_4294149638
+	partName = Winglet
+	pos = -0.3172882,7.790138,-10.33789
+	rot = 0.4724449,0.5261141,0.4724448,0.5261142
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	link = KAXkueyTailRotor_4294149610
+	srfN = srfAttach,airplaneTail_4294149728
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = KAXkueyTailRotor_4294149610
+	partName = Part
+	pos = -0.3581882,9.009573,-11.20153
+	rot = 0.7060884,-0.7060875,0.03794922,0.03795016
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	srfN = srfAttach,tailfin_4294149638
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = FSplanePropellerSpinner
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FSengineSounds
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceIntake
+		isEnabled = True
+		intakeEnabled = True
+		EVENTS
+		{
+			Deactivate
+			{
+				active = True
+				guiActive = False
+				guiIcon = Close Intake
+				guiName = Close Intake
+				category = Close Intake
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Activate
+			{
+				active = False
+				guiActive = False
+				guiIcon = Open Intake
+				guiName = Open Intake
+				category = Open Intake
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = FScopterThrottle
+		isEnabled = True
+		EVENTS
+		{
+			toggleHoverEvent
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle hover
+				guiName = Toggle hover
+				category = Toggle hover
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			increaseHeightEvent
+			{
+				active = True
+				guiActive = True
+				guiIcon = Increase height
+				guiName = Increase height
+				category = Increase height
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			decreaseHeightEvent
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decrease height
+				guiName = Decrease height
+				category = Decrease height
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			toggleHoverAction
+			{
+				actionGroup = None
+			}
+			increaseHeightAction
+			{
+				actionGroup = None
+			}
+			decreaseHeightAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = FStailRotorThrust
+		isEnabled = True
+		maxThrust = 1
+		altInputModeEnabled = False
+		invertInput = False
+		EVENTS
+		{
+			toggleAltInputMode
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = QE or AD to rotate
+				guiName = QE or AD to rotate
+				category = QE or AD to rotate
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			toggleInvertInput
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Invert Left/Right
+				guiName = Invert Left/Right
+				category = Invert Left/Right
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			increaseThrust
+			{
+				active = True
+				guiActive = True
+				guiIcon = Increase Thrust
+				guiName = Increase Thrust
+				category = Increase Thrust
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			reduceThrust
+			{
+				active = True
+				guiActive = True
+				guiIcon = Reduce Thrust
+				guiName = Reduce Thrust
+				category = Reduce Thrust
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FSengineMenuCleaner
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = FSCoolant
+		amount = 2
+		maxAmount = 2
 		flowState = True
 		isTweakable = False
 		hideFlow = False
