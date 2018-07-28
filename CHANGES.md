@@ -1,7 +1,4 @@
 # KAX Unofficial :: Changes
 
-* 2016-0520: 2.6.2 (Keptin) for KSP 1.1.2
-	+ Updated Firespitter.dll for KSP 1.1.2 compatibility
-	+ Removed Heavy Gear
-	+ Known Issues:
-		- Audio FX only emits from right speaker due to running on legacy audio config
+* 2016-0520: 2.6.3 (Keptin) for KSP 1.1.2
+	+ Fixed audio FX for parts to conform to new FX config (Big thanks to Alshain for his work!) 
