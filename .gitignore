@@ -3,3 +3,4 @@ Source/.vs
 GameData/**/KAX.version
 Source/**/Version.cs
 Source/bin
+.vs
