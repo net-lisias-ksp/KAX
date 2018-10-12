@@ -1,9 +1,4 @@
 {
-	"GITHUB":{
-		"USERNAME":"net-lisias-kspu",
-		"REPOSITORY":"KAX",
-		"ALLOW_PRE_RELEASE":false
-		},
 	"NAME"		: "KAX Continued Unofficial",
 	"URL"		: "https://raw.githubusercontent.com/net-lisias-kspu/KAX/master/KAX.version",
 	"DOWNLOAD"	: "https://github.com/net.lisias.kspu/KAX/releases",
@@ -17,13 +12,12 @@
 		},
 	"KSP_VERSION":{
 		"MAJOR":1,
-		"MINOR":4,
-		"PATCH":0
+		"MINOR":4
 		},
 	"KSP_VERSION_MIN":{
 		"MAJOR":1,
 		"MINOR":4,
-		"PATCH":0
+		"PATCH":1
 		},
 	"KSP_VERSION_MAX":{
 		"MAJOR":1,
