@@ -1,6 +1,12 @@
-Source/obj
-Source/.vs
-GameData/**/KAX.version
-Source/**/Version.cs
-Source/bin
 .vs
+bin
+obj
+GameData/**/*.dll
+GameData/**/*LICENSE
+GameData/**/NOTICE
+GameData/**/README.md
+GameData/**/CHANGE_LOG.md
+GameData/**/CHANGES.md
+GameData/**/*.version
+Source/*/Properties/Version.cs
+Source/*/*.user
