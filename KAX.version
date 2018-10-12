@@ -1,14 +1,14 @@
 {
-	"NAME":"KAX Continued Unofficial",
-	"URL":"https://raw.githubusercontent.com/net-lisias-kspu/KAX/master/KAX.version",
-	"DOWNLOAD":"https://github.com/net.lisias.kspu/KAX/releases",
-	"CHANGE_LOG":"https://raw.githubusercontent.com/net-lisias-kspu/KAX/CHANGE_LOG.md",
-	"CHANGE_LOG_URL":"https://raw.githubusercontent.com/net-lisias-kspu/KAX/CHANGES.md",
 	"GITHUB":{
 		"USERNAME":"net-lisias-kspu",
 		"REPOSITORY":"KAX",
 		"ALLOW_PRE_RELEASE":false
 		},
+	"NAME"		: "KAX Continued Unofficial",
+	"URL"		: "https://raw.githubusercontent.com/net-lisias-kspu/KAX/master/KAX.version",
+	"DOWNLOAD"	: "https://github.com/net.lisias.kspu/KAX/releases",
+	"CHANGE_LOG"	: "https://raw.githubusercontent.com/net-lisias-kspu/KAX/CHANGE_LOG.md",
+	"CHANGE_LOG_URL": "https://raw.githubusercontent.com/net-lisias-kspu/KAX/CHANGES.md",
 	"VERSION":{
 		"MAJOR":2,
 		"MINOR":7,
