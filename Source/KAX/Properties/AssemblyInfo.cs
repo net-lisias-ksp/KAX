@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("KAX")]
+[assembly: AssemblyTitle("KAX/L")]
 [assembly: AssemblyDescription("Kerbal Aircraft expansion part categoriser")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("SMIndustries")]
+[assembly: AssemblyCompany("L Aerospace KSP Division")]
 [assembly: AssemblyProduct("KAX Categorizer")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
