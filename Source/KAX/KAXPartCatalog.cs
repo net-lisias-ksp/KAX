@@ -11,20 +11,22 @@ namespace KAE_Ltd
     [KSPAddon(KSPAddon.Startup.MainMenu, true)]
     public class KAXFilter : BaseFilter
     {
+#pragma warning disable RECS0029 // Warns about property or indexer setters and event adders or removers that do not use the value parameter
         protected override string Manufacturer
-        {
-            get { return "Kerbal Aircraft Expansioneers Ltd"; }// part manufacturer in cfgs and agents files 
-            set { }
-        }
-        protected override string categoryTitle
-        {
-            get { return "KAX"; } // the category name 
-            set { }
-        }
-    }
+		{
+			get => "Kerbal Aircraft Expansioneers Ltd"; // part manufacturer in cfgs and agents files 
+			set { }
+		}
+		protected override string categoryTitle
+		{
+			get => "KAX";  // the category name 
+			set { }
+		}
+#pragma warning restore RECS0029 // Warns about property or indexer setters and event adders or removers that do not use the value parameter
+	}
 
-   
-    public abstract class BaseFilter : MonoBehaviour
+
+	public abstract class BaseFilter : MonoBehaviour
     {
         private readonly List<AvailablePart> parts = new List<AvailablePart>();
         internal string category = "Filter by function";
