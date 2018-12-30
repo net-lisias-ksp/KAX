@@ -1,4 +1,4 @@
-# KAX /L
+# KAX /L : Under New Management
 
 ![Logo](./PR_material/Logo.gif)
 
@@ -9,11 +9,21 @@ Kerbal Aircraft Expansion /L - Under Lisias Management,
 
 ## In a Hurry
 
-* [Latest Release](https://github.com/net-lisias-ksp/KAX/releases)
 * [Source](https://github.com/net-lisias-ksp/KAX)
-* [Binaries](https://github.com/net-lisias-ksp/KAX/tree/Archive)
-* [History](https://github.com/net-lisias-ksp/KAX/tree/History)
-* [Change Log](./CHANGE_LOG.md)
+	+ [Issue Tracker](https://github.com/net-lisias-ksp/KAX/issues)
+	+ [History](https://github.com/net-lisias-ksp/KAX/tree/History)
+* Documentation
+	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/180268-*)
+	+ [Homepage](http://ksp.lisias.net/add-ons/KAX) on L Aerospace KSP Division
+	+ [Project's README](https://github.com/net-lisias-ksp/KAX/blob/master/README.md)
+	+ [Install Instructions](https://github.com/net-lisias-ksp/KAX/blob/master/INSTALL.md)
+	+ [Change Log](./CHANGE_LOG.md)
+	+ [Known Issues](./KNOWN_ISSUES.md)
+* Official Distribution Sites:
+	+ [Homepage](http://ksp.lisias.net/add-ons/KAX) on L Aerospace
+	+ [Source and Binaries](https://github.com/net-lisias-ksp/KAX) on GitHub.
+	+ [Latest Release](https://github.com/net-lisias-ksp/KAX/releases)
+		- [Binaries](https://github.com/net-lisias-ksp/KAX/tree/Archive)
 
 
 ## Description
@@ -56,15 +66,9 @@ This Management (Lisias) had agreed to oblige himself to the following directive
 
 ## Installation
 
-To install, place the GameData folder inside your Kerbal Space Program folder.
+Detailed installation instructions are now on its own file (see the [In a Hurry](#in-a-hurry) section) and on the distribution file.
 
-**REMOVE ANY OLD VERSIONS OF THE PRODUCT BEFORE INSTALLING**.
-
-### Dependencies
-
-* [Firespitter](https://github.com/snjo/Firespitter/releases)
-
-### Licensing
+### License
 
 + [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.txt). See [here](./LICENSE)
 	+ You are free to:
@@ -77,7 +81,7 @@ To install, place the GameData folder inside your Kerbal Space Program folder.
 		- You don't impersonate the authors, neither redistribute a derivative that could be misrepresented as theirs.
 		- You credit the author and republish the copyright notices on your works where the code is used.
 		- You relicense (and fully comply) your works using GPL 3.0 (or later)
-		- You don't mix your work with GPL incompatible works.
+		- You don't mix your works with GPL incompatible works.
 
 Please note the copyrights and trademarks in [NOTICE](./NOTICE).
 
