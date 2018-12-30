@@ -63,15 +63,18 @@ namespace KAE_Ltd
             PartCategorizer.AddCustomSubcategoryFilter(filter, categoryTitle, categoryTitle, icon, EditorItemsFilter);
         }
 
-        private Icon GenIcon(string iconName)
-        {
-            var normIcon = new Texture2D(64, 64, TextureFormat.RGBA32, false);
-            var normIconFile = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), iconName + "_normal.png"); // icon to be present in same folder as dll
-            normIcon.LoadImage(File.ReadAllBytes(normIconFile));
+        private Texture2D GenIconTexture(string iconName)
+		{
+			Texture2D r = new Texture2D(64, 64, TextureFormat.RGBA32, false);
+			string filename = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "/PluginData", "KAX_" + iconName + ".png"); // icon to be present in same folder as dll
+            r.LoadImage(File.ReadAllBytes(filename));
+            return r;
+		}
 
-            var selIcon = new Texture2D(64, 64, TextureFormat.RGBA32, false);
-            var selIconFile = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), iconName + "_selected.png");// icon to be present in same folder as dll
-            selIcon.LoadImage(File.ReadAllBytes(selIconFile));
+		private Icon GenIcons(string iconName)
+        {
+			Texture2D normIcon = this.GenIconTexture("normal");
+			Texture2D selIcon = this.GenIconTexture("selected");
 
             print("*****Adding icon for " + categoryTitle);
             var icon = new Icon(iconName + "Icon", normIcon, selIcon);
