@@ -86,18 +86,7 @@ namespace KAX
 				PartCategorizer.AddCustomSubcategoryFilter(filter, "Structural", "#autoLOC_453561", this.icon, o => o.manufacturer == Constants.MANUFACTURER_NAME && !o.title.Contains("(LEGACY)") && o.category.ToString() == "Structural" );
 //				PartCategorizer.AddCustomSubcategoryFilter(filter, "Electrical", "#autoLOC_453579", this.icon, o => o.manufacturer == Constants.MANUFACTURER_NAME && !o.title.Contains("(LEGACY)") && o.category.ToString() == "Electrical" );
 				PartCategorizer.AddCustomSubcategoryFilter(filter, "Engines", "#autoLOC_453555", this.icon, o => o.manufacturer == Constants.MANUFACTURER_NAME && !o.title.Contains("(LEGACY)") && o.moduleInfos.Exists(q => q.moduleName == "Engine") );
-//				PartCategorizer.AddCustomSubcategoryFilter(filter, "Legacy", "#autoLOC_1900223", this.icon, o => o.manufacturer == Constants.MANUFACTURER_NAME && o.title.Contains("(LEGACY)"));
-			
-				foreach (AvailablePart p in PartLoader.LoadedPartsList)
-				{
-					if (p.manufacturer != Constants.MANUFACTURER_NAME) continue;
-					print(p.name + "  :  " + p.category.ToString() + "  :  " + p.moduleInfo.ToString());
-					foreach (AvailablePart.ModuleInfo mi in p.moduleInfos)
-					{
-						print ("      " + mi.moduleName + " : " + mi.moduleDisplayName);
-					}
-
-				}
+//				PartCategorizer.AddCustomSubcategoryFilter(filter, "Legacy", "#autoLOC_1900223", this.icon, o => o.manufacturer == Constants.MANUFACTURER_NAME && o.title.Contains("(LEGACY)"));			
 			}
 			catch (Exception e)
 			{
