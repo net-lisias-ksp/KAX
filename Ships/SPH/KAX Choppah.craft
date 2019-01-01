@@ -1,8 +1,8 @@
 ship = KAX Choppah
 version = 1.3.1
-description = 
+description =
 type = SPH
-size = 3.79609728,5.14026642,13.7878876
+size = 8.23650169,5.14026642,14.7132158
 PART
 {
 	part = probeStackSmall_4294141032
@@ -244,7 +244,7 @@ PART
 {
 	part = Mark1Cockpit_4284379572
 	partName = Part
-	pos = 0.0403795317,10.0469999,0.534454763
+	pos = 0.0403795317,10.0469999,0.534454823
 	attPos = 0,0,0
 	attPos0 = 0,0.275000006,-3.27825482E-08
 	rot = 0.707106829,0,0,0.707106829
@@ -448,24 +448,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Command/mk1Cockpits/Mk1Cockpit
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 1.25
@@ -529,7 +511,7 @@ PART
 {
 	part = smallHardpoint_4284430066
 	partName = Part
-	pos = 0.0403795317,9.43947887,0.776084542
+	pos = 0.0403795317,9.43947887,0.776084661
 	attPos = 0,0,0
 	attPos0 = 0,0.241628394,0.607518315
 	rot = 0.49750188,0.502485812,0.49750188,0.502485812
@@ -626,24 +608,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Structural/structuralPylons/Pylons
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 100
@@ -666,7 +630,7 @@ PART
 {
 	part = GearFree_4284435968
 	partName = Part
-	pos = 0.0403795615,9.1341114,1.53679383
+	pos = 0.0403795615,9.1341114,1.53679395
 	attPos = 0,0,0
 	attPos0 = -0.312934101,0.757627904,-1.86523295E-08
 	rot = -0.00498375297,5.76228842E-10,2.10158021E-07,0.999987602
@@ -777,24 +741,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Wheel/LandingGear/LandingGear
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 100
@@ -817,7 +763,7 @@ PART
 {
 	part = telescopicLadder_4283660136
 	partName = Part
-	pos = -0.26263389,9.45771694,0.695008993
+	pos = -0.26263389,9.45771694,0.695009112
 	attPos = 0,-0.0417399406,0.0644483566
 	attPos0 = -0.303013414,0.202294096,0.524834692
 	rot = -0.00747543573,0.00156208873,-0.312283605,0.949958324
@@ -875,30 +821,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Utility/ladderTelescopic/model002
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = batteryBank_4283648756
 	partName = Part
-	pos = 0.0403795317,10.0469999,0.0485984534
+	pos = 0.0403795317,10.0469999,0.0485983938
 	attPos = 0,0,0
 	attPos0 = 0,-0.210855305,2.51359094E-08
 	rot = 0.707106829,0,0,0.707106829
@@ -929,24 +857,6 @@ PART
 	}
 	PARTDATA
 	{
-	}
-	MODULE
-	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Electrical/z-1kBattery/model000
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
 	}
 	MODULE
 	{
@@ -983,7 +893,7 @@ PART
 {
 	part = MK1Fuselage_4294550350
 	partName = Part
-	pos = 0.0403795317,10.0469999,-0.999758959
+	pos = 0.0403795317,10.0469999,-0.999759197
 	attPos = 0,0,0
 	attPos0 = 0,-1.04835498,1.24973695E-07
 	rot = 0.707106829,0,0,0.707106829
@@ -1025,24 +935,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Structural/mk1Parts/Mk1Structural
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 1.25
@@ -1076,7 +968,7 @@ PART
 {
 	part = miniFuselage_4284479344
 	partName = Part
-	pos = 0.0403795391,10.6085997,-1.45372641
+	pos = 0.0403795391,10.6085997,-1.45372689
 	attPos = -2.75038001E-08,-1.41489601,0.0516349114
 	attPos0 = 3.49543789E-08,0.960926712,-0.613233685
 	rot = 0.706744432,0.0226371288,-0.706744313,-0.022637248
@@ -1096,7 +988,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
+	link = KAXkueyEngine_4294656856
 	srfN = srfAttach,MK1Fuselage_4294550350
+	attN = bottom,KAXkueyEngine_4294656856
 	EVENTS
 	{
 	}
@@ -1105,42 +999,6 @@ PART
 	}
 	PARTDATA
 	{
-	}
-	MODULE
-	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/FuelTank/miniFuselage/Fuselage
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FStextureSwitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/FuelTank/miniFuselage/Fuselage
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
 	}
 	MODULE
 	{
@@ -1177,7 +1035,7 @@ PART
 {
 	part = elevon3_4284472692
 	partName = Part
-	pos = -0.945070386,9.64699745,-0.558412492
+	pos = -0.945070386,9.64699745,-0.558412731
 	attPos = -0.364447594,-0.0432161391,0.400002509
 	attPos0 = -0.621002376,0.484562308,-5.77643213E-08
 	rot = 0.707106888,-2.10734328E-08,4.21468513E-08,0.707106769
@@ -1246,24 +1104,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Aero/wings/Wings
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 100
@@ -1286,7 +1126,7 @@ PART
 {
 	part = elevon3_4284471466
 	partName = Part
-	pos = 1.02583003,9.64699745,-0.558412611
+	pos = 1.02583003,9.64699745,-0.55841285
 	attPos = 0.364447713,-0.0432163216,0.400002509
 	attPos0 = 0.621002376,0.484562308,-5.77643213E-08
 	rot = 1.12382086E-08,0.707106709,0.707106948,-5.19820418E-08
@@ -1355,24 +1195,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Aero/wings/Wings
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 100
@@ -1395,7 +1217,7 @@ PART
 {
 	part = smallHardpoint_4284429228
 	partName = Part
-	pos = -0.386589795,9.62002754,-1.84294343
+	pos = -0.386589795,9.62002754,-1.84294391
 	attPos = 0,0,0
 	attPos0 = -0.42696929,-0.843185782,0.426969707
 	rot = 0.653281569,0.270598024,-0.270598143,-0.653281569
@@ -1493,24 +1315,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Structural/structuralPylons/Pylons
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 100
@@ -1533,10 +1337,10 @@ PART
 {
 	part = GearFixed_4284437386
 	partName = Part
-	pos = -0.60772872,9.39888859,-2.54722571
+	pos = -0.60772872,9.39888859,-2.54722667
 	attPos = 0,0,0
 	attPos0 = -0.312737614,0.704271019,-1.73521798E-07
-	rot = 0.00392818451,0.00392820127,-6.64964318E-07,0.999984741
+	rot = 0.00392824411,0.00392823294,-6.96629286E-07,0.999984682
 	attRot = 0.923879802,0.382683694,-2.45319605E-08,3.57247885E-08
 	attRot0 = -0.656900406,-0.272097409,0.2690911,-0.64964211
 	mir = 1,1,1
@@ -1645,24 +1449,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Wheel/LandingGear/LandingGear
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 100
@@ -1685,7 +1471,7 @@ PART
 {
 	part = smallHardpoint_4284428816
 	partName = Part
-	pos = 0.467348814,9.62002754,-1.84294343
+	pos = 0.467348814,9.62002754,-1.84294391
 	attPos = 0,0,0
 	attPos0 = 0.42696929,-0.843185902,0.426969707
 	rot = 0.270598203,0.653281629,-0.65328151,-0.270597965
@@ -1783,24 +1569,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Structural/structuralPylons/Pylons
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 100
@@ -1823,7 +1591,7 @@ PART
 {
 	part = GearFixed_4284427622
 	partName = Part
-	pos = 0.688488066,9.39888859,-2.54722524
+	pos = 0.688488245,9.39888859,-2.54722619
 	attPos = 0,0,0
 	attPos0 = -0.312737614,0.704271019,2.46318109E-07
 	rot = -5.51808625E-07,0.999984801,0.00392824411,0.00392816681
@@ -1935,24 +1703,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Wheel/LandingGear/LandingGear
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 100
@@ -1975,7 +1725,7 @@ PART
 {
 	part = advSasModule_4284397094
 	partName = Part
-	pos = 0.0403795317,10.0469999,-2.13628435
+	pos = 0.0403795317,10.0469999,-2.13628483
 	attPos = 0,0,0
 	attPos0 = 0,-1.13652694,1.35484598E-07
 	rot = 0.707106829,0,0,0.707106829
@@ -2066,7 +1816,7 @@ PART
 {
 	part = fuelTankSmallFlat_4283692112
 	partName = Part
-	pos = 0.0403795317,10.0469999,-2.64781141
+	pos = 0.0403795317,10.0469999,-2.64781189
 	attPos = 0,0,0
 	attPos0 = 0,-0.5115273,6.09788131E-08
 	rot = 0.707106829,0,0,0.707106829
@@ -2097,24 +1847,6 @@ PART
 	}
 	PARTDATA
 	{
-	}
-	MODULE
-	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/FuelTank/fuelTankT100/tank4
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
 	}
 	MODULE
 	{
@@ -2162,7 +1894,7 @@ PART
 {
 	part = pointyNoseConeB_4284369234
 	partName = Part
-	pos = 0.0403795317,10.0469999,-3.58532214
+	pos = 0.0403795317,10.0469999,-3.5853231
 	attPos = 0,0,0
 	attPos0 = 0,-0.937500775,1.11758801E-07
 	rot = 0,0.707106829,-0.707106829,0
@@ -2212,24 +1944,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Aero/cones/Cones
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 1.25
@@ -2252,7 +1966,7 @@ PART
 {
 	part = structuralIBeam2_4294645080
 	partName = Part
-	pos = 0.0403795913,10.5142097,-4.25897121
+	pos = 0.0403795913,10.5142097,-4.25897217
 	attPos = -8.19563866E-08,-1.63399601,-0.61507827
 	attPos0 = 2.235174E-08,2.3076539,0.147863701
 	rot = 0.690226018,-6.79934544E-08,6.59838122E-08,-0.72359401
@@ -2286,24 +2000,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Structural/structuralIBeam200/model000
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 100
@@ -2326,7 +2022,7 @@ PART
 {
 	part = structuralIBeam2_4294644106
 	partName = Part
-	pos = 0.0403795987,10.66502,-7.45211601
+	pos = 0.0403795987,10.66502,-7.45211792
 	attPos = 0,0,0
 	attPos0 = 0,3.19654894,-3.87430191E-07
 	rot = 0.72359401,-6.59838335E-08,-6.79934757E-08,0.690226018
@@ -2361,24 +2057,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Structural/structuralIBeam200/model000
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 100
@@ -2401,7 +2079,7 @@ PART
 {
 	part = wingShuttleElevon1_4284416598
 	partName = Part
-	pos = 0.0367870107,11.2673502,-8.92250729
+	pos = 0.036787007,11.2673502,-8.92250919
 	attPos = -4.8661601E-08,-0.0208101291,-0.430300415
 	attPos0 = -0.00359264389,-1.47636402,-0.101999201
 	rot = -0.488063544,0.511658192,-0.488063455,0.511658311
@@ -2470,24 +2148,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Aero/shuttleWings/ShuttleWings
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 100
@@ -2510,10 +2170,10 @@ PART
 {
 	part = KAXkueyTailRotor_4284405606
 	partName = Part
-	pos = 0.0367893018,12.0675831,-8.72341251
+	pos = 0.0367893614,12.067584,-8.72341442
 	attPos = 0.124932297,0.00628043711,0.00100000203
 	attPos0 = -0.933659017,-0.167401493,-0.000999755808
-	rot = -0.0427323282,0.042732358,-0.705814421,-0.7058146
+	rot = -0.0427323282,0.042732358,-0.705814362,-0.7058146
 	attRot = 0,0,0.707106709,0.707106709
 	attRot0 = -0.0260668192,0.706626177,-0.706626177,0.0260668006
 	mir = 1,1,1
@@ -2656,10 +2316,10 @@ PART
 {
 	part = smallCtrlSrf_4283726326
 	partName = Part
-	pos = -0.470577657,10.5704403,-5.9197588
+	pos = -0.470577896,10.5704403,-5.9197607
 	attPos = -0.399070293,-9.53674316E-07,1.19209304E-07
 	attPos0 = -0.111886598,1.53510702,0.0221882798
-	rot = -0.72359401,6.32201846E-08,1.26440526E-07,-0.690226018
+	rot = -0.72359401,6.32201704E-08,1.26440497E-07,-0.690226018
 	attRot = 0,0,0,1
 	attRot0 = 4.04446501E-15,4.03844709E-08,4.23413695E-08,-1
 	mir = 1,1,1
@@ -2725,24 +2385,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Aero/wings/Wings
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 100
@@ -2765,7 +2407,7 @@ PART
 {
 	part = smallCtrlSrf_4283726106
 	partName = Part
-	pos = 0.551336825,10.5704403,-5.9197607
+	pos = 0.551337063,10.5704403,-5.91976261
 	attPos = 0.399070293,-1.90734909E-06,1.30385196E-08
 	attPos0 = 0.111886598,1.53510702,0.0221882295
 	rot = -1.5806981E-07,0.690226018,0.72359401,-9.33909803E-08
@@ -2834,24 +2476,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Aero/wings/Wings
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 100
@@ -2874,7 +2498,7 @@ PART
 {
 	part = IntakeRadialLong_4283685312
 	partName = Part
-	pos = 0.0403794795,10.6605396,-1.2786696
+	pos = 0.0403794795,10.6605396,-1.27867007
 	attPos = 0,-0.994141877,1.19209304E-07
 	attPos0 = -5.21540606E-08,0.715230584,-0.613539875
 	rot = -1.95399252E-14,2.08616257E-07,1.00000012,-5.85379425E-08
@@ -2926,24 +2550,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Aero/intakeRadialLong/Radial_long
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 100
@@ -2977,7 +2583,7 @@ PART
 {
 	part = longAntenna_4283645122
 	partName = Part
-	pos = 0.0403795801,10.6297903,1.16437674
+	pos = 0.0403795801,10.6297903,1.16437697
 	attPos = 0,0,0
 	attPos0 = 5.21540606E-08,0.629921675,-0.582793415
 	rot = 5.60074511E-08,0.943658471,0.330921203,1.96406251E-08
@@ -3082,7 +2688,7 @@ PART
 {
 	part = basicFin_4283639624
 	partName = Part
-	pos = 0.0403795317,9.67993164,1.54500568
+	pos = 0.0403795317,9.67993164,1.54500592
 	attPos = 0,-0.215071604,-0.187471405
 	attPos0 = 0,1.22562206,0.554539621
 	rot = -0.515810311,-0.483673275,0.515810311,0.483673275
@@ -3129,24 +2735,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Aero/basicFin/BasicFin
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 100
@@ -3169,7 +2757,7 @@ PART
 {
 	part = strutConnector_4283554696
 	partName = CompoundPart
-	pos = -0.195634902,10.0848503,-3.82581067
+	pos = -0.195634902,10.0848503,-3.82581162
 	attPos = 0,0,0
 	attPos0 = 0.236013994,0.240489006,-0.0378455892
 	rot = 0.567770898,0.421469331,-0.103450194,-0.699498475
@@ -3200,9 +2788,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4294645080
-		pos = -0.155795604,1.05143297,0.1415786
-		rot = 6.89820512E-09,0.838133574,-0.346387386,0.421365112
-		dir = -0.145291001,0.98053968,0.132032603
+		pos = -0.155796483,1.05143476,0.141578838
+		rot = 1.83707307E-08,0.838133931,-0.346387535,0.421365321
+		dir = -0.145291582,0.98053956,0.132032588
 	}
 	MODULE
 	{
@@ -3234,30 +2822,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = DCK/Camo/Strut
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = strutConnector_4283554402
 	partName = CompoundPart
-	pos = 0.27639389,10.0848503,-3.82581067
+	pos = 0.27639392,10.0848503,-3.82581162
 	attPos = 0,0,0
 	attPos0 = -0.236013994,0.240489006,-0.0378455892
 	rot = 0.103450328,0.699498475,-0.567770779,-0.421469361
@@ -3288,9 +2858,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4294645080
-		pos = -0.1557955,1.05143404,-0.141578197
-		rot = -5.44935697E-09,0.838133395,0.346387386,-0.421365201
-		dir = -0.145290807,0.98053968,-0.132032201
+		pos = -0.155795813,1.05143559,-0.141578779
+		rot = -1.78258741E-08,0.838133752,0.346387535,-0.42136535
+		dir = -0.145290852,0.98053968,-0.132032439
 	}
 	MODULE
 	{
@@ -3322,30 +2892,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = DCK/Camo/Strut
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = miniFuselage_4284501870
 	partName = Part
-	pos = -0.385938495,10.8070097,-1.10832167
+	pos = -0.385938495,10.8070097,-1.10832191
 	attPos = 0.110088803,-3.57627897E-07,0
 	attPos0 = -0.536406815,-0.108562097,-0.760008872
 	rot = -0.653281569,0.270598143,0.270598024,-0.653281569
@@ -3382,42 +2934,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/FuelTank/miniFuselage/Fuselage
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FStextureSwitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/FuelTank/miniFuselage/Fuselage
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 0.625
@@ -3451,7 +2967,7 @@ PART
 {
 	part = sasModule_4284395292
 	partName = Part
-	pos = -0.385938495,10.8070097,-0.548461676
+	pos = -0.385938495,10.8070097,-0.548461914
 	attPos = 0,0,0
 	attPos0 = 9.67793099E-08,0.559860587,3.08405212E-08
 	rot = 0.683012724,0.183013245,0.183013245,0.683012724
@@ -3543,7 +3059,7 @@ PART
 {
 	part = miniIntake_4284494538
 	partName = Part
-	pos = -0.385938495,10.8070097,-0.457350671
+	pos = -0.385938495,10.8070097,-0.457350791
 	attPos = 0,0,0
 	attPos0 = 7.40179741E-15,0.0911107063,-7.49647668E-08
 	rot = 0.683012724,0.183013111,0.183013111,0.683012724
@@ -3596,24 +3112,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Aero/miniintake/SmallIntake
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 0.625
@@ -3647,7 +3145,7 @@ PART
 {
 	part = sasModule_4284393440
 	partName = Part
-	pos = -0.385938287,10.8070097,-1.66818225
+	pos = -0.385938287,10.8070097,-1.66818273
 	attPos = 0,0,0
 	attPos0 = -9.67795373E-08,-0.559861422,-3.08404999E-08
 	rot = 0.683012724,0.183013245,0.183013245,0.683012724
@@ -3739,7 +3237,7 @@ PART
 {
 	part = miniJetEngine_4284506784
 	partName = Part
-	pos = -0.385938287,10.8070097,-1.75929427
+	pos = -0.385938287,10.8070097,-1.75929475
 	attPos = 0,0,0
 	attPos0 = 6.22377406E-15,-0.0911113024,-2.19602503E-15
 	rot = 0.683012724,0.183013111,0.183013111,0.683012724
@@ -3851,88 +3349,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Engine/miniJet/SmallJet
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			LockAction
-			{
-				actionGroup = None
-			}
-			FreeAction
-			{
-				actionGroup = None
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FStextureSwitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Engine/miniJet/SmallJet
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 0.625
@@ -3966,7 +3382,7 @@ PART
 {
 	part = miniFuselage_4283469296
 	partName = Part
-	pos = 0.466697514,10.8070097,-1.10832167
+	pos = 0.466697514,10.8070097,-1.10832191
 	attPos = -0.110088803,-5.96046391E-07,0
 	attPos0 = 0.536406815,-0.108562201,-0.760008872
 	rot = -0.270597994,0.653281629,0.65328151,-0.270598114
@@ -4003,42 +3419,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/FuelTank/miniFuselage/Fuselage
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FStextureSwitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/FuelTank/miniFuselage/Fuselage
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 0.625
@@ -4072,7 +3452,7 @@ PART
 {
 	part = sasModule_4283469262
 	partName = Part
-	pos = 0.466697514,10.8070097,-0.548462033
+	pos = 0.466697514,10.8070097,-0.548462272
 	attPos = 0,0,0
 	attPos0 = 9.67793099E-08,0.559860587,3.08405212E-08
 	rot = 0.683012724,-0.183013216,-0.183013216,0.683012605
@@ -4164,7 +3544,7 @@ PART
 {
 	part = miniIntake_4283469230
 	partName = Part
-	pos = 0.466697514,10.8070097,-0.45735091
+	pos = 0.466697514,10.8070097,-0.457351029
 	attPos = 0,0,0
 	attPos0 = 7.40179741E-15,0.0911107063,-7.49647668E-08
 	rot = 0.683012843,-0.183013022,-0.183013022,0.683012605
@@ -4217,24 +3597,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Aero/miniintake/SmallIntake
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 0.625
@@ -4268,7 +3630,7 @@ PART
 {
 	part = sasModule_4283469190
 	partName = Part
-	pos = 0.466697395,10.8070097,-1.66818225
+	pos = 0.466697395,10.8070097,-1.66818273
 	attPos = 0,0,0
 	attPos0 = -9.67795373E-08,-0.559861422,-3.08404999E-08
 	rot = 0.683012724,-0.183013216,-0.183013216,0.683012605
@@ -4360,7 +3722,7 @@ PART
 {
 	part = miniJetEngine_4283469158
 	partName = Part
-	pos = 0.466697395,10.8070097,-1.75929427
+	pos = 0.466697395,10.8070097,-1.75929475
 	attPos = 0,0,0
 	attPos0 = 6.22377406E-15,-0.0911113024,-2.19602503E-15
 	rot = 0.683012843,-0.183013022,-0.183013022,0.683012605
@@ -4472,88 +3834,6 @@ PART
 	}
 	MODULE
 	{
-		name = DCKtextureswitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Engine/miniJet/SmallJet
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		gimbalLimiter = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		gimbalActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			LockAction
-			{
-				actionGroup = None
-			}
-			FreeAction
-			{
-				actionGroup = None
-			}
-			TogglePitchAction
-			{
-				actionGroup = None
-			}
-			ToggleYawAction
-			{
-				actionGroup = None
-			}
-			ToggleRollAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FStextureSwitch2
-		isEnabled = True
-		selectedTexture = 0
-		selectedTextureURL = Squad/Parts/Engine/miniJet/SmallJet
-		selectedMapURL = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
 		currentScale = 0.625
@@ -4576,6 +3856,215 @@ PART
 		name = ElectricCharge
 		amount = 0
 		maxAmount = 0.02
+		flowState = True
+		isTweakable = False
+		hideFlow = True
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = KAXkueyEngine_4294656856
+	partName = Part
+	pos = 0.040379595,11.0763893,-1.42372978
+	attPos = 0,0,0
+	attPos0 = 4.60073466E-07,-0.468750268,2.98023117E-08
+	rot = 0.0320139825,4.47864466E-08,-1.66703842E-07,0.9994874
+	attRot = -0.707106709,0,0,0.707106709
+	attRot0 = -0.707106888,5.96046377E-08,0.707106709,1.76209966E-07
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = 2
+	sqor = 0
+	sepI = -1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = Node1,miniFuselage_4284479344
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEnginesFX
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSurfaceFX
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		actuatorModeCycle = 0
+		authorityLimiter = 100
+		stateString = Active
+		stagingEnabled = True
+		WheelState = Active
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			CycleAction
+			{
+				actionGroup = None
+			}
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FSplanePropellerSpinner
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FSplanePropellerSpinner
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FSengineMenuCleaner
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = -1
+		defaultScale = -1
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 1025
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 0
+		maxAmount = 0
 		flowState = True
 		isTweakable = False
 		hideFlow = True
