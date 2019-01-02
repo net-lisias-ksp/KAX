@@ -20,8 +20,38 @@ namespace KAX
 		public void Awake()
 		{
 			this.icon = GenIcons("KAX");
-//			GameEvents.onGUIEditorToolbarReady.Add(addSimpleMenufilter);
-			GameEvents.onGUIEditorToolbarReady.Add(addAdvMenufilter);
+			if (Versioning.version_major >= 1 && Versioning.version_minor >= 4)
+			{ 
+				string userfn = KSPUtil.ApplicationRootPath + "./PluginData/KAX/user.cfg";
+				Directory.CreateDirectory(Path.GetDirectoryName(userfn));
+				if (!File.Exists(userfn))
+				{
+					ConfigNode DEFAULT = ConfigNode.Load(KSPUtil.ApplicationRootPath + "./GameData/KAX/PluginData/default.cfg");
+					string v = DEFAULT.GetNode("KAX").GetValue("CategoryFilter");
+					ConfigNode t = new ConfigNode();
+					t.AddNode("KAX").SetValue("CategoryFilter", v, true);
+					t.Save(userfn);
+				}
+
+				{
+					ConfigNode user = ConfigNode.Load(userfn);
+					string CategoryFilter = user.GetNode("KAX").GetValue("CategoryFilter");
+					switch (CategoryFilter)
+					{
+						case "OLD":
+							GameEvents.onGUIEditorToolbarReady.Add(addSimpleMenufilter);
+							break;
+						case "NEW":
+							GameEvents.onGUIEditorToolbarReady.Add(addAdvMenufilter);
+							break;
+						case "NONE":
+							break;
+						default:
+							Debug.LogWarningFormat("CategoryFilter [{0}] unrecognized on user settings file!", CategoryFilter);
+							break;
+					}
+				}
+			}
 		}
 
 		public void addSimpleMenufilter()
