@@ -1,8 +1,8 @@
 # KAX /L : Under New Management
 
-**TweakScale** lets you change the size of a part.
+Kerbal Aircraft Expansion /L - Under Lisias Management,
 
-**TweakScale /L** is TweakScale under Lisias' management.
+**FOREVER** _THE_ pack of select vanilla-inspired parts for your aircrafting needs!
 
 
 ## Installation Instructions
