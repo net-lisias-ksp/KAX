@@ -50,7 +50,36 @@ Extract the KAX folder, into your KSP Gamedata folder.
 
 Be sure to properly extract the Firespitter/Resources folder or you will have FScoolant errors on loading the electric prop.  
 
-This mod Requires Firespitter and Module Manager to enable all the features  use the latest versions of their .dll plugins.
+This mod Requires Firespitter and Module Manager to enable all the features. Please use the latest versions of their .dll plugins.
+
+
+### Configuration
+
+Now you can choose how to handle your KAX parts and future new enhancements by editing the file `<KSP_ROOT>PluginData/KAX/user.cfg` that will be automatically created by KAX on the first run.
+
+#### VAB/SPH Parts Menu
+
+You can choose between three options:
+
+* New Advanced Menu
+	+ `CategoryFilter = NEW`
+	+ ![](./PR_material/Config/CategoryFilterNew.png)
+* Old, classic Menu
+	+ `CategoryFilter = OLD`
+	+ ![](./PR_material/Config/CategoryFilterOld.png)
+* No specialized menu at all
+	+ `CategoryFilter = NONE`
+	+ ![](./PR_material/Config/CategoryFilterNone.png)
+
+The new Advanced Menu has shows only KAX parts with submenus specialised by category:
+
+![](./PR_material/Config/CategoryFilterNewScreen.png)
+
+The old, classic menu is a old friend: all KAX parts on the same category on the simplified menu:
+
+![](./PR_material/Config/CategoryFilterOldScreen.png)
+
+People using [Community Category Kit](https://forum.kerbalspaceprogram.com/index.php?/topic/149840-discussion-community-category-kit/) would want to disable the menu at all, as CCK already handles all of that.
 
 
 ### Project Directives
