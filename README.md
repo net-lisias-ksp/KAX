@@ -19,6 +19,7 @@ Kerbal Aircraft Expansion /L - Under Lisias Management,
 	+ [Install Instructions](https://github.com/net-lisias-ksp/KAX/blob/master/INSTALL.md)
 	+ [Change Log](./CHANGE_LOG.md)
 	+ [Known Issues](./KNOWN_ISSUES.md)
+	+ [TODO](https://github.com/net-lisias-ksp/KAX/blob/master/TODO.md) list
 * Official Distribution Sites:
 	+ [Homepage](http://ksp.lisias.net/add-ons/KAX) on L Aerospace
 	+ [Source and Binaries](https://github.com/net-lisias-ksp/KAX) on GitHub.
