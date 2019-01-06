@@ -14,6 +14,7 @@ and there's no apparent way to put them back inside.
 * Check for a way to keep KAX's Menu Plugin working too on 1.3.1 and previous
 	+ A bit of magic using Reflection will do. 
 * Keep an eye on [CPT](https://forum.kerbalspaceprogram.com/index.php?/topic/174189-*) as sugested by [flart](https://forum.kerbalspaceprogram.com/index.php?/topic/180268-*/&do=findComment&comment=3508529). Reference [file](https://github.com/yalov/CommunityPartsTitles/blob/master/GameData/002_CommunityPartsTitles/localization/en-us_kax.cfg).
+* Keep an eye on [AJE Extended Configs](https://forum.kerbalspaceprogram.com/index.php?/topic/169520-aje-extended-configs/) for KAX support as suggested by [Citizen247](https://forum.kerbalspaceprogram.com/index.php?/topic/166467-kerbal-aircraft-expansion-_continued-new-management/&do=findComment&comment=3266794).
 * Try (again) to create a patch to use that beautiful stainless steel texture from [selfish_meme](https://forum.kerbalspaceprogram.com/index.php?/topic/166467-kerbal-aircraft-expansion-_continued-new-management/&do=findComment&comment=3255902) as an option.
 	+ Try to avoid using ModulePartVariants to keep KAX compatible to previous KSP versions
 		- If unavoidable, use a optional patch. 
