@@ -1,0 +1,3067 @@
+ship = KAX+FS Bomb Assembly Small
+version = 1.4.1
+description = 
+type = SPH
+size = 1.75899434,0.561515808,1.75886202
+persistentId = 4103162493
+rot = 0,0,0,0
+missionFlag = Squad/Flags/default
+vesselType = Debris
+PART
+{
+	part = structuralPanel2_4294683386
+	partName = Part
+	persistentId = 790600958
+	pos = -0.358744085,11.0459814,1.94812536
+	attPos = 0,0,0
+	attPos0 = -0.358744085,11.0459814,1.94812536
+	rot = 1,0,0,0
+	attRot = 0.707106769,0,0,0.707106769
+	attRot0 = 0.707106769,0,0,0.707106769
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = -32.3999901
+	modMass = -0.107999988
+	modSize = 0,0,0
+	link = radialDecoupler_4294668068
+	link = radialDecoupler_4294667606
+	link = radialDecoupler_4292328242
+	link = radialDecoupler_4292324144
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 80
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 57.6000099
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = radialDecoupler_4294668068
+	partName = Part
+	persistentId = 327326468
+	pos = 0.28112936,11.0489798,1.94812536
+	attPos = -0.309561253,-0.0296668857,0
+	attPos0 = 0.949434698,0.0266685337,0
+	rot = 0.50000006,0.49999994,0.500000119,0.49999994
+	attRot = 0,0,0,1
+	attRot0 = -0.49999997,0.50000006,-0.49999997,0.50000006
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = 0
+	sqor = 0
+	sepI = 0
+	attm = 1
+	modCost = -175.735931
+	modMass = -0.0187500007
+	modSize = 0,0,0
+	link = miniFuselage_4294666874
+	sym = radialDecoupler_4294667606
+	srfN = srfAttach,structuralPanel2_4294683386
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = Abort
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			EnableAction
+			{
+				actionGroup = None
+			}
+			DisableAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 424.264069
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = radialDecoupler_4294667606
+	partName = Part
+	persistentId = 1970396130
+	pos = -0.99861753,11.0489798,1.94812536
+	attPos = 0.309561253,-0.0296668857,0
+	attPos0 = -0.949434698,0.0266685337,0
+	rot = -0.500000119,-0.5,-0.50000006,-0.49999994
+	attRot = 0,0,0,1
+	attRot0 = -0.499999911,0.50000006,-0.49999997,0.50000006
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = 0
+	sqor = 0
+	sepI = 0
+	attm = 1
+	modCost = -175.735931
+	modMass = -0.0187500007
+	modSize = 0,0,0
+	link = miniFuselage_4293613144
+	sym = radialDecoupler_4294668068
+	srfN = srfAttach,structuralPanel2_4294683386
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = Abort
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			EnableAction
+			{
+				actionGroup = None
+			}
+			DisableAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 424.264069
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = miniFuselage_4293613144
+	partName = Part
+	persistentId = 3119147516
+	pos = -1.00023794,10.8050261,2.04812527
+	attPos = -0.0230378509,0.170337066,0.0198104531
+	attPos0 = -0.47696209,0.029663099,-0.0198104829
+	rot = 0.430459619,0.560985386,0.560985684,0.430459261
+	attRot = 0,0.382683486,4.21468478E-08,0.923879564
+	attRot0 = -1.49011612E-08,0.13052617,2.98023224E-08,0.991444886
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -176.996857
+	modMass = -0.0222351998
+	modSize = 0,0,0
+	link = miniFuelTank_4293613076
+	link = miniFuselage_4293613176
+	sym = miniFuselage_4294666874
+	srfN = srfAttach,radialDecoupler_4294667606
+	attN = top,miniFuelTank_4293613076_0|0.46875|0
+	attN = bottom,miniFuselage_4293613176_0|-0.46875|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.300000012
+		defaultScale = 0.625
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 17.6947212
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8.847361054687541
+		maxAmount = 8.847361054687541
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = miniFuelTank_4293613076
+	partName = Part
+	persistentId = 2961035803
+	pos = -1.00023866,10.8050251,2.35678053
+	attPos = 0,0,0
+	attPos0 = -1.46310711E-07,0.643024147,-3.67253463E-08
+	rot = -0.0922965705,0.701057434,0.701057553,-0.0922959447
+	attRot = 0,0,0,1
+	attRot0 = -8.94069672E-08,0.707107246,-5.96046448E-08,0.707106352
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = -64.2005539
+	modMass = -0.0222351998
+	modSize = 0,0,0
+	link = externalTankCapsule_4293558328
+	sym = miniFuelTank_4294666834
+	attN = bottom,miniFuselage_4293613144_0|-0.1742737|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.300000012
+		defaultScale = 0.625
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 5.71097136
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Ore
+		amount = 4.4236805273437705
+		maxAmount = 4.4236805273437705
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = externalTankCapsule_4293558328
+	partName = Part
+	persistentId = 453551680
+	pos = -1.00165963,10.8110867,2.43029213
+	attPos = -0.0020154065,-0.310639501,-0.0284700505
+	attPos0 = 0.00160561467,0.46378696,0.028935425
+	rot = -0.56098628,0.430459172,0.430459142,-0.560985446
+	attRot = 1.96271728E-07,5.96046448E-08,0.707106769,0.707106888
+	attRot0 = 8.94069672E-08,0.707106709,-2.08616243E-07,0.707106888
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -46.6232491
+	modMass = -0.0295312516
+	modSize = 0,0,0
+	sym = externalTankCapsule_4294666796
+	srfN = srfAttach,miniFuelTank_4293613076
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 3.15174985
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Ore
+		amount = 11.25
+		maxAmount = 11.25
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = miniFuselage_4293613176
+	partName = Part
+	persistentId = 382108694
+	pos = -1.00023627,10.805027,1.59811068
+	attPos = 0,0,0
+	attPos0 = 0.262533724,10.4541826,0.323199213
+	rot = -0.353554368,0.612372041,0.612372279,-0.353553772
+	attRot = -0.270597637,0.653281569,-0.653281748,0.270597458
+	attRot0 = -1.29113985E-07,0.923879802,-9.09085003E-08,0.382682711
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -178.323959
+	modMass = -0.0222351998
+	modSize = 0,0,0
+	link = basicFin_4293603526
+	link = basicFin_4293574714
+	link = basicFin_4293574672
+	link = standardNoseCone_4293613046
+	sym = miniFuselage_4294666758
+	attN = top,miniFuselage_4293613144_0|0.46875|0
+	attN = bottom,standardNoseCone_4293613046_0|-0.46875|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.300000012
+		defaultScale = 0.625
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 17.6947212
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 4.9766405932617417
+		maxAmount = 4.9766405932617417
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = basicFin_4293603526
+	partName = Part
+	persistentId = 848461861
+	pos = -0.998883724,10.8053894,1.34684753
+	attPos = 0.212131903,-0.400000006,0.212132335
+	attPos0 = -0.214194238,-0.123464793,-0.214194313
+	rot = -0.0922967494,0.701057196,0.701057553,-0.0922966599
+	attRot = 0,0,0,1
+	attRot0 = -2.98023188E-08,0.382683426,-2.98023188E-08,-0.923879504
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -18.75
+	modMass = -0.00749999983
+	modSize = 0,0,0
+	sym = basicFin_4293574672
+	sym = basicFin_4293574714
+	sym = basicFin_4294666718
+	sym = basicFin_4294666676
+	sym = basicFin_4294666634
+	srfN = srfAttach,miniFuselage_4293613176
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 6.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = basicFin_4293574714
+	partName = Part
+	persistentId = 1647485622
+	pos = -1.00122595,10.8060169,1.34684753
+	attPos = 0.0776460469,-0.399999768,-0.289778292
+	attPos0 = -0.0784005448,-0.123464793,0.292594969
+	rot = 0.653282166,-0.270597577,-0.270597219,0.653281569
+	attRot = 0,0,0,1
+	attRot0 = -2.98023188E-08,-0.60876143,-5.96046377E-08,-0.793353319
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -18.75
+	modMass = -0.00749999983
+	modSize = 0,0,0
+	sym = basicFin_4293574672
+	sym = basicFin_4293603526
+	sym = basicFin_4294666718
+	sym = basicFin_4294666676
+	sym = basicFin_4294666634
+	srfN = srfAttach,miniFuselage_4293613176
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 6.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = basicFin_4293574672
+	partName = Part
+	persistentId = 1834716287
+	pos = -0.999246359,10.8060169,1.34684741
+	attPos = -0.289778054,-0.400000036,0.0776460543
+	attPos0 = 0.29259482,-0.123464778,-0.0784006044
+	rot = -0.270599008,0.653280854,0.653281629,-0.27059871
+	attRot = 0,0,0,1
+	attRot0 = -3.72528994E-08,-0.991444826,-5.96046377E-08,0.13052623
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -18.75
+	modMass = -0.00749999983
+	modSize = 0,0,0
+	sym = basicFin_4293574714
+	sym = basicFin_4293603526
+	sym = basicFin_4294666718
+	sym = basicFin_4294666676
+	sym = basicFin_4294666634
+	srfN = srfAttach,miniFuselage_4293613176
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 6.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = standardNoseCone_4293613046
+	partName = Part
+	persistentId = 581178779
+	pos = -1.00023556,10.8050261,1.25310886
+	attPos = 0,0,0
+	attPos0 = 0,-0.71875006,5.96046448E-08
+	rot = -0.6123721,-0.353553981,0.353553802,0.612372398
+	attRot = 0,0,0.99999994,0
+	attRot0 = 0,0,1,0
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = -138.528
+	modMass = -0.00769599993
+	modSize = 0,0,0
+	sym = standardNoseCone_4294666592
+	attN = bottom01,miniFuselage_4293613176_0|-0.25|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.300000012
+		defaultScale = 0.625
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 41.4720039
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = miniFuselage_4294666874
+	partName = Part
+	persistentId = 4183401648
+	pos = 0.282749712,10.8050261,2.04812527
+	attPos = -0.0230378509,0.170337126,-0.0198104661
+	attPos0 = -0.47696209,0.0296630394,0.0198104661
+	rot = -0.560985684,-0.43045935,-0.430459529,-0.560985386
+	attRot = 0,0.382683486,4.21468478E-08,0.923879564
+	attRot0 = 5.96046519E-08,0.13052617,-4.47034871E-08,-0.991444886
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -176.996857
+	modMass = -0.0222351998
+	modSize = 0,0,0
+	link = miniFuelTank_4294666834
+	link = miniFuselage_4294666758
+	sym = miniFuselage_4293613144
+	srfN = srfAttach,radialDecoupler_4294668068
+	attN = top,miniFuelTank_4294666834_0|0.46875|0
+	attN = bottom,miniFuselage_4294666758_0|-0.46875|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.300000012
+		defaultScale = 0.625
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 17.6947212
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8.847361054687541
+		maxAmount = 8.847361054687541
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = miniFuelTank_4294666834
+	partName = Part
+	persistentId = 3193786842
+	pos = 0.282750487,10.8050251,2.35678029
+	attPos = 0,0,0
+	attPos0 = -1.46310711E-07,0.643024147,-3.67253463E-08
+	rot = 0.0922965109,0.701057315,0.701057553,0.0922960341
+	attRot = 0,0,0,1
+	attRot0 = -8.94069672E-08,0.707107246,-5.96046448E-08,0.707106352
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = -64.2005539
+	modMass = -0.0222351998
+	modSize = 0,0,0
+	link = externalTankCapsule_4294666796
+	sym = miniFuelTank_4293613076
+	attN = bottom,miniFuselage_4294666874_0|-0.1742737|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.300000012
+		defaultScale = 0.625
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 5.71097136
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Ore
+		amount = 4.4236805273437705
+		maxAmount = 4.4236805273437705
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = externalTankCapsule_4294666796
+	partName = Part
+	persistentId = 2618592358
+	pos = 0.284171581,10.8110867,2.43029213
+	attPos = -0.0020154065,-0.310639501,-0.0284700505
+	attPos0 = 0.00160561467,0.46378696,0.028935425
+	rot = -0.430459142,0.560985506,0.560986042,-0.430459142
+	attRot = 1.96271728E-07,5.96046448E-08,0.707106769,0.707106888
+	attRot0 = 8.94069672E-08,0.707106709,-2.08616243E-07,0.707106888
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -46.6232491
+	modMass = -0.0295312516
+	modSize = 0,0,0
+	sym = externalTankCapsule_4293558328
+	srfN = srfAttach,miniFuelTank_4294666834
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 3.15174985
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Ore
+		amount = 11.25
+		maxAmount = 11.25
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = miniFuselage_4294666758
+	partName = Part
+	persistentId = 4057585785
+	pos = 0.282748163,10.805027,1.5981108
+	attPos = 0,0,0
+	attPos0 = 0.262533724,10.4541826,0.323199213
+	rot = 0.353554219,0.612371981,0.612372398,0.353553891
+	attRot = -0.270597637,0.653281569,-0.653281748,0.270597458
+	attRot0 = 0.707106769,0,0,0.707106769
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -178.323959
+	modMass = -0.0222351998
+	modSize = 0,0,0
+	link = basicFin_4294666718
+	link = basicFin_4294666676
+	link = basicFin_4294666634
+	link = standardNoseCone_4294666592
+	sym = miniFuselage_4293613176
+	attN = top,miniFuselage_4294666874_0|0.46875|0
+	attN = bottom,standardNoseCone_4294666592_0|-0.46875|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.300000012
+		defaultScale = 0.625
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 17.6947212
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 4.9766405932617417
+		maxAmount = 4.9766405932617417
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = basicFin_4294666718
+	partName = Part
+	persistentId = 2891715200
+	pos = 0.282385767,10.8036747,1.34684753
+	attPos = 0.212131903,-0.400000006,0.212132335
+	attPos0 = -0.214194238,-0.123464793,-0.214194313
+	rot = 0.560986221,0.430458754,0.430459261,0.560985744
+	attRot = 0,0,0,1
+	attRot0 = -2.98023188E-08,0.382683426,-2.98023188E-08,-0.923879504
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -18.75
+	modMass = -0.00749999983
+	modSize = 0,0,0
+	sym = basicFin_4293574672
+	sym = basicFin_4293574714
+	sym = basicFin_4293603526
+	sym = basicFin_4294666676
+	sym = basicFin_4294666634
+	srfN = srfAttach,miniFuselage_4294666758
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 6.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = basicFin_4294666676
+	partName = Part
+	persistentId = 2627196339
+	pos = 0.284099817,10.8053894,1.34684777
+	attPos = 0.0776460469,-0.399999768,-0.289778292
+	attPos0 = -0.0784005448,-0.123464793,0.292594969
+	rot = 0.0922954381,-0.701057255,-0.701057911,0.0922954082
+	attRot = 0,0,0,1
+	attRot0 = -2.98023188E-08,-0.60876143,-5.96046377E-08,-0.793353319
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -18.75
+	modMass = -0.00749999983
+	modSize = 0,0,0
+	sym = basicFin_4293574672
+	sym = basicFin_4293574714
+	sym = basicFin_4293603526
+	sym = basicFin_4294666718
+	sym = basicFin_4294666634
+	srfN = srfAttach,miniFuselage_4294666758
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 6.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = basicFin_4294666634
+	partName = Part
+	persistentId = 1886421410
+	pos = 0.28175813,10.8060169,1.34684753
+	attPos = -0.289778054,-0.400000036,0.0776460543
+	attPos0 = 0.29259482,-0.123464778,-0.0784006044
+	rot = 0.65328151,-0.27059871,-0.270598888,0.653280973
+	attRot = 0,0,0,1
+	attRot0 = -3.72528994E-08,-0.991444826,-5.96046377E-08,0.13052623
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -18.75
+	modMass = -0.00749999983
+	modSize = 0,0,0
+	sym = basicFin_4293574672
+	sym = basicFin_4293574714
+	sym = basicFin_4293603526
+	sym = basicFin_4294666718
+	sym = basicFin_4294666676
+	srfN = srfAttach,miniFuselage_4294666758
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 6.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = standardNoseCone_4294666592
+	partName = Part
+	persistentId = 3439636622
+	pos = 0.282747388,10.8050261,1.25310898
+	attPos = 0,0,0
+	attPos0 = 0,-0.71875006,5.96046448E-08
+	rot = -0.612372041,0.35355401,-0.353553742,0.612372398
+	attRot = 0,0,0.99999994,0
+	attRot0 = 0,0,1,0
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = -138.528
+	modMass = -0.00769599993
+	modSize = 0,0,0
+	sym = standardNoseCone_4293613046
+	attN = bottom01,miniFuselage_4294666758_0|-0.25|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.300000012
+		defaultScale = 0.625
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 41.4720039
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = radialDecoupler_4292328242
+	partName = Part
+	persistentId = 3016082290
+	pos = -0.134750828,11.027647,1.87850797
+	attPos = -0.0358225852,0,0
+	attPos0 = 0.259815842,0.0183343887,0.0696173906
+	rot = 0.50000006,0.49999997,0.50000006,0.49999997
+	attRot = 0,0,0,1
+	attRot0 = -0.49999997,0.50000006,-0.49999997,0.50000006
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = 1
+	sqor = 0
+	sepI = 0
+	attm = 1
+	modCost = -175.735931
+	modMass = -0.0187500007
+	modSize = 0,0,0
+	link = miniFuselage_4292328180
+	sym = radialDecoupler_4292324144
+	srfN = srfAttach,structuralPanel2_4294683386
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = Abort
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			EnableAction
+			{
+				actionGroup = None
+			}
+			DisableAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 424.264069
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = miniFuselage_4292328180
+	partName = Part
+	persistentId = 3071862375
+	pos = -0.133130476,10.7836933,1.97850788
+	attPos = -0.0230378509,0.170337126,-0.0198104661
+	attPos0 = -0.47696209,0.0296630394,0.0198104661
+	rot = -0.560985684,-0.43045938,-0.43045947,-0.560985446
+	attRot = 0,0.382683486,4.21468478E-08,0.923879564
+	attRot0 = 5.96046519E-08,0.13052617,-4.47034871E-08,-0.991444886
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -176.996857
+	modMass = -0.0222351998
+	modSize = 0,0,0
+	link = miniFuelTank_4292328140
+	link = miniFuselage_4292328064
+	sym = miniFuselage_4292324076
+	srfN = srfAttach,radialDecoupler_4292328242
+	attN = top,miniFuelTank_4292328140_0|0.46875|0
+	attN = bottom,miniFuselage_4292328064_0|-0.46875|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.300000012
+		defaultScale = 0.625
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 17.6947212
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8.847361054687541
+		maxAmount = 8.847361054687541
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = miniFuelTank_4292328140
+	partName = Part
+	persistentId = 749812880
+	pos = -0.133129701,10.7836924,2.28716302
+	attPos = 0,0,0
+	attPos0 = -1.46310711E-07,0.643024147,-3.67253463E-08
+	rot = 0.0922965407,0.701057374,0.701057553,0.0922960639
+	attRot = 0,0,0,1
+	attRot0 = -8.94069672E-08,0.707107246,-5.96046448E-08,0.707106352
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = -64.2005539
+	modMass = -0.0222351998
+	modSize = 0,0,0
+	link = externalTankCapsule_4292328102
+	sym = miniFuelTank_4292324030
+	attN = bottom,miniFuselage_4292328180_0|-0.1742737|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.300000012
+		defaultScale = 0.625
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 5.71097136
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Ore
+		amount = 4.4236805273437705
+		maxAmount = 4.4236805273437705
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = externalTankCapsule_4292328102
+	partName = Part
+	persistentId = 2561234029
+	pos = -0.131708607,10.7897539,2.36067486
+	attPos = -0.0020154065,-0.310639501,-0.0284700505
+	attPos0 = 0.00160561467,0.46378696,0.028935425
+	rot = -0.430459082,0.560985565,0.560986042,-0.430459172
+	attRot = 1.96271728E-07,5.96046448E-08,0.707106769,0.707106888
+	attRot0 = 8.94069672E-08,0.707106709,-2.08616243E-07,0.707106888
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -46.6232491
+	modMass = -0.0295312516
+	modSize = 0,0,0
+	sym = externalTankCapsule_4292323986
+	srfN = srfAttach,miniFuelTank_4292328140
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 3.15174985
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Ore
+		amount = 11.25
+		maxAmount = 11.25
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = miniFuselage_4292328064
+	partName = Part
+	persistentId = 3701521048
+	pos = -0.1331321,10.7836943,1.5284934
+	attPos = 0,0,0
+	attPos0 = 0.262533724,10.4541826,0.323199213
+	rot = 0.353554249,0.612372041,0.612372279,0.353553921
+	attRot = -0.270597637,0.653281569,-0.653281748,0.270597458
+	attRot0 = 0.707106769,0,0,0.707106769
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -178.323959
+	modMass = -0.0222351998
+	modSize = 0,0,0
+	link = basicFin_4292328024
+	link = basicFin_4292327982
+	link = basicFin_4292327940
+	link = standardNoseCone_4292327898
+	sym = miniFuselage_4292323942
+	attN = top,miniFuselage_4292328180_0|0.46875|0
+	attN = bottom,standardNoseCone_4292327898_0|-0.46875|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.300000012
+		defaultScale = 0.625
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 17.6947212
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 4.9766405932617417
+		maxAmount = 4.9766405932617417
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = basicFin_4292328024
+	partName = Part
+	persistentId = 1465101913
+	pos = -0.133494496,10.782342,1.27723026
+	attPos = 0.212131903,-0.400000006,0.212132335
+	attPos0 = -0.214194238,-0.123464793,-0.214194313
+	rot = 0.560986221,0.430458784,0.430459201,0.560985744
+	attRot = 0,0,0,1
+	attRot0 = -2.98023188E-08,0.382683426,-2.98023188E-08,-0.923879504
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -18.75
+	modMass = -0.00749999983
+	modSize = 0,0,0
+	sym = basicFin_4292327940
+	sym = basicFin_4292327982
+	sym = basicFin_4292323896
+	sym = basicFin_4292323848
+	sym = basicFin_4292323800
+	srfN = srfAttach,miniFuselage_4292328064
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 6.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = basicFin_4292327982
+	partName = Part
+	persistentId = 765166077
+	pos = -0.131780446,10.7840567,1.2772305
+	attPos = 0.0776460469,-0.399999768,-0.289778292
+	attPos0 = -0.0784005448,-0.123464793,0.292594969
+	rot = 0.0922954082,-0.701057315,-0.701057851,0.0922954381
+	attRot = 0,0,0,1
+	attRot0 = -2.98023188E-08,-0.60876143,-5.96046377E-08,-0.793353319
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -18.75
+	modMass = -0.00749999983
+	modSize = 0,0,0
+	sym = basicFin_4292327940
+	sym = basicFin_4292328024
+	sym = basicFin_4292323896
+	sym = basicFin_4292323848
+	sym = basicFin_4292323800
+	srfN = srfAttach,miniFuselage_4292328064
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 6.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = basicFin_4292327940
+	partName = Part
+	persistentId = 2683093403
+	pos = -0.134122133,10.7846842,1.27723026
+	attPos = -0.289778054,-0.400000036,0.0776460543
+	attPos0 = 0.29259482,-0.123464778,-0.0784006044
+	rot = 0.65328145,-0.270598739,-0.270598888,0.653280973
+	attRot = 0,0,0,1
+	attRot0 = -3.72528994E-08,-0.991444826,-5.96046377E-08,0.13052623
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -18.75
+	modMass = -0.00749999983
+	modSize = 0,0,0
+	sym = basicFin_4292327982
+	sym = basicFin_4292328024
+	sym = basicFin_4292323896
+	sym = basicFin_4292323848
+	sym = basicFin_4292323800
+	srfN = srfAttach,miniFuselage_4292328064
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 6.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = standardNoseCone_4292327898
+	partName = Part
+	persistentId = 1158953874
+	pos = -0.133132875,10.7836933,1.18349171
+	attPos = 0,0,0
+	attPos0 = 0,-0.71875006,5.96046448E-08
+	rot = -0.6123721,0.35355404,-0.353553802,0.612372339
+	attRot = 0,0,0.99999994,0
+	attRot0 = 0,0,1,0
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = -138.528
+	modMass = -0.00769599993
+	modSize = 0,0,0
+	sym = standardNoseCone_4292323752
+	attN = bottom01,miniFuselage_4292328064_0|-0.25|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.300000012
+		defaultScale = 0.625
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 41.4720039
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = radialDecoupler_4292324144
+	partName = Part
+	persistentId = 1954488851
+	pos = -0.582737327,11.027647,1.87850797
+	attPos = 0.0358226299,0,0
+	attPos0 = -0.259815872,0.0183343887,0.0696173906
+	rot = 0.50000006,0.49999997,0.50000006,0.499999911
+	attRot = 0,0,0,1
+	attRot0 = -0.499999911,0.50000006,-0.49999997,0.50000006
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = 1
+	sqor = 0
+	sepI = 0
+	attm = 1
+	modCost = -175.735931
+	modMass = -0.0187500007
+	modSize = 0,0,0
+	link = miniFuselage_4292324076
+	sym = radialDecoupler_4292328242
+	srfN = srfAttach,structuralPanel2_4294683386
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = Abort
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			EnableAction
+			{
+				actionGroup = None
+			}
+			DisableAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 424.264069
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = miniFuselage_4292324076
+	partName = Part
+	persistentId = 1591456483
+	pos = -0.584357679,10.7836933,1.97850788
+	attPos = -0.0230378509,0.170337126,-0.0198104661
+	attPos0 = -0.47696209,0.0296630394,0.0198104661
+	rot = 0.430459559,0.560985386,0.560985684,0.430459291
+	attRot = 0,0.382683486,4.21468478E-08,0.923879564
+	attRot0 = 5.96046519E-08,0.13052617,-4.47034871E-08,-0.991444886
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -176.996857
+	modMass = -0.0222351998
+	modSize = 0,0,0
+	link = miniFuelTank_4292324030
+	link = miniFuselage_4292323942
+	sym = miniFuselage_4292328180
+	srfN = srfAttach,radialDecoupler_4292324144
+	attN = top,miniFuelTank_4292324030_0|0.46875|0
+	attN = bottom,miniFuselage_4292323942_0|-0.46875|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.300000012
+		defaultScale = 0.625
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 17.6947212
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8.847361054687541
+		maxAmount = 8.847361054687541
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = miniFuelTank_4292324030
+	partName = Part
+	persistentId = 3577724324
+	pos = -0.584358454,10.7836924,2.28716302
+	attPos = 0,0,0
+	attPos0 = -1.46310711E-07,0.643024147,-3.67253463E-08
+	rot = -0.0922966301,0.701057434,0.701057315,-0.0922959745
+	attRot = 0,0,0,1
+	attRot0 = -8.94069672E-08,0.707107246,-5.96046448E-08,0.707106352
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = -64.2005539
+	modMass = -0.0222351998
+	modSize = 0,0,0
+	link = externalTankCapsule_4292323986
+	sym = miniFuelTank_4292328140
+	attN = bottom,miniFuselage_4292324076_0|-0.1742737|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.300000012
+		defaultScale = 0.625
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 5.71097136
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Ore
+		amount = 4.4236805273437705
+		maxAmount = 4.4236805273437705
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = externalTankCapsule_4292323986
+	partName = Part
+	persistentId = 2781684398
+	pos = -0.585779548,10.7897539,2.36067486
+	attPos = -0.0020154065,-0.310639501,-0.0284700505
+	attPos0 = 0.00160561467,0.46378696,0.028935425
+	rot = -0.560986161,0.430459112,0.430459023,-0.560985446
+	attRot = 1.96271728E-07,5.96046448E-08,0.707106769,0.707106888
+	attRot0 = 8.94069672E-08,0.707106709,-2.08616243E-07,0.707106888
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -46.6232491
+	modMass = -0.0295312516
+	modSize = 0,0,0
+	sym = externalTankCapsule_4292328102
+	srfN = srfAttach,miniFuelTank_4292324030
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 3.15174985
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Ore
+		amount = 11.25
+		maxAmount = 11.25
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = miniFuselage_4292323942
+	partName = Part
+	persistentId = 758060826
+	pos = -0.58435607,10.7836943,1.5284934
+	attPos = 0,0,0
+	attPos0 = 0.262533724,10.4541826,0.323199213
+	rot = -0.353554428,0.612371981,0.61237216,-0.353553772
+	attRot = -0.270597637,0.653281569,-0.653281748,0.270597458
+	attRot0 = 0.707106769,0,0,0.707106769
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -178.323959
+	modMass = -0.0222351998
+	modSize = 0,0,0
+	link = basicFin_4292323896
+	link = basicFin_4292323848
+	link = basicFin_4292323800
+	link = standardNoseCone_4292323752
+	sym = miniFuselage_4292328064
+	attN = top,miniFuselage_4292324076_0|0.46875|0
+	attN = bottom,standardNoseCone_4292323752_0|-0.46875|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.300000012
+		defaultScale = 0.625
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 17.6947212
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 4.9766405932617417
+		maxAmount = 4.9766405932617417
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = basicFin_4292323896
+	partName = Part
+	persistentId = 620942013
+	pos = -0.583003402,10.7840567,1.27723014
+	attPos = 0.212131903,-0.400000006,0.212132335
+	attPos0 = -0.214194238,-0.123464793,-0.214194313
+	rot = -0.0922970474,0.701057076,0.701057673,-0.092296809
+	attRot = 0,0,0,1
+	attRot0 = -2.98023188E-08,0.382683426,-2.98023188E-08,-0.923879504
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -18.75
+	modMass = -0.00749999983
+	modSize = 0,0,0
+	sym = basicFin_4292327940
+	sym = basicFin_4292327982
+	sym = basicFin_4292328024
+	sym = basicFin_4292323848
+	sym = basicFin_4292323800
+	srfN = srfAttach,miniFuselage_4292323942
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 6.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = basicFin_4292323848
+	partName = Part
+	persistentId = 1940642699
+	pos = -0.585345447,10.7846842,1.27723038
+	attPos = 0.0776460469,-0.399999768,-0.289778292
+	attPos0 = -0.0784005448,-0.123464793,0.292594969
+	rot = 0.653282166,-0.270597279,-0.27059713,0.653281629
+	attRot = 0,0,0,1
+	attRot0 = -2.98023188E-08,-0.60876143,-5.96046377E-08,-0.793353319
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -18.75
+	modMass = -0.00749999983
+	modSize = 0,0,0
+	sym = basicFin_4292327940
+	sym = basicFin_4292327982
+	sym = basicFin_4292328024
+	sym = basicFin_4292323896
+	sym = basicFin_4292323800
+	srfN = srfAttach,miniFuselage_4292323942
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 6.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = basicFin_4292323800
+	partName = Part
+	persistentId = 3504288746
+	pos = -0.584718049,10.782342,1.27723026
+	attPos = -0.289778054,-0.400000036,0.0776460543
+	attPos0 = 0.29259482,-0.123464778,-0.0784006044
+	rot = 0.560985327,0.430459559,0.430460215,0.560985029
+	attRot = 0,0,0,1
+	attRot0 = -3.72528994E-08,-0.991444826,-5.96046377E-08,0.13052623
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = -18.75
+	modMass = -0.00749999983
+	modSize = 0,0,0
+	sym = basicFin_4292327940
+	sym = basicFin_4292327982
+	sym = basicFin_4292328024
+	sym = basicFin_4292323896
+	sym = basicFin_4292323848
+	srfN = srfAttach,miniFuselage_4292323942
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 50
+		defaultScale = 100
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 6.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = standardNoseCone_4292323752
+	partName = Part
+	persistentId = 1224378950
+	pos = -0.584355235,10.7836933,1.18349171
+	attPos = 0,0,0
+	attPos0 = 0,-0.71875006,5.96046448E-08
+	rot = -0.61237216,-0.35355401,0.353553802,0.61237222
+	attRot = 0,0,0.99999994,0
+	attRot0 = 0,0,1,0
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = -138.528
+	modMass = -0.00769599993
+	modSize = 0,0,0
+	sym = standardNoseCone_4292327898
+	attN = bottom01,miniFuselage_4292323942_0|-0.25|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 0.300000012
+		defaultScale = 0.625
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 41.4720039
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
