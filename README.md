@@ -4,7 +4,7 @@
 
 Kerbal Aircraft Expansion /L - Under Lisias Management,
 
-**FOREVER** _THE_ pack of select vanilla-inspired parts for your aircrafting needs!
+**FOREVER** _THE_ pack of selected vanilla-inspired parts for your aircrafting needs!
 
 
 ## In a Hurry
@@ -93,10 +93,13 @@ This Management (Lisias) had agreed to oblige himself to the following directive
 		- expansions must be in keeping with the tone of the mod
 		- it must be vaguely (as much as possible) stockalike. 
 
+This project aims to preserve the stock a like compatibility and versatility  of these parts, and any subsequent parts will be designed with that in mind.  The goal is that any new part will blend seamlessly with the current parts and add to rather than detract from the mods functionality.
 
 ## Installation
 
 Detailed installation instructions are now on its own file (see the [In a Hurry](#in-a-hurry) section) and on the distribution file.
+
+Powered by Firespitter, special thanks to Snjo for his plugin and continued support!
 
 ### License
 
@@ -141,6 +144,8 @@ See [LICENSE](./LICENSE) for the formal legalese. Please note the copyrights and
 
 
 ### Acknowledgements
+
+Powered by [Firespitter](https://github.com/snjo/Firespitter/releases), special thanks to [Snjo](https://forum.kerbalspaceprogram.com/index.php?/profile/57198-snjo/) for his plugin and continued support!
 
 Stockalike textures by [Doctor Davinci](https://forum.kerbalspaceprogram.com/index.php?/profile/150019-doctordavinci/)
 
