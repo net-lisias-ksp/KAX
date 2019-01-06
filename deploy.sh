@@ -9,7 +9,15 @@ check() {
 	fi
 }
 
-deploy() {
+deploy_dev() {
+	local DLL=$1
+
+	if [ -f "./bin/Release/$DLL.dll" ] ; then
+		cp "./bin/Release/$DLL.dll" "$LIB"
+	fi
+}
+
+deploy_bin() {
 	local DLL=$1
 
 	if [ -f "./bin/Release/$DLL.dll" ] ; then
@@ -25,14 +33,24 @@ deploy() {
 	fi
 }
 
+deploy_md() {
+	local MD=$1
+	#![NxMyyTK.png](./PR_material/img/NxMyyTK.png)
+	sed $MD -e "s/!\\[.\+\\]\\(.\+\\)//g" > "./GameData/$TARGETDIR"/$MD
+}
+
 VERSIONFILE=$PACKAGE.version
 
 check
 cp $VERSIONFILE "./GameData/$TARGETDIR"
 cp CHANGE_LOG.md "./GameData/$TARGETDIR"
-cp README.md  "./GameData/$TARGETDIR"
-cp LICENSE "./GameData/$TARGETDIR"
+cp KNOWN_ISSUES.md "./GameData/$TARGETDIR"
+cp TODO.md "./GameData/$TARGETDIR"
+cp LICENSE* "./GameData/$TARGETDIR"
 cp NOTICE "./GameData/$TARGETDIR"
+deploy_md README.md
+
 for dll in $PACKAGE ; do
-    deploy $dll
+    deploy_dev $dll
+    deploy_bin $dll
 done
