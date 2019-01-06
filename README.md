@@ -100,20 +100,44 @@ Detailed installation instructions are now on its own file (see the [In a Hurry]
 
 ### License
 
-+ [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.txt). See [here](./LICENSE)
-	+ You are free to:
-		- Use : unpack and use the material in any computer or device
-		- Redistribute : redistribute the original package in any medium
-		- Adapt : Reuse, modify or incorporate source code into your works (and redistribute it!) 
-	+ Under the following terms:
-		- You retain any copyright notices
-		- You recognize and respect any trademarks
-		- You don't impersonate the authors, neither redistribute a derivative that could be misrepresented as theirs.
-		- You credit the author and republish the copyright notices on your works where the code is used.
-		- You relicense (and fully comply) your works using GPL 3.0 (or later)
-		- You don't mix your works with GPL incompatible works.
+KAX is licensed under the following terms:
 
-Please note the copyrights and trademarks in [NOTICE](./NOTICE).
+* KAX models, textures, and sounds
+	+ KAX models, textures, and sounds are created by Keptin, who retains all copyrights. See [here](./LICENSE.KAX).
+		- You may:
+			- Modify KAX in anyway for your personal use
+			- Use KAX models, textures, and assets to create derivative works
+			- Distribute sufficiently modified versions of KAX parts or newly created derivative parts
+			- Distribute video, screenshots or other media portraying unmodified or modified versions of KAX
+			- _**All other rights are reserved**_
+		- Specifically, you may not:
+			- Distribute unmodified versions of KAX, in part or whole, without permission
+			- Use KAX for any commercial purpose
+* Plugin Source Code (C# project) are **double licensed** at user discretion when applicable (use the license that best suits your needs - when allowed by Law):
+	+ [SKL 1.0](https://ksp.lisias.net/SKL-1_0.txt). See [here](./LICENSE.KSPe.SKL-1_0)
+		+ You are free to:
+			- Use : unpack and use the material in any computer or device
+			- Redistribute: redistribute the original package in any medium
+		+ Under the following terms:
+			- You agree to use the material only on (or to) KSP
+			- You don't alter the package in any form or way (but you can embedded it)
+			- You don't change the material in any way, and retain any copyright notices
+			- You must explicitly state the author's Copyright, as well an Official Site for downloading the original and new versions
+        + [GPL 2.0](https://www.gnu.org/licenses/gpl-2.0.txt). See [here](./LICENSE.KSPe.GPL-2_0)
+			+ You are free to:
+				- Use : unpack and use the material in any computer or device
+					- Redistribute : redistribute the original package in any medium
+                        - Adapt : Reuse, modify or incorporate source code into your works (and redistribute it!)
+                + Under the following terms:
+					- You retain any copyright notices
+					- You recognize and respect any trademarks
+					- You don't impersonate the authors, neither redistribute a derivative that could be misrepresented as theirs.
+					- You credit the author and republish the copyright notices on your works where the code is used.
+					- You relicense (and fully comply) your works using GPL 2.0 (or later)
+					- You don't mix your work with GPL incompatible works.
+	* If by some reason the GPL would be invalid for you, rest assured that you still retain the right to Use the Work under SKL 1.0.
+
+See [LICENSE](./LICENSE) for the formal legalese. Please note the copyrights and trademarks in [NOTICE](./NOTICE).
 
 
 ### Acknowledgements
