@@ -1,12 +1,16 @@
 # KAX /L : TODO List
 
-Ordered by relevance/kind of priority:
+(More or less) Ordered by relevance/kind of priority:
 
 * Get rid of the TODO list.
 * Resurrect that gorgeous gears using FSwheel
 	+ Yeah, I need to fix the FS gears first
 		- Yeah² I'm kinda managed to do that. :)
-and there's no apparent way to put them back inside.
+* C2-B Horizon Cockpit
+	+ Check the crew hatch.
+		- Kerbal's are being spilled out from the cockpit and there's no apparent way to put them back inside.
+	+ Add Light effect to the windshields.
+	+ Add a proper Space.
 * Revamp the Vintage Propellers configs.
 * Check for some idiosyncrasies on the texturing
 	+ Check FS too.  
