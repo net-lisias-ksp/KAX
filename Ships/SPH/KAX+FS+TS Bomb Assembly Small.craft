@@ -1,6 +1,6 @@
 ship = KAX+FS Bomb Assembly Small
 version = 1.4.1
-description = 
+description = An assembly of four smaller version of the KAX+FS Bomb. For smaller bombers or to add a bit more of a punch on the payload of the bigger ones.¨¨Use Stage to deploy the bombs assembly by assembly, or Abort to salvo all of them at once!¨¨Uses KAX and TweakScale, and is named KAX+FS+TS t keep is close of the remaining sample crafts. :-)
 type = SPH
 size = 1.75899434,0.561515808,1.75886202
 persistentId = 4103162493

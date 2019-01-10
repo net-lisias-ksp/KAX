@@ -1,6 +1,6 @@
 ship = KAX+FS Bomb Assembly
 version = 1.4.1
-description = 
+description = Two of that hand crafted bombs assembled to be deployed by one of the included Bombers.¨¨Use Stage to release the bombs assembly by assembly, or Abort to salvo all of them!¨¨Stock only, by named KAX+FS to keep it close of the remaining sample crafts! :-)
 type = SPH
 size = 2.09119534,1.09257126,3.48208547
 persistentId = 4103162493

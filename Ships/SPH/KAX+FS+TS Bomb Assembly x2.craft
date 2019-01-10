@@ -1,8 +1,8 @@
-ship = KAX+FS Bomb Assembly x3
+ship = KAX+FS Bomb Assembly x2
 version = 1.4.1
-description = 
+description = Really tough building? Worry no more! Double the punch using this handy doubled deck bombs, delivering not 2, but 4 heavy bombs at once!¨¨Use Stage to deploy the bombs steck level by level (lower first!), or Abort to shove them all on your enemy's sorry arse at at once!¨¨You will need a slightly powerful bomber to carry these babys around!¨¨Use stock and TweakScale only, but it's named KAX+FS+TS to keep it near the sample crafts! :)
 type = SPH
-size = 2.40116358,3.1438942,3.5590539
+size = 2.09119511,2.10357666,3.53779221
 persistentId = 4103162493
 rot = 0,0,0,0
 missionFlag = Squad/Flags/default
@@ -11,7 +11,7 @@ PART
 {
 	part = structuralPanel2_4294683386
 	partName = Part
-	persistentId = 1299656063
+	persistentId = 790600958
 	pos = -0.358744085,11.0459814,1.94812536
 	attPos = 0,0,0
 	attPos0 = -0.358744085,11.0459814,1.94812536
@@ -29,8 +29,8 @@ PART
 	sqor = -1
 	sepI = -1
 	attm = 1
-	modCost = 39.6000214
-	modMass = 0.132000029
+	modCost = 0
+	modMass = 0
 	modSize = 0,0,0
 	link = radialDecoupler_4294668068
 	link = radialDecoupler_4294667606
@@ -48,10 +48,10 @@ PART
 	{
 		name = TweakScale
 		isEnabled = True
-		currentScale = 120
+		currentScale = 100
 		defaultScale = 100
-		defaultTransformScale = (1, 1, 1)
-		DryCost = 129.600021
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 90
 		stagingEnabled = True
 		EVENTS
 		{
@@ -68,8 +68,8 @@ PART
 {
 	part = radialDecoupler_4294668068
 	partName = Part
-	persistentId = 3012976216
-	pos = 0.301065981,11.0479813,1.94812536
+	persistentId = 327326468
+	pos = 0.191097617,11.0459814,1.94812536
 	attPos = -0.399592996,-0.0266685337,0
 	attPos0 = 0.949434698,0.0266685337,0
 	rot = 0.50000006,0.49999994,0.500000119,0.49999994
@@ -189,8 +189,8 @@ PART
 {
 	part = radialDecoupler_4294667606
 	partName = Part
-	persistentId = 3278893240
-	pos = -1.01855421,11.0479813,1.94812536
+	persistentId = 1970396130
+	pos = -0.908585787,11.0459814,1.94812536
 	attPos = 0.399592996,-0.0266685337,0
 	attPos0 = -0.949434698,0.0266685337,0
 	rot = 0.50000006,0.49999997,0.50000006,0.499999911
@@ -310,8 +310,8 @@ PART
 {
 	part = miniFuselage_4293613144
 	partName = Part
-	persistentId = 1609879343
-	pos = -1.01855421,10.5479813,2.14812541
+	persistentId = 3119147516
+	pos = -0.908585787,10.5459814,2.14812541
 	attPos = -0.0230378509,0.170337066,0.0198104531
 	attPos0 = -0.47696209,0.029663099,-0.0198104829
 	rot = 0.43045944,0.560985446,0.560985625,0.430459291
@@ -392,8 +392,8 @@ PART
 {
 	part = miniFuelTank_4293613076
 	partName = Part
-	persistentId = 3534411630
-	pos = -1.01855516,10.5479803,2.79115295
+	persistentId = 2961035803
+	pos = -0.908586681,10.5459805,2.79115295
 	attPos = 0,0,0
 	attPos0 = -1.46310711E-07,0.643024147,-3.67253463E-08
 	rot = -0.0922963917,0.701057315,0.701057434,-0.0922961533
@@ -482,8 +482,8 @@ PART
 {
 	part = externalTankCapsule_4293558328
 	partName = Part
-	persistentId = 2775958288
-	pos = -1.01828003,10.5485353,2.94430256
+	persistentId = 453551680
+	pos = -0.908311546,10.5465355,2.94430256
 	attPos = -0.0020154065,-0.310639501,-0.0284700505
 	attPos0 = 0.00160561467,0.46378696,0.028935425
 	rot = -0.560985982,0.430459172,0.430459082,-0.560985386
@@ -571,8 +571,8 @@ PART
 {
 	part = miniFuselage_4293613176
 	partName = Part
-	persistentId = 1300046295
-	pos = -1.0185523,10.5479822,1.21061099
+	persistentId = 382108694
+	pos = -0.908583939,10.5459824,1.21061099
 	attPos = 0,0,0
 	attPos0 = 0.262533724,10.4541826,0.323199213
 	rot = -0.35355407,0.612371981,0.612372279,-0.353553772
@@ -643,8 +643,8 @@ PART
 {
 	part = basicFin_4293603526
 	partName = Part
-	persistentId = 704880507
-	pos = -1.01573515,10.5487375,0.687146187
+	persistentId = 848461861
+	pos = -0.905766666,10.5467377,0.687146187
 	attPos = 0.212131903,-0.400000006,0.212132335
 	attPos0 = -0.214194238,-0.123464793,-0.214194313
 	rot = -0.0922965109,0.701057076,0.701057553,-0.0922966897
@@ -718,8 +718,8 @@ PART
 {
 	part = basicFin_4293574714
 	partName = Part
-	persistentId = 3169243419
-	pos = -1.02061462,10.5500441,0.687146425
+	persistentId = 1647485622
+	pos = -0.910646141,10.5480442,0.687146425
 	attPos = 0.0776460469,-0.399999768,-0.289778292
 	attPos0 = -0.0784005448,-0.123464793,0.292594969
 	rot = 0.653281927,-0.270597517,-0.270597428,0.653281569
@@ -793,8 +793,8 @@ PART
 {
 	part = basicFin_4293574672
 	partName = Part
-	persistentId = 2387746991
-	pos = -1.0193069,10.5451651,0.687146187
+	persistentId = 1834716287
+	pos = -0.909338415,10.5431652,0.687146187
 	attPos = -0.289778054,-0.400000036,0.0776460543
 	attPos0 = 0.29259482,-0.123464778,-0.0784006044
 	rot = 0.560985267,0.430459768,0.430460036,0.560985088
@@ -868,8 +868,8 @@ PART
 {
 	part = standardNoseCone_4293613046
 	partName = Part
-	persistentId = 3736539404
-	pos = -1.01855183,10.5479813,0.491859198
+	persistentId = 581178779
+	pos = -0.908583343,10.5459814,0.491859198
 	attPos = 0,0,0
 	attPos0 = 0,-0.71875006,5.96046448E-08
 	rot = 0.612371922,0.35355404,-0.353553772,-0.612372398
@@ -939,8 +939,8 @@ PART
 {
 	part = miniFuselage_4294666874
 	partName = Part
-	persistentId = 2033249826
-	pos = 0.30106622,10.5479813,2.14812541
+	persistentId = 4183401648
+	pos = 0.191097856,10.5459814,2.14812541
 	attPos = -0.0230378509,0.170337126,-0.0198104661
 	attPos0 = -0.47696209,0.0296630394,0.0198104661
 	rot = -0.560985625,-0.430459321,-0.430459499,-0.560985327
@@ -1021,8 +1021,8 @@ PART
 {
 	part = miniFuelTank_4294666834
 	partName = Part
-	persistentId = 2883434715
-	pos = 0.301066935,10.5479803,2.79115295
+	persistentId = 3193786842
+	pos = 0.191098571,10.5459805,2.79115295
 	attPos = 0,0,0
 	attPos0 = -1.46310711E-07,0.643024147,-3.67253463E-08
 	rot = 0.0922964811,0.701057255,0.701057553,0.0922959447
@@ -1111,8 +1111,8 @@ PART
 {
 	part = externalTankCapsule_4294666796
 	partName = Part
-	persistentId = 2065038184
-	pos = 0.300792038,10.5485353,2.94430256
+	persistentId = 2618592358
+	pos = 0.190823674,10.5465355,2.94430256
 	attPos = -0.0020154065,-0.310639501,-0.0284700505
 	attPos0 = 0.00160561467,0.46378696,0.028935425
 	rot = -0.430459082,0.560985446,0.560986042,-0.430459112
@@ -1200,8 +1200,8 @@ PART
 {
 	part = miniFuselage_4294666758
 	partName = Part
-	persistentId = 3847826761
-	pos = 0.301064551,10.5479822,1.21061099
+	persistentId = 4057585785
+	pos = 0.191096187,10.5459824,1.21061099
 	attPos = 0,0,0
 	attPos0 = 0.262533724,10.4541826,0.323199213
 	rot = 0.353554219,0.612371922,0.612372398,0.353553891
@@ -1272,8 +1272,8 @@ PART
 {
 	part = basicFin_4294666718
 	partName = Part
-	persistentId = 4209366078
-	pos = 0.300309598,10.5451651,0.687146068
+	persistentId = 2891715200
+	pos = 0.190341234,10.5431652,0.687146068
 	attPos = 0.212131903,-0.400000006,0.212132335
 	attPos0 = -0.214194238,-0.123464793,-0.214194313
 	rot = 0.560986161,0.430458724,0.430459261,0.560985684
@@ -1347,8 +1347,8 @@ PART
 {
 	part = basicFin_4294666676
 	partName = Part
-	persistentId = 2078565157
-	pos = 0.303880513,10.5487375,0.687146425
+	persistentId = 2627196339
+	pos = 0.193912148,10.5467377,0.687146425
 	attPos = 0.0776460469,-0.399999768,-0.289778292
 	attPos0 = -0.0784005448,-0.123464793,0.292594969
 	rot = 0.0922953784,-0.701057196,-0.701057851,0.0922953486
@@ -1422,8 +1422,8 @@ PART
 {
 	part = basicFin_4294666634
 	partName = Part
-	persistentId = 3058100237
-	pos = 0.299001992,10.5500441,0.687146187
+	persistentId = 1886421410
+	pos = 0.189033628,10.5480442,0.687146187
 	attPos = -0.289778054,-0.400000036,0.0776460543
 	attPos0 = 0.29259482,-0.123464778,-0.0784006044
 	rot = 0.653281569,-0.27059871,-0.270598948,0.653280973
@@ -1497,8 +1497,8 @@ PART
 {
 	part = standardNoseCone_4294666592
 	partName = Part
-	persistentId = 1544324158
-	pos = 0.301063597,10.5479813,0.491859198
+	persistentId = 3439636622
+	pos = 0.191095233,10.5459814,0.491859198
 	attPos = 0,0,0
 	attPos0 = 0,-0.71875006,5.96046448E-08
 	rot = -0.612372041,0.353553981,-0.353553742,0.612372398
@@ -1568,8 +1568,8 @@ PART
 {
 	part = radialDecoupler2_4294434750
 	partName = Part
-	persistentId = 2189917631
-	pos = -0.367605209,10.9404612,2.07569599
+	persistentId = 2109602695
+	pos = -0.366128355,10.963048,2.0544343
 	attPos = 0,0.0962648392,0
 	attPos0 = -0.00738427043,-0.0133314133,-0.106308937
 	rot = 0.50000006,0.49999997,0.50000006,0.49999997
@@ -1688,8 +1688,8 @@ PART
 {
 	part = strutCube_4294419256
 	partName = Part
-	persistentId = 2003476465
-	pos = -0.358444452,10.1948013,2.02509284
+	persistentId = 2381396539
+	pos = -0.356967598,10.2173882,2.00383115
 	attPos = 0,-0.152230978,0
 	attPos0 = -0.745659828,0.101627886,0.00916075706
 	rot = 1,0,0,-7.4505806E-08
@@ -1745,8 +1745,8 @@ PART
 {
 	part = structuralPanel2_4294433190
 	partName = Part
-	persistentId = 3072758851
-	pos = -0.358444452,10.0385666,2.02509284
+	persistentId = 3206168738
+	pos = -0.356967598,10.0694027,2.00383115
 	attPos = 0,0,0
 	attPos0 = 0,0.156234741,-5.96046448E-08
 	rot = -1,0,0,0
@@ -1763,12 +1763,11 @@ PART
 	sqor = -1
 	sepI = 1
 	attm = 0
-	modCost = 0
-	modMass = 0
+	modCost = -45.9000015
+	modMass = -0.153000012
 	modSize = 0,0,0
 	link = radialDecoupler_4294433166
 	link = radialDecoupler_4294433114
-	link = radialDecoupler2_4294432562
 	attN = bottom,strutCube_4294419256_0|-0.0275|0
 	EVENTS
 	{
@@ -1783,10 +1782,10 @@ PART
 	{
 		name = TweakScale
 		isEnabled = True
-		currentScale = 100
+		currentScale = 70
 		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 90
+		defaultTransformScale = (1, 1, 1)
+		DryCost = 44.0999985
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1803,8 +1802,8 @@ PART
 {
 	part = radialDecoupler_4294433166
 	partName = Part
-	persistentId = 745902156
-	pos = 0.191397786,10.0385666,2.02509284
+	persistentId = 4236669933
+	pos = 0.0279218554,10.0664005,2.00383115
 	attPos = -0.399592996,-0.0266685337,0
 	attPos0 = 0.949434698,0.0266685337,0
 	rot = -0.50000006,-0.49999997,-0.50000006,-0.49999997
@@ -1924,8 +1923,8 @@ PART
 {
 	part = miniFuselage_4294432812
 	partName = Part
-	persistentId = 3887587191
-	pos = 0.191397905,9.53856659,2.22509289
+	persistentId = 3022909570
+	pos = 0.0279219747,9.56640053,2.2038312
 	attPos = -0.0230378509,0.170337126,-0.0198104661
 	attPos0 = -0.47696209,0.0296630394,0.0198104661
 	rot = 0.560985625,0.43045935,0.43045944,0.560985506
@@ -2006,8 +2005,8 @@ PART
 {
 	part = miniFuelTank_4294432782
 	partName = Part
-	persistentId = 4027413869
-	pos = 0.191398621,9.53856564,2.86812067
+	persistentId = 2910169787
+	pos = 0.0279226899,9.56639957,2.84685898
 	attPos = 0,0,0
 	attPos0 = -1.46310711E-07,0.643024147,-3.67253463E-08
 	rot = -0.0922964811,-0.701057196,-0.701057673,-0.0922960937
@@ -2096,8 +2095,8 @@ PART
 {
 	part = externalTankCapsule_4294432754
 	partName = Part
-	persistentId = 1962329718
-	pos = 0.191123605,9.53912067,3.02127075
+	persistentId = 2547301755
+	pos = 0.0276476443,9.56695461,3.0000093
 	attPos = -0.0020154065,-0.310639501,-0.0284700505
 	attPos0 = 0.00160561467,0.46378696,0.028935425
 	rot = 0.430459201,-0.560985506,-0.560986042,0.43045935
@@ -2185,8 +2184,8 @@ PART
 {
 	part = miniFuselage_4294432726
 	partName = Part
-	persistentId = 1694146152
-	pos = 0.191396236,9.53856754,1.28757739
+	persistentId = 4080984500
+	pos = 0.0279202759,9.56640148,1.26631594
 	attPos = 0,0,0
 	attPos0 = 0.262533724,10.4541826,0.323199213
 	rot = -0.353554308,-0.612371862,-0.612372398,-0.353553832
@@ -2257,8 +2256,8 @@ PART
 {
 	part = basicFin_4294432696
 	partName = Part
-	persistentId = 3662658200
-	pos = 0.190641403,9.53575039,0.764112234
+	persistentId = 2635889071
+	pos = 0.0271655023,9.56358433,0.742850542
 	attPos = 0.212131903,-0.400000006,0.212132335
 	attPos0 = -0.214194238,-0.123464793,-0.214194313
 	rot = -0.560986161,-0.430458724,-0.430459112,-0.560985684
@@ -2332,8 +2331,8 @@ PART
 {
 	part = basicFin_4294432664
 	partName = Part
-	persistentId = 215471681
-	pos = 0.194212198,9.53932285,0.764112711
+	persistentId = 3893666261
+	pos = 0.0307362974,9.56715679,0.742851019
 	attPos = 0.0776460469,-0.399999768,-0.289778292
 	attPos0 = -0.0784005448,-0.123464793,0.292594969
 	rot = -0.0922956169,0.701057017,0.701057911,-0.092295289
@@ -2407,8 +2406,8 @@ PART
 {
 	part = basicFin_4294432632
 	partName = Part
-	persistentId = 3465353428
-	pos = 0.189333677,9.54062939,0.764112234
+	persistentId = 675242898
+	pos = 0.0258577764,9.56846333,0.742850542
 	attPos = -0.289778054,-0.400000036,0.0776460543
 	attPos0 = 0.29259482,-0.123464778,-0.0784006044
 	rot = -0.653281569,0.27059871,0.270598829,-0.653280854
@@ -2482,8 +2481,8 @@ PART
 {
 	part = standardNoseCone_4294432600
 	partName = Part
-	persistentId = 1652728714
-	pos = 0.191395283,9.53856659,0.568825245
+	persistentId = 3848660091
+	pos = 0.0279193819,9.56640053,0.547563553
 	attPos = 0,0,0
 	attPos0 = 0,-0.71875006,5.96046448E-08
 	rot = 0.6123721,-0.35355407,0.353553593,-0.612372339
@@ -2553,8 +2552,8 @@ PART
 {
 	part = radialDecoupler_4294433114
 	partName = Part
-	persistentId = 1838422228
-	pos = -0.908286572,10.0385666,2.02509284
+	persistentId = 437238683
+	pos = -0.741857171,10.0664005,2.00383115
 	attPos = 0.399592996,-0.0266685337,0
 	attPos0 = -0.949434698,0.0266685337,0
 	rot = -0.50000006,-0.49999997,-0.50000006,-0.49999997
@@ -2674,8 +2673,8 @@ PART
 {
 	part = miniFuselage_4294433062
 	partName = Part
-	persistentId = 1221094948
-	pos = -0.908286572,9.53856659,2.22509289
+	persistentId = 2677674237
+	pos = -0.741857171,9.56640053,2.2038312
 	attPos = -0.0230378509,0.170337066,0.0198104531
 	attPos0 = -0.47696209,0.029663099,-0.0198104829
 	rot = -0.43045938,-0.560985446,-0.560985625,-0.430459231
@@ -2756,8 +2755,8 @@ PART
 {
 	part = miniFuelTank_4294433032
 	partName = Part
-	persistentId = 3384748718
-	pos = -0.908287466,9.53856564,2.86812115
+	persistentId = 2268670004
+	pos = -0.741858006,9.56639957,2.84685946
 	attPos = 0,0,0
 	attPos0 = -1.46310711E-07,0.643024147,-3.67253463E-08
 	rot = 0.0922965109,-0.701057196,-0.701057434,0.0922961831
@@ -2846,8 +2845,8 @@ PART
 {
 	part = externalTankCapsule_4294433004
 	partName = Part
-	persistentId = 607125571
-	pos = -0.908012271,9.53912067,3.02127028
+	persistentId = 1007811627
+	pos = -0.74158287,9.56695461,3.00000858
 	attPos = -0.0020154065,-0.310639501,-0.0284700505
 	attPos0 = 0.00160561467,0.46378696,0.028935425
 	rot = 0.560985923,-0.430459142,-0.430458963,0.560985446
@@ -2935,8 +2934,8 @@ PART
 {
 	part = miniFuselage_4294432976
 	partName = Part
-	persistentId = 3893967874
-	pos = -0.908284903,9.53856754,1.28757739
+	persistentId = 2366470735
+	pos = -0.741855502,9.56640148,1.26631594
 	attPos = 0,0,0
 	attPos0 = 0.262533724,10.4541826,0.323199213
 	rot = 0.353554249,-0.612371862,-0.612372339,0.353553772
@@ -3007,8 +3006,8 @@ PART
 {
 	part = basicFin_4294432946
 	partName = Part
-	persistentId = 652770539
-	pos = -0.90546751,9.53932285,0.764112234
+	persistentId = 3439860794
+	pos = -0.73903811,9.56715679,0.742850542
 	attPos = 0.212131903,-0.400000006,0.212132335
 	attPos0 = -0.214194238,-0.123464793,-0.214194313
 	rot = 0.0922965407,-0.701057076,-0.701057673,0.0922965407
@@ -3082,8 +3081,8 @@ PART
 {
 	part = basicFin_4294432914
 	partName = Part
-	persistentId = 1664947122
-	pos = -0.910346985,9.54062939,0.764112711
+	persistentId = 3763651607
+	pos = -0.743917584,9.56846333,0.742851019
 	attPos = 0.0776460469,-0.399999768,-0.289778292
 	attPos0 = -0.0784005448,-0.123464793,0.292594969
 	rot = -0.653282046,0.270597696,0.270597428,-0.653281391
@@ -3157,8 +3156,8 @@ PART
 {
 	part = basicFin_4294432882
 	partName = Part
-	persistentId = 3008483175
-	pos = -0.909039259,9.53575039,0.764112234
+	persistentId = 2501979320
+	pos = -0.742609859,9.56358433,0.742850542
 	attPos = -0.289778054,-0.400000036,0.0776460543
 	attPos0 = 0.29259482,-0.123464778,-0.0784006044
 	rot = -0.560985327,-0.430459827,-0.430460036,-0.560985088
@@ -3232,8 +3231,8 @@ PART
 {
 	part = standardNoseCone_4294432850
 	partName = Part
-	persistentId = 4002195281
-	pos = -0.908284187,9.53856659,0.568825006
+	persistentId = 2335615264
+	pos = -0.741854787,9.56640053,0.547563314
 	attPos = 0,0,0
 	attPos0 = 0,-0.71875006,5.96046448E-08
 	rot = -0.612371862,-0.35355404,0.353553772,0.612372458
@@ -3255,1740 +3254,6 @@ PART
 	modSize = 0,0,0
 	sym = standardNoseCone_4294432600
 	attN = bottom01,miniFuselage_4294432976_0|-0.25|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleAnimateHeat
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 0.625
-		defaultScale = 0.625
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 180
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = radialDecoupler2_4294432562
-	partName = Part
-	persistentId = 3378417068
-	pos = -0.365828723,9.90189743,2.13140178
-	attPos = 0,0.150000572,0
-	attPos0 = -0.00738427043,-0.0133314133,-0.106308937
-	rot = -0.50000006,-0.49999997,-0.50000006,-0.49999997
-	attRot = 0,0,0,1
-	attRot0 = -0.49999997,0.50000006,-0.49999997,0.50000006
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 1
-	resPri = 0
-	dstg = 3
-	sidx = 2
-	sqor = 1
-	sepI = 1
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = strutCube_4294417372
-	srfN = srfAttach,structuralPanel2_4294433190
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleAnchoredDecoupler
-		isEnabled = True
-		ejectionForcePercent = 100
-		isDecoupled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			DecoupleAction
-			{
-				actionGroup = Abort
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleToggleCrossfeed
-		isEnabled = True
-		crossfeedStatus = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			EnableAction
-			{
-				actionGroup = None
-			}
-			DisableAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTestSubject
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 700
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = strutCube_4294417372
-	partName = Part
-	persistentId = 563458401
-	pos = -0.368223876,9.15623665,2.00275469
-	attPos = 0,-0.126185298,7.4505806E-09
-	attPos0 = -0.745660305,-0.00246149302,-0.0023951456
-	rot = -1,0,0,7.4505806E-08
-	attRot = 0,0,0,-0.999999881
-	attRot0 = 0.5,-0.5,0.5,0.5
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 1
-	resPri = 0
-	dstg = 4
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = structuralPanel2_4294417348
-	srfN = srfAttach,radialDecoupler2_4294432562
-	attN = top,structuralPanel2_4294417348_0|0.1287344|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 16
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = structuralPanel2_4294417348
-	partName = Part
-	persistentId = 4159609291
-	pos = -0.368223876,9.00550175,2.00275445
-	attPos = 0,0,0
-	attPos0 = 0,0.156234533,2.38418522E-07
-	rot = -1,0,0,0
-	attRot = -0.707106709,0,0,-0.707106709
-	attRot0 = -8.94069672E-08,0,0,1
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 1
-	resPri = 0
-	dstg = 4
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 0
-	modCost = -32.4000015
-	modMass = -0.107999988
-	modSize = 0,0,0
-	link = radialDecoupler_4294417324
-	link = radialDecoupler_4294417022
-	attN = bottom,strutCube_4294417372_0|-0.0275|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 80
-		defaultScale = 100
-		defaultTransformScale = (1, 1, 1)
-		DryCost = 57.5999985
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = radialDecoupler_4294417324
-	partName = Part
-	persistentId = 1655326567
-	pos = 0.07164976,9.00349998,2.00275445
-	attPos = -0.399592996,-0.0266685337,0
-	attPos0 = 0.949434698,0.0266685337,0
-	rot = -0.50000006,-0.49999997,-0.50000006,-0.49999997
-	attRot = 0,0,0,1
-	attRot0 = -0.49999997,0.50000006,-0.49999997,0.50000006
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 5
-	sidx = 0
-	sqor = 2
-	sepI = 2
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = miniFuselage_4294417272
-	sym = radialDecoupler_4294417022
-	srfN = srfAttach,structuralPanel2_4294417348
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleAnchoredDecoupler
-		isEnabled = True
-		ejectionForcePercent = 100
-		isDecoupled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			DecoupleAction
-			{
-				actionGroup = Abort
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleToggleCrossfeed
-		isEnabled = True
-		crossfeedStatus = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			EnableAction
-			{
-				actionGroup = None
-			}
-			DisableAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTestSubject
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 600
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = miniFuselage_4294417272
-	partName = Part
-	persistentId = 1907609254
-	pos = 0.0716498792,8.50349903,2.20275474
-	attPos = -0.0230378509,0.170337126,-0.0198104661
-	attPos0 = -0.47696209,0.0296630394,0.0198104661
-	rot = 0.560985506,0.430459499,0.43045944,0.560985327
-	attRot = 0,0.382683486,4.21468478E-08,0.923879564
-	attRot0 = 5.96046519E-08,0.13052617,-4.47034871E-08,-0.991444886
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 6
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = miniFuelTank_4294417242
-	link = miniFuselage_4294417186
-	sym = miniFuselage_4294416970
-	srfN = srfAttach,radialDecoupler_4294417324
-	attN = top,miniFuelTank_4294417242_0|0.46875|0
-	attN = bottom,miniFuselage_4294417186_0|-0.46875|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 0.625
-		defaultScale = 0.625
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 160
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 0
-		maxAmount = 0
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = SolidFuel
-		amount = 80
-		maxAmount = 80
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = miniFuelTank_4294417242
-	partName = Part
-	persistentId = 2235783834
-	pos = 0.0716505945,8.50349808,2.84578347
-	attPos = 0,0,0
-	attPos0 = -1.46310711E-07,0.643024147,-3.67253463E-08
-	rot = -0.0922966003,-0.701056957,-0.701057673,-0.0922958851
-	attRot = 0,0,0,1
-	attRot0 = -8.94069672E-08,0.707107246,-5.96046448E-08,0.707106352
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 6
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 0
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = externalTankCapsule_4294417214
-	sym = miniFuelTank_4294416940
-	attN = bottom,miniFuselage_4294417272_0|-0.1742737|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 0.625
-		defaultScale = 0.625
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 51.6399994
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 0
-		maxAmount = 0
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 0
-		maxAmount = 0
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Ore
-		amount = 40
-		maxAmount = 40
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = externalTankCapsule_4294417214
-	partName = Part
-	persistentId = 1200091348
-	pos = 0.0713756084,8.50405312,2.99893355
-	attPos = -0.0020154065,-0.310639501,-0.0284700505
-	attPos0 = 0.00160561467,0.46378696,0.028935425
-	rot = 0.430459172,-0.560985267,-0.560985863,0.43045938
-	attRot = 1.96271728E-07,5.96046448E-08,0.707106769,0.707106888
-	attRot0 = 8.94069672E-08,0.707106709,-2.08616243E-07,0.707106888
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 6
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = externalTankCapsule_4294416912
-	srfN = srfAttach,miniFuelTank_4294417242
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 25.2139988
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 0
-		maxAmount = 0
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 0
-		maxAmount = 0
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Ore
-		amount = 90
-		maxAmount = 90
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = miniFuselage_4294417186
-	partName = Part
-	persistentId = 1572941636
-	pos = 0.0716482401,8.50349808,1.26523781
-	attPos = 0,0,0
-	attPos0 = 0.262533724,10.4541826,0.323199213
-	rot = -0.353554308,-0.612371743,-0.612372518,-0.353553772
-	attRot = -0.270597637,0.653281569,-0.653281748,0.270597458
-	attRot0 = 0.707106769,0,0,0.707106769
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 6
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = basicFin_4294417156
-	link = basicFin_4294417124
-	link = basicFin_4294417092
-	link = standardNoseCone_4294417060
-	sym = miniFuselage_4294416884
-	attN = top,miniFuselage_4294417272_0|0.46875|0
-	attN = bottom,standardNoseCone_4294417060_0|-0.46875|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 0.625
-		defaultScale = 0.625
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 160
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 45
-		maxAmount = 45
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = basicFin_4294417156
-	partName = Part
-	persistentId = 2436479897
-	pos = 0.0708932877,8.50068283,0.741771698
-	attPos = 0.212131903,-0.400000006,0.212132335
-	attPos0 = -0.214194238,-0.123464793,-0.214194313
-	rot = -0.560986161,-0.430458844,-0.430459231,-0.560985565
-	attRot = 0,0,0,1
-	attRot0 = -2.98023188E-08,0.382683426,-2.98023188E-08,-0.923879504
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 6
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = basicFin_4294416790
-	sym = basicFin_4294416822
-	sym = basicFin_4294416854
-	sym = basicFin_4294417124
-	sym = basicFin_4294417092
-	srfN = srfAttach,miniFuselage_4294417186
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 25
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = basicFin_4294417124
-	partName = Part
-	persistentId = 2335388612
-	pos = 0.0744640827,8.50425529,0.741772175
-	attPos = 0.0776460469,-0.399999768,-0.289778292
-	attPos0 = -0.0784005448,-0.123464793,0.292594969
-	rot = -0.0922958255,0.701056957,0.70105803,-0.0922953486
-	attRot = 0,0,0,1
-	attRot0 = -2.98023188E-08,-0.60876143,-5.96046377E-08,-0.793353319
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 6
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = basicFin_4294416790
-	sym = basicFin_4294416822
-	sym = basicFin_4294416854
-	sym = basicFin_4294417156
-	sym = basicFin_4294417092
-	srfN = srfAttach,miniFuselage_4294417186
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 25
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = basicFin_4294417092
-	partName = Part
-	persistentId = 3714173832
-	pos = 0.0695855618,8.50556183,0.741772175
-	attPos = -0.289778054,-0.400000036,0.0776460543
-	attPos0 = 0.29259482,-0.123464778,-0.0784006044
-	rot = -0.653281868,0.27059871,0.270598829,-0.653280616
-	attRot = 0,0,0,1
-	attRot0 = -3.72528994E-08,-0.991444826,-5.96046377E-08,0.13052623
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 6
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = basicFin_4294416790
-	sym = basicFin_4294416822
-	sym = basicFin_4294416854
-	sym = basicFin_4294417156
-	sym = basicFin_4294417124
-	srfN = srfAttach,miniFuselage_4294417186
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 25
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = standardNoseCone_4294417060
-	partName = Part
-	persistentId = 1526612785
-	pos = 0.0716471672,8.50349903,0.546484709
-	attPos = 0,0,0
-	attPos0 = 0,-0.71875006,5.96046448E-08
-	rot = 0.61237216,-0.353553981,0.353553563,-0.612372398
-	attRot = 0,0,0.99999994,0
-	attRot0 = 0,0,1,0
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 6
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 0
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = standardNoseCone_4294416758
-	attN = bottom01,miniFuselage_4294417186_0|-0.25|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleAnimateHeat
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 0.625
-		defaultScale = 0.625
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 180
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = radialDecoupler_4294417022
-	partName = Part
-	persistentId = 2644186069
-	pos = -0.808097959,9.00349998,2.00275445
-	attPos = 0.399592996,-0.0266685337,0
-	attPos0 = -0.949434698,0.0266685337,0
-	rot = -0.50000006,-0.49999997,-0.50000006,-0.49999997
-	attRot = 0,0,0,1
-	attRot0 = -0.499999911,0.50000006,-0.49999997,0.50000006
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 5
-	sidx = 0
-	sqor = 2
-	sepI = 2
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = miniFuselage_4294416970
-	sym = radialDecoupler_4294417324
-	srfN = srfAttach,structuralPanel2_4294417348
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleAnchoredDecoupler
-		isEnabled = True
-		ejectionForcePercent = 100
-		isDecoupled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			DecoupleAction
-			{
-				actionGroup = Abort
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleToggleCrossfeed
-		isEnabled = True
-		crossfeedStatus = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			EnableAction
-			{
-				actionGroup = None
-			}
-			DisableAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTestSubject
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 600
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = miniFuselage_4294416970
-	partName = Part
-	persistentId = 469043207
-	pos = -0.808097959,8.50349903,2.20275474
-	attPos = -0.0230378509,0.170337066,0.0198104531
-	attPos0 = -0.47696209,0.029663099,-0.0198104829
-	rot = -0.43045944,-0.560985446,-0.560985625,-0.430459291
-	attRot = 0,0.382683486,4.21468478E-08,0.923879564
-	attRot0 = -1.49011612E-08,0.13052617,2.98023224E-08,0.991444886
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 6
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = miniFuelTank_4294416940
-	link = miniFuselage_4294416884
-	sym = miniFuselage_4294417272
-	srfN = srfAttach,radialDecoupler_4294417022
-	attN = top,miniFuelTank_4294416940_0|0.46875|0
-	attN = bottom,miniFuselage_4294416884_0|-0.46875|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 0.625
-		defaultScale = 0.625
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 160
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 0
-		maxAmount = 0
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = SolidFuel
-		amount = 80
-		maxAmount = 80
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = miniFuelTank_4294416940
-	partName = Part
-	persistentId = 2801828966
-	pos = -0.808098197,8.50349808,2.84578323
-	attPos = 0,0,0
-	attPos0 = -1.46310711E-07,0.643024147,-3.67253463E-08
-	rot = 0.0922968984,-0.701057076,-0.701057673,0.0922961831
-	attRot = 0,0,0,1
-	attRot0 = -8.94069672E-08,0.707107246,-5.96046448E-08,0.707106352
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 6
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 0
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = externalTankCapsule_4294416912
-	sym = miniFuelTank_4294417242
-	attN = bottom,miniFuselage_4294416970_0|-0.1742737|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 0.625
-		defaultScale = 0.625
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 51.6399994
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 0
-		maxAmount = 0
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 0
-		maxAmount = 0
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Ore
-		amount = 40
-		maxAmount = 40
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = externalTankCapsule_4294416912
-	partName = Part
-	persistentId = 660782198
-	pos = -0.807823062,8.50405312,2.99893332
-	attPos = -0.0020154065,-0.310639501,-0.0284700505
-	attPos0 = 0.00160561467,0.46378696,0.028935425
-	rot = 0.560985982,-0.430459261,-0.430459142,0.560985506
-	attRot = 1.96271728E-07,5.96046448E-08,0.707106769,0.707106888
-	attRot0 = 8.94069672E-08,0.707106709,-2.08616243E-07,0.707106888
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 6
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = externalTankCapsule_4294417214
-	srfN = srfAttach,miniFuelTank_4294416940
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 25.2139988
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 0
-		maxAmount = 0
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 0
-		maxAmount = 0
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Ore
-		amount = 90
-		maxAmount = 90
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = miniFuselage_4294416884
-	partName = Part
-	persistentId = 243775853
-	pos = -0.80809629,8.50349808,1.26523852
-	attPos = 0,0,0
-	attPos0 = 0.262533724,10.4541826,0.323199213
-	rot = 0.353554398,-0.612371922,-0.612372518,0.353553683
-	attRot = -0.270597637,0.653281569,-0.653281748,0.270597458
-	attRot0 = -1.29113985E-07,0.923879802,-9.09085003E-08,0.382682711
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 6
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = basicFin_4294416854
-	link = basicFin_4294416822
-	link = basicFin_4294416790
-	link = standardNoseCone_4294416758
-	sym = miniFuselage_4294417186
-	attN = top,miniFuselage_4294416970_0|0.46875|0
-	attN = bottom,standardNoseCone_4294416758_0|-0.46875|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 0.625
-		defaultScale = 0.625
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 160
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 45
-		maxAmount = 45
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = basicFin_4294416854
-	partName = Part
-	persistentId = 1204817577
-	pos = -0.805278897,8.50425529,0.741772652
-	attPos = 0.212131903,-0.400000006,0.212132335
-	attPos0 = -0.214194238,-0.123464793,-0.214194313
-	rot = 0.0922967494,-0.701056838,-0.701057792,0.0922965109
-	attRot = 0,0,0,1
-	attRot0 = -2.98023188E-08,0.382683426,-2.98023188E-08,-0.923879504
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 6
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = basicFin_4294416790
-	sym = basicFin_4294416822
-	sym = basicFin_4294417156
-	sym = basicFin_4294417124
-	sym = basicFin_4294417092
-	srfN = srfAttach,miniFuselage_4294416884
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 25
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = basicFin_4294416822
-	partName = Part
-	persistentId = 1974365219
-	pos = -0.810158372,8.50556183,0.741772652
-	attPos = 0.0776460469,-0.399999768,-0.289778292
-	attPos0 = -0.0784005448,-0.123464793,0.292594969
-	rot = -0.653282344,0.270597637,0.270597368,-0.653281212
-	attRot = 0,0,0,1
-	attRot0 = -2.98023188E-08,-0.60876143,-5.96046377E-08,-0.793353319
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 6
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = basicFin_4294416790
-	sym = basicFin_4294416854
-	sym = basicFin_4294417156
-	sym = basicFin_4294417124
-	sym = basicFin_4294417092
-	srfN = srfAttach,miniFuselage_4294416884
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 25
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = basicFin_4294416790
-	partName = Part
-	persistentId = 3477796363
-	pos = -0.808850646,8.50068283,0.741772652
-	attPos = -0.289778054,-0.400000036,0.0776460543
-	attPos0 = 0.29259482,-0.123464778,-0.0784006044
-	rot = -0.560985386,-0.430459887,-0.430460036,-0.560985088
-	attRot = 0,0,0,1
-	attRot0 = -3.72528994E-08,-0.991444826,-5.96046377E-08,0.13052623
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 6
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = basicFin_4294416822
-	sym = basicFin_4294416854
-	sym = basicFin_4294417156
-	sym = basicFin_4294417124
-	sym = basicFin_4294417092
-	srfN = srfAttach,miniFuselage_4294416884
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 25
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = standardNoseCone_4294416758
-	partName = Part
-	persistentId = 323095425
-	pos = -0.808095694,8.50349903,0.546485186
-	attPos = 0,0,0
-	attPos0 = 0,-0.71875006,5.96046448E-08
-	rot = -0.612371862,-0.353554219,0.353553891,0.612372458
-	attRot = 0,0,0.99999994,0
-	attRot0 = 0,0,1,0
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 6
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 0
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = standardNoseCone_4294417060
-	attN = bottom01,miniFuselage_4294416884_0|-0.25|0
 	EVENTS
 	{
 	}
