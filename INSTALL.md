@@ -16,6 +16,7 @@ To install, place the GameData folder inside your Kerbal Space Program folder:
 * **Optionally** extract the package's KAX Examples's `Ships` folder into your KSP's as follows:
 	+ `<PACKAGE>/Ships` --> `<KSP_ROOT>/Ships`
 	+ You may safely overwrite any files as only KAX ships are distributed, and you probably want updated crafts for your game.
+* **Selectively** you can extract the `Extras` content into your `GameData` directory. Read below for details. Avoid extracting this if you don't know what you are doing. :)
 
 The following file layout must be present after installation:
 
@@ -62,6 +63,11 @@ The following file layout must be present after installation:
 	...
 ```
 
+### Extras Content
+
+* Patches : Optional Module Manager patches
+* Resources : Optional Resources file
+	+ Resources.cfg : To be used by the ones that by some unreachable reason don't want to install Firespitter. Needed by the Electric Engines.
 
 ### Dependencies
 
