@@ -51,6 +51,9 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>..\..\..\..\..\..\LIB\managed\1.4.1\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="KSPe.Light.KAX">
+      <HintPath>..\..\..\..\..\..\LIB\plugins\KSPe.Light.KAX.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="KAXPartCatalog.cs" />

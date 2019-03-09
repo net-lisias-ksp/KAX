@@ -102,12 +102,9 @@ namespace KAX
 
 		private Texture2D GenIconTexture(string iconName)
 		{
-			Texture2D r = new Texture2D(64, 64, TextureFormat.RGBA32, false);
 			string filename = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "/PluginData", iconName + ".png"); // icon to be present in same folder as dll
-			r.LoadImage(File.ReadAllBytes(filename));
-			return r;
+			return KSPe.Util.Image.Texture2D.LoadFromFile(filename);
 		}
-
 
 		private void GenFilter(PartCategorizer.Category filter, string subFilterName, string subFilterdisplayName, string iconName, Func<AvailablePart, bool> exclusionFilter)
 		{
