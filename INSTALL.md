@@ -66,6 +66,7 @@ The following file layout must be present after installation:
 ### Extras Content
 
 * Patches : Optional Module Manager patches
+	+ EDITOR_160.cfg : Patch to add a dummmy `bulkheadProfiles` entry on parts without it, to allow these parts to be used in KSP 1.6 and newer.
 * Resources : Optional Resources file
 	+ Resources.cfg : To be used by the ones that by some unreachable reason don't want to install Firespitter. Needed by the Electric Engines.
 
