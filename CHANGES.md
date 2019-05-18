@@ -1,5 +1,10 @@
-# KAX/L :: Changes
+# KAX :: Changes
 
+* 2019-0518: 2.8.0.1 (Lisias) for KSP >= 1.4
+	+ Added missing `bulkheadProfiles` to a part.
+		- Thanks, [steve_v](https://forum.kerbalspaceprogram.com/index.php?/topic/180268-141-kerbal-aircraft-expansion-kaxl-—-under-new-management-—-v2800-2019-0110/&do=findComment&comment=3601219) 
+	+ Added a Workaround Patch for handling parts with missing `bulkheadProfiles` to the Extras.
+	+ Some Legal Mambo Jambo updating.
 * 2019-0110: 2.8.0.0 (Lisias) **Under New Management**  for KSP >= 1.4
 	+ KAX/L is KAX under Lisias' Management! :)
 	+ Enhanced (and disableable) Menu for the SPH/VAB Parts Menu
@@ -18,12 +23,5 @@
 		- Some vessel's filenames renamed to a more readable format.
 		- Dependencies **ARE NOT** embedded anymore.
 		- Cleaning up ZIPs from the main distribution files.
-		- Resouces file moved out from GameData e added to an Extras directory to be manually added. Firespitter is now a hard dependency for the parts, so there's no need for it anymore.
+		- Resources file moved out from GameData and added to an Extras directory to be manually added by the user. Firespitter is now a hard dependency for the parts, so there's no need for it anymore.
 	+ Added [INSTALL.md](https://github.com/net-lisias-ksp/KAX/blob/master/INSTALL.md) with instructions for manual installation
-* 2018-0728: 2.7.2.1 (Lisias) for KSP 1.4.x
-	+ Sync'ed with the last changes from upstream
-	+ Added KSP-AVC Support
-	+ Created Archive with historical versions
-	+ Commited historical releases into GIT
-	+ Compiled against KSP 1.4.1 Libraries
-	+ (Really, only bureaucratic things)
