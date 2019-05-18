@@ -1,8 +1,10 @@
-# KAX /L : Under New Management
+# KAX :: Kerbal Aircraft Expansion
 
 ![Logo](./PR_material/Logo.gif)
 
-Kerbal Aircraft Expansion /L - Under Lisias Management, **forever** _THE_ pack of selected vanilla-inspired parts for your aircrafting needs!
+Kerbal Aircraft Expansion : **forever** _THE_ pack of selected vanilla-inspired parts for your aircrafting needs!
+
+KAX/L is KAX under Lisias' Management.
 
 
 ## In a Hurry
@@ -103,17 +105,16 @@ Powered by Firespitter, special thanks to Snjo for his plugin and continued supp
 
 KAX is licensed under the following terms:
 
-* KAX models, textures, and sounds
-	+ KAX models, textures, and sounds are created by Keptin, who retains all copyrights. See [here](./LICENSE.KAX).
-		+ You may:
-			- Modify KAX in anyway for your personal use
-			- Use KAX models, textures, and assets to create derivative works
-			- Distribute sufficiently modified versions of KAX parts or newly created derivative parts
-			- Distribute video, screenshots or other media portraying unmodified or modified versions of KAX
-			- _**All other rights are reserved**_
-		+ Specifically, you may not:
-			- Distribute unmodified versions of KAX, in part or whole, without permission
-			- Use KAX for any commercial purpose
+* KAX models, textures, and sounds are created by Keptin, who retains all copyrights. See [here](./LICENSE.KAX).
+	+ You may:
+		- Modify KAX in anyway for your personal use
+		- Use KAX models, textures, and assets to create derivative works
+		- Distribute sufficiently modified versions of KAX parts or newly created derivative parts
+		- Distribute video, screenshots or other media portraying unmodified or modified versions of KAX
+		- _**All other rights are reserved**_
+	+ Specifically, you may not:
+		- Distribute unmodified versions of KAX, in part or whole, without permission
+		- Use KAX for any commercial purpose
 * Plugin Source Code (C# project) are **double licensed** at user discretion when applicable (use the license that best suits your needs - when allowed by Law):
 	+ [SKL 1.0](https://ksp.lisias.net/SKL-1_0.txt). See [here](./LICENSE.KSPe.SKL-1_0)
 		+ You are free to:
@@ -124,7 +125,7 @@ KAX is licensed under the following terms:
 			- You don't alter the package in any form or way (but you can embedded it)
 			- You don't change the material in any way, and retain any copyright notices
 			- You must explicitly state the author's Copyright, as well an Official Site for downloading the original and new versions
-        + [GPL 2.0](https://www.gnu.org/licenses/gpl-2.0.txt). See [here](./LICENSE.KSPe.GPL-2_0)
+	+ [GPL 2.0](https://www.gnu.org/licenses/gpl-2.0.txt). See [here](./LICENSE.KSPe.GPL-2_0)
 			+ You are free to:
 				- Use : unpack and use the material in any computer or device
 				- Redistribute : redistribute the original package in any medium
