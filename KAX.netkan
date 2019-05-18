@@ -1,0 +1,23 @@
+{
+    "spec_version"     : "v1.2",
+    "$kref"            : "#/ckan/spacedock/2150",
+    "$vref"            : "#/ckan/ksp-avc",
+    "identifier"       : "KAX",
+    "name"             : "KAX - Kerbal Aircraft Expansion",
+    "abstract"         : "Forever THE pack of selected vanilla-inspired parts for your aircrafting needs!",
+    "license"          : "ARR,GPLv2,SKL10",
+    "release_status"   : "stable",
+    "x_netkan_force_v" : true,
+    "author": [
+        "Keptin",
+        "SpannerMonkey",
+        "LisiasT"
+    ],
+    "resources": {
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/180268-*",
+        "repository": "https://github.com/net-lisias-ksp/KAX"
+    },
+    "depends" : [
+        { "name" : "ModuleManager", "min_version" : "2.7.1" }
+    ]
+}
