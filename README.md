@@ -1,6 +1,6 @@
 # KAX :: Kerbal Aircraft Expansion
 
-![Logo](./PR_material/Logo.gif)
+![Logo](./PR_Material/Logo.gif)
 
 Kerbal Aircraft Expansion : **forever** _THE_ pack of selected vanilla-inspired parts for your aircrafting needs!
 
@@ -64,21 +64,21 @@ You can choose between three options:
 
 * New Advanced Menu
 	+ `CategoryFilter = NEW`
-	+ ![](./PR_material/Config/CategoryFilterNew.png)
+	+ ![](./PR_Material/Config/CategoryFilterNew.png)
 * Old, classic Menu
 	+ `CategoryFilter = OLD`
-	+ ![](./PR_material/Config/CategoryFilterOld.png)
+	+ ![](./PR_Material/Config/CategoryFilterOld.png)
 * No specialized menu at all
 	+ `CategoryFilter = NONE`
-	+ ![](./PR_material/Config/CategoryFilterNone.png)
+	+ ![](./PR_Material/Config/CategoryFilterNone.png)
 
 The new Advanced Menu has shows only KAX parts with submenus specialised by category:
 
-![](./PR_material/Config/CategoryFilterNewScreen.png)
+![](./PR_Material/Config/CategoryFilterNewScreen.png)
 
 The old, classic menu is a old friend: all KAX parts on the same category on the simplified menu:
 
-![](./PR_material/Config/CategoryFilterOldScreen.png)
+![](./PR_Material/Config/CategoryFilterOldScreen.png)
 
 People using [Community Category Kit](https://forum.kerbalspaceprogram.com/index.php?/topic/149840-discussion-community-category-kit/) would want to disable the menu at all, as CCK already handles all of that.
 

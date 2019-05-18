@@ -7,8 +7,8 @@ VERSIONFILE=$PACKAGE.version
 deploy_md() {
 	local MD=$1
 	local TARGET=$2
-	#![NxMyyTK.png](./PR_material/img/NxMyyTK.png) -> ![NxMyyTK.png](./PR_material/$PACKAGE/img/NxMyyTK.png)
-	sed $MD -e "s/\\.\\/PR_material\\//.\\/PR_material\\/$PACKAGE\\//g" | ssh -i $SSH_ID $SITE "cat - >$TARGET_CMS_PATH/$TARGET"
+	#![NxMyyTK.png](./PR_Material/img/NxMyyTK.png) -> ![NxMyyTK.png](./PR_Material/$PACKAGE/img/NxMyyTK.png)
+	sed $MD -e "s/\\.\\/PR_Material\\//.\\/PR_Material\\/$PACKAGE\\//g" | ssh -i $SSH_ID $SITE "cat - >$TARGET_CMS_PATH/$TARGET"
 }
 
 deploy_assets() {
@@ -22,5 +22,5 @@ deploy_assets() {
 }
 
 scp -i $SSH_ID ./GameData/$PACKAGE/$VERSIONFILE $SITE:/$TARGET_CONTENT_PATH
-deploy_assets ./PR_material ./PR_material/$PACKAGE
+deploy_assets ./PR_Material ./PR_Material/$PACKAGE
 deploy_md README.md $PACKAGE.md
