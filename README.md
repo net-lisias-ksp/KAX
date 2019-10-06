@@ -21,7 +21,7 @@ KAX/L is KAX under Lisias' Management.
 	+ [Known Issues](./KNOWN_ISSUES.md)
 	+ [TODO](https://github.com/net-lisias-ksp/KAX/blob/master/TODO.md) list
 * Official Distribution Sites:
-	+ [Homepage](http://ksp.lisias.net/add-ons/KAX) on L Aerospace
+	+ [SpaceDock](https://spacedock.info/mod/2150/KAX)
 	+ [Source and Binaries](https://github.com/net-lisias-ksp/KAX) on GitHub.
 	+ [Latest Release](https://github.com/net-lisias-ksp/KAX/releases)
 		- [Binaries](https://github.com/net-lisias-ksp/KAX/tree/Archive)
@@ -76,7 +76,7 @@ The new Advanced Menu has shows only KAX parts with submenus specialised by cate
 
 ![](./PR_Material/Config/CategoryFilterNewScreen.png)
 
-The old, classic menu is a old friend: all KAX parts on the same category on the simplified menu:
+The old, classic menu is an old friend: all KAX parts on the same category on the simplified menu:
 
 ![](./PR_Material/Config/CategoryFilterOldScreen.png)
 
