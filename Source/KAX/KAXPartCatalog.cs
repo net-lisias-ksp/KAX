@@ -9,7 +9,6 @@ using RUI.Icons.Selectable;
 
 namespace KAX
 {
-
 	[KSPAddon(KSPAddon.Startup.MainMenu, true)]
 	public class BaseFilter : MonoBehaviour
 	{
@@ -20,7 +19,7 @@ namespace KAX
 		public void Awake()
 		{
 			this.icon = GenIcons("KAX");
-			if (Versioning.version_major >= 1 && Versioning.version_minor >= 4)
+			if (Versioning.version_major >= 1 && Versioning.version_minor >= 3)
 			{ 
 				string userfn = KSPUtil.ApplicationRootPath + "./PluginData/KAX/user.cfg";
 				Directory.CreateDirectory(Path.GetDirectoryName(userfn));
@@ -39,10 +38,10 @@ namespace KAX
 					switch (CategoryFilter)
 					{
 						case "OLD":
-							GameEvents.onGUIEditorToolbarReady.Add(addSimpleMenufilter);
+							GameEvents.onGUIEditorToolbarReady.Add(AddSimpleMenufilter);
 							break;
 						case "NEW":
-							GameEvents.onGUIEditorToolbarReady.Add(addAdvMenufilter);
+							GameEvents.onGUIEditorToolbarReady.Add(AddAdvMenufilter);
 							break;
 						case "NONE":
 							break;
@@ -54,7 +53,7 @@ namespace KAX
 			}
 		}
 
-		public void addSimpleMenufilter()
+		public void AddSimpleMenufilter()
 		{
 			parts.Clear();
 			int count = PartLoader.LoadedPartsList.Count;
@@ -120,7 +119,7 @@ namespace KAX
 
 		}
 		
-		private void addAdvMenufilter()
+		private void AddAdvMenufilter()
 		{
 			// TODO Better add'on Icons!
 			PartCategorizer.Category filter = PartCategorizer.AddCustomFilter(Constants.PLUGIN_ID, Constants.MANUFACTURER_NAME, GenIcons("KAX"), Color.white);
@@ -134,7 +133,6 @@ namespace KAX
 			GenFilter(filter, "Engines", "#autoLOC_453555", "Engines", o => o.manufacturer == Constants.MANUFACTURER_NAME && !o.title.Contains("(LEGACY)") && o.moduleInfos.Exists(q => q.moduleName == "Engine") );
 //			GenFilter(filter, "Legacy", "#autoLOC_1900223", this.icon, o => o.manufacturer == Constants.MANUFACTURER_NAME && o.title.Contains("(LEGACY)"));			
 		}
-
 
 	}
 
