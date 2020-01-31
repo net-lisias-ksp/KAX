@@ -2,8 +2,8 @@
 	"NAME"		: "KAX - Kerbal Aircraft Expansion /L",
 	"URL"		: "https://raw.githubusercontent.com/net-lisias-ksp/KAX/master/KAX.version",
 	"DOWNLOAD"	: "https://github.com/net.lisias.ksp/KAX/releases",
-	"CHANGE_LOG"	: "https://raw.githubusercontent.com/net-lisias-ksp/KAX/CHANGE_LOG.md",
-	"CHANGE_LOG_URL": "https://raw.githubusercontent.com/net-lisias-ksp/KAX/CHANGES.md",
+	"CHANGE_LOG"	: "https://raw.githubusercontent.com/net-lisias-ksp/KAX/master/CHANGE_LOG.md",
+	"CHANGE_LOG_URL": "https://raw.githubusercontent.com/net-lisias-ksp/KAX/master/CHANGES.md",
 	"VERSION":{
 		"MAJOR":2,
 		"MINOR":8,
