@@ -1,8 +1,6 @@
-# KAX /L : Under New Management
+# KAX /L : Under Lisias Management
 
-Kerbal Aircraft Expansion /L - Under Lisias Management,
-
-**FOREVER** _THE_ pack of select vanilla-inspired parts for your aircrafting needs!
+Kerbal Aircraft Expansion /L : **FOREVER** _THE_ pack of select vanilla-inspired parts for your aircrafting needs!
 
 
 ## Installation Instructions
@@ -12,9 +10,9 @@ To install, place the GameData folder inside your Kerbal Space Program folder:
 * **REMOVE ANY OLD VERSIONS OF THE PRODUCT BEFORE INSTALLING**, including any other fork:
 	+ Delete `<KSP_ROOT>/GameData/KAX`
 * Extract the package's `GameData/KAX` folder into your KSP's as follows:
-	+ `<PACKAGE>/GameData/KAX` --> `<KSP_ROOT>/GameData/KAX`
+	+ `<PACKAGE>/GameData/KAX/*` --> `<KSP_ROOT>/GameData/KAX`
 * **Optionally** extract the package's KAX Examples's `Ships` folder into your KSP's as follows:
-	+ `<PACKAGE>/Ships` --> `<KSP_ROOT>/Ships`
+	+ `<PACKAGE>/Ships/*` --> `<KSP_ROOT>/Ships`
 	+ You may safely overwrite any files as only KAX ships are distributed, and you probably want updated crafts for your game.
 * **Selectively** you can extract the `Extras` content into your `GameData` directory. Read below for details. Avoid extracting this if you don't know what you are doing. :)
 
