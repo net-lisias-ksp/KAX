@@ -9,9 +9,12 @@ check() {
 	fi
 
 	if [ ! -f "./GameData/$TARGETBINDIR/KSPe.Light.KAX.dll" ] ; then
-		echo "KSPe.Light.KAX not found!!! Aborting."
-		read line
-		exit -1
+		if [ ! -f "${LIB}/KSPe.Light.KAX.dll" ] ; then
+				echo "KSPe.Light.KAX not found!!! Aborting."
+				read line
+				exit -1
+		fi
+		cp "${LIB}/KSPe.Light.KAX.dll" "./GameData/$TARGETBINDIR/"
 	fi
 }
 
