@@ -151,9 +151,9 @@ namespace KAX
 			GenFilter(filter, "CommandPods", "#autoLOC_453549", "Pods", o => o.manufacturer == Constants.MANUFACTURER_NAME && o.category.ToString() == "Pods" && !o.title.Contains("(LEGACY)"));
 			GenFilter(filter, "Tanks", "#autoLOC_453552", "Tanks", p => p.manufacturer == Constants.MANUFACTURER_NAME && !p.title.Contains("(LEGACY)") && p.resourceInfos.Exists(q => q.resourceName == "LiquidFuel" || q.resourceName == "Oxidizer" || q.resourceName == "Monopropellant") );
 			GenFilter(filter, "Structural", "#autoLOC_453561", "Structural", o => o.manufacturer == Constants.MANUFACTURER_NAME && !o.title.Contains("(LEGACY)") && o.category.ToString() == "Structural" );
-//			GenFilter(filter, "Electrical", "#autoLOC_453579", this.icon, o => o.manufacturer == Constants.MANUFACTURER_NAME && !o.title.Contains("(LEGACY)") && o.category.ToString() == "Electrical" );
+			//GenFilter(filter, "Electrical", "#autoLOC_453579", "Electrical", o => o.manufacturer == Constants.MANUFACTURER_NAME && !o.title.Contains("(LEGACY)") && o.category.ToString() == "Electrical" );
 			GenFilter(filter, "Engines", "#autoLOC_453555", "Engines", o => o.manufacturer == Constants.MANUFACTURER_NAME && !o.title.Contains("(LEGACY)") && o.moduleInfos.Exists(q => q.moduleName == "Engine") );
-//			GenFilter(filter, "Legacy", "#autoLOC_1900223", this.icon, o => o.manufacturer == Constants.MANUFACTURER_NAME && o.title.Contains("(LEGACY)"));			
+			//GenFilter(filter, "Legacy", "#autoLOC_1900223", "Legacy", o => o.manufacturer == Constants.MANUFACTURER_NAME && o.title.Contains("(LEGACY)"));			
 		}
 
 	}
