@@ -5,3 +5,33 @@ Unless specified otherwise, KAX models, textures, and sounds are created by Kept
 Some models and textures are created by SpannerMonkey, and are lincesed to be used on KAX under the same conditidions.
 Stockalike Textures are copyright by Doctor Davinci, and are lincesed to be used on KAX under the same conditidions.
 Source Code are copyright LisiasT, and are double licensed under the SKL-1.0 and GPL 2.0.
+
+
+## Assets list:
+
+* Authored by SpannerMonkey. Copyright by SpannerMonkey, Lisias
+	+ GameData/KAX/Parts/KAX_radialProp/
+		- radialPropBlu.dds
+		- radialPropBlu.png
+		- radialPropChk.dds
+		- radialPropChk.png
+		- radialPropRed.png
+		- radialProp_NRM.png
+		- radialProp_txr.png
+		- radialPropLC.mu
+	+ GameData/KAX/Parts/KAX_VintagePropelator/
+		- PropBlur3.png
+		- PropBlur5.png
+		- PropellorA.png
+		- VintagePropelator.png
+		- VintagePropelatorExtra.mu
+		- VintagePropelator_NRM.png
+		- propBlur2blade.png
+		- VintagePropelator.mu
+		- VintagePropelatorS.mu
+		- VintagePropelatorSS.mu
+
+
+## DISCLAIMER
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

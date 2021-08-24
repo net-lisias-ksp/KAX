@@ -3,7 +3,7 @@
 * 2021-0824: 2.8.1.0 (Lisias) for KSP >= 1.3
 	+ Officialise support for KSP >= 1.8 (up to 1.12.2 at least)
 	+ Adds new part: Radial Engine Long Cowl (D-45)
-		- Thanks, [TheKurgan](https://forum.kerbalspaceprogram.com/index.php?/profile/164104-thekurgan/) 
+		- Thanks, [SpannerMonkey](https://forum.kerbalspaceprogram.com/index.php?/profile/50907-spannermonkeysmce/) and [TheKurgan](https://forum.kerbalspaceprogram.com/index.php?/profile/164104-thekurgan/)!
 	+ Some rebalancing on the engines
 	+ Some care on the Localisation
 	+ Some new Sample Crafts

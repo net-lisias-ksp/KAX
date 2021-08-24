@@ -37,6 +37,7 @@ Included Parts:
 
 - Turboprop
 - Radial Engine
+- Radial Engine Long Cowl
 - Electric Propeller
 - Helicopter Main Rotor
 - Helicopter Tail Rotor
@@ -105,7 +106,7 @@ Powered by Firespitter, special thanks to Snjo for his plugin and continued supp
 
 KAX is licensed under the following terms:
 
-* KAX models, textures, and sounds are created by Keptin, who retains all copyrights. See [here](./LICENSE.KAX).
+* Some KAX models, textures, and sounds were created by Keptin, who retains all copyrights. See [here](./LICENSE.KAX).
 	+ You may:
 		- Modify KAX in anyway for your personal use
 		- Use KAX models, textures, and assets to create derivative works
@@ -115,6 +116,8 @@ KAX is licensed under the following terms:
 	+ Specifically, you may not:
 		- Distribute unmodified versions of KAX, in part or whole, without permission
 		- Use KAX for any commercial purpose
+* Some KAX models and textures were created by SpannerMonkey, with copyrights granted to Lisias. See [here](./LICENSE.KAX).
+	+ They are available to you on the same conditions. 
 * Plugin Source Code (C# project) are **double licensed** at user discretion when applicable (use the license that best suits your needs - when allowed by Law):
 	+ [SKL 1.0](https://ksp.lisias.net/SKL-1_0.txt). See [here](./LICENSE.KSPe.SKL-1_0)
 		+ You are free to:
@@ -144,9 +147,13 @@ See [LICENSE](./LICENSE) for the formal legalese. Please note the copyrights and
 
 ### Acknowledgements
 
-Powered by [Firespitter](https://github.com/snjo/Firespitter/releases), special thanks to [Snjo](https://forum.kerbalspaceprogram.com/index.php?/profile/57198-snjo/) for his plugin and to [RoverDude](https://forum.kerbalspaceprogram.com/index.php?/profile/105198-roverdude/) for continued support!
+Powered by [Firespitter](https://github.com/snjo/Firespitter/releases), special thanks to [Snjo](https://forum.kerbalspaceprogram.com/index.php?/profile/57198-snjo/) for his plugin.
+
+Additional Models by [SpannerMonkey(smce)](https://forum.kerbalspaceprogram.com/index.php?/profile/50907-spannermonkeysmce/).
 
 Stockalike textures by [Doctor Davinci](https://forum.kerbalspaceprogram.com/index.php?/profile/150019-doctordavinci/)
+
+Greetings to [TheKurgan](https://forum.kerbalspaceprogram.com/index.php?/profile/164104-thekurgan/) for his helpful work on the SMCS's add'ons (including this one).
 
 
 ## References
