@@ -163,4 +163,5 @@ Greetings to [TheKurgan](https://forum.kerbalspaceprogram.com/index.php?/profile
 	+ [GitHub](https://github.com/SpannerMonkey/KAX)
 * [Keptin](https://forum.kerbalspaceprogram.com/index.php?/profile/8884-keptin/) -- Original Author
 	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/155448-122-kerbal-aircraft-expansion-kax-v264/&)
+	+ [Imgur](https://imgur.com/a/hXkEA)
 	+ [Curse Forge](https://kerbal.curseforge.com/projects/kerbal-aircraft-expansion-kax/files/2358481)
