@@ -62,12 +62,23 @@
       <DependentUpon>Version.tt</DependentUpon>
     </Compile>
     <Compile Include="Constants.cs" />
+    <Compile Include="Properties\Configuration.cs">
+      <DependentUpon>Configuration.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CommonBox.cs" />
+    <Compile Include="Startup.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="GUI\NoFirespitterAlertBox.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <None Include="Properties\Version.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Version.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\Configuration.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Configuration.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -13,3 +13,4 @@ GameData/**/*.version
 Source/*/Properties/Version.cs
 Source/*/*.user
 *.userprefs
+Configuration.cs
