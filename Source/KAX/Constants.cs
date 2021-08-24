@@ -1,6 +1,6 @@
 ﻿/*
 	This file is part of "KAX DLL"
-	(C) 2018-2020 Lisias T : http://lisias.net <support@lisias.net>
+	(C) 2018-2021 Lisias T : http://lisias.net <support@lisias.net>
 
 	"KAX DLL" is double licensed, as follows:
 
