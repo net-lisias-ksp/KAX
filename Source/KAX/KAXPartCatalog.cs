@@ -43,34 +43,19 @@ namespace KAX
 			this.icon = GenIcons("KAX");
 			if (Versioning.version_major >= 1 && Versioning.version_minor >= 3)
 			{ 
-				string userfn = KSPUtil.ApplicationRootPath + "./PluginData/KAX/user.cfg";
-				Directory.CreateDirectory(Path.GetDirectoryName(userfn));
-				if (!File.Exists(userfn))
+				switch (Globals.Instance.CategoryFilter)
 				{
-					ConfigNode DEFAULT = ConfigNode.Load(KSPUtil.ApplicationRootPath + "./GameData/KAX/PluginData/default.cfg");
-					string v = DEFAULT.GetNode("KAX").GetValue("CategoryFilter");
-					ConfigNode t = new ConfigNode();
-					t.AddNode("KAX").SetValue("CategoryFilter", v, true);
-					t.Save(userfn);
-				}
-
-				{
-					ConfigNode user = ConfigNode.Load(userfn);
-					string CategoryFilter = user.GetNode("KAX").GetValue("CategoryFilter");
-					switch (CategoryFilter)
-					{
-						case "OLD":
-							GameEvents.onGUIEditorToolbarReady.Add(AddSimpleMenufilter);
-							break;
-						case "NEW":
-							GameEvents.onGUIEditorToolbarReady.Add(AddAdvMenufilter);
-							break;
-						case "NONE":
-							break;
-						default:
-							Debug.LogWarningFormat("CategoryFilter [{0}] unrecognized on user settings file!", CategoryFilter);
-							break;
-					}
+					case "OLD":
+						GameEvents.onGUIEditorToolbarReady.Add(AddSimpleMenufilter);
+						break;
+					case "NEW":
+						GameEvents.onGUIEditorToolbarReady.Add(AddAdvMenufilter);
+						break;
+					case "NONE":
+						break;
+					default:
+						Debug.LogWarningFormat("CategoryFilter [{0}] unrecognized on user settings file!", Globals.Instance.CategoryFilter);
+						break;
 				}
 			}
 		}
@@ -123,7 +108,7 @@ namespace KAX
 
 		private Texture2D GenIconTexture(string iconName)
 		{
-			string filename = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "/PluginData", iconName + ".png"); // icon to be present in same folder as dll
+			string filename = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "/PluginData/icons", iconName + ".png"); // icon to be present in same folder as dll
 			return KSPe.Util.Image.Texture2D.LoadFromFile(filename);
 		}
 

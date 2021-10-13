@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8699BBCB-15F3-40C6-A001-46E08886360C}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <BaseIntermediateOutputPath>..\..\obj</BaseIntermediateOutputPath>
+    <BaseIntermediateOutputPath>..\..\obj\KAX</BaseIntermediateOutputPath>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>KAE_Ltd</RootNamespace>
     <AssemblyName>KAX</AssemblyName>
@@ -34,25 +34,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\..\..\LIB\managed\1.4.1\Assembly-CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>..\..\..\..\..\..\LIB\managed\1.4.1\Assembly-CSharp-firstpass.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\..\..\..\LIB\managed\1.4.1\UnityEngine.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>..\..\..\..\..\..\LIB\managed\1.4.1\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="KSPe.Light.KAX">
       <HintPath>..\..\..\..\..\..\LIB\plugins\KSPe.Light.KAX.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -69,6 +65,11 @@
     <Compile Include="Startup.cs" />
     <Compile Include="Log.cs" />
     <Compile Include="GUI\NoFirespitterAlertBox.cs" />
+    <Compile Include="FATEc\Controllers\PistonEngine.cs" />
+    <Compile Include="FATEc\FATEc.cs" />
+    <Compile Include="FATEc\Controllers\ReactionEngine.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="ModuleManagerSupport.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -80,6 +81,10 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Configuration.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FATEc\" />
+    <Folder Include="FATEc\Controllers\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
