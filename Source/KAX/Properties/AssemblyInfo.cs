@@ -1,6 +1,6 @@
 ﻿/*
 	This file is part of "KAX DLL"
-		© 2018-2022 Lisias T : http://lisias.net <support@lisias.net>
+		© 2018-2023 Lisias T : http://lisias.net <support@lisias.net>
 
 	"KAX DLL" is double licensed, as follows:
 		* SKL 1.0 : https://ksp.lisias.net/SKL-1_0.txt

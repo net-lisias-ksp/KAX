@@ -65,11 +65,7 @@
     <Compile Include="Startup.cs" />
     <Compile Include="Log.cs" />
     <Compile Include="GUI\NoFirespitterAlertBox.cs" />
-    <Compile Include="FATEc\Controllers\PistonEngine.cs" />
-    <Compile Include="FATEc\FATEc.cs" />
-    <Compile Include="FATEc\Controllers\ReactionEngine.cs" />
     <Compile Include="Globals.cs" />
-    <Compile Include="ModuleManagerSupport.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -81,10 +77,6 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Configuration.cs</LastGenOutput>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="FATEc\" />
-    <Folder Include="FATEc\Controllers\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
