@@ -66,6 +66,7 @@
     <Compile Include="Log.cs" />
     <Compile Include="GUI\NoFirespitterAlertBox.cs" />
     <Compile Include="Globals.cs" />
+    <Compile Include="ModuleManagerSupport.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
