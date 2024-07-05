@@ -1,5 +1,9 @@
 # KAX :: Change Log
 
+* 2024-0704: 2.8.1.1 (Lisias) for KSP >= 1.3
+	+ Fixes a pretty stupid mistake I let pass trough related to duplicated textures in different formats.
+	+ Closes issues:
+		- [#18](https://github.com/net-lisias-ksp/KAX/issues/18) There're DXT3 textures on the distribution (errata: on the fillesystem - errata's errata: is really on the distribution), but KSP likes DXT1 and DXT5 only
 * 2021-0824: 2.8.1.0 (Lisias) for KSP >= 1.3
 	+ Officialise support for KSP >= 1.8 (up to 1.12.2 at least)
 	+ Adds new part: Radial Engine Long Cowl (D-45)
