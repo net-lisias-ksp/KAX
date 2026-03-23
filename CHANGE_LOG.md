@@ -1,5 +1,7 @@
 # KAX :: Change Log
 
+* 2026-0323: 2.8.1.2 (Lisias) for KSP >= 1.3
+	+ Updates `KSPe.Light` to 2.5.5.2, fixing a lame mistake that prevented it from working on KSP < 1.8.0 🤦
 * 2024-0704: 2.8.1.1 (Lisias) for KSP >= 1.3
 	+ Fixes a pretty stupid mistake I let pass trough related to duplicated textures in different formats.
 	+ Closes issues:
