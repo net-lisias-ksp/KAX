@@ -1,6 +1,6 @@
 ﻿/*
 	This file is part of "KAX DLL"
-	(C) 2018-2020 Lisias T : http://lisias.net <support@lisias.net>
+	© 2018-2026 LisiasT : http://lisias.net <support@lisias.net>
 
 	"KAX DLL" is double licensed, as follows:
 
@@ -30,10 +30,10 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("KAX/L")]
 [assembly: AssemblyDescription("Kerbal Aircraft expansion part categoriser")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("L Aerospace KSP Division")]
-[assembly: AssemblyProduct("KAX Categorizer")]
-[assembly: AssemblyCopyright("Copyright © 2018-2020 LisiasT; 2017-2018 SpannerMonkey; 2014-2026 Keptin")]
-[assembly: AssemblyTrademark("KAX")]
+[assembly: AssemblyCompany(KAX.LegalMamboJambo.Company)]
+[assembly: AssemblyProduct(KAX.LegalMamboJambo.Product)]
+[assembly: AssemblyCopyright(KAX.LegalMamboJambo.Copyright)]
+[assembly: AssemblyTrademark(KAX.LegalMamboJambo.Trademark)]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 

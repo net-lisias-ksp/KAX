@@ -22,12 +22,11 @@
 */
 namespace KAX
 {
-	/*
-	 * Constants Definition
-	 */
-	internal static class Constants
+	public static class LegalMamboJambo
 	{
-		public const string PLUGIN_ID = "KAX";
-		public const string MANUFACTURER_NAME = "Kerbal Aircraft Expansioneers Ltd";
+		public const string Company = "/L Aerospace KSP Division";
+		public const string Copyright = "© 2018-2026 LisiasT";
+		public const string Product = "KAX Categorizer";
+		public const string Trademark = "KAX™, Kerbal Aircraft Expansion™, /L™ are trademarks of LisiasT";
 	}
 }
